@@ -9,7 +9,11 @@
 }
 
 /*Override Foundation button class with "Appy Red"*/
-.form_container .button {
+.form_container .button  {
+	background-color: #DB3857;
+}
+
+.form_container .button:hover {
 	background-color: #DB3857;
 }
 
