@@ -1,3 +1,9 @@
+<?php
+session_start();
+$event_date = $_SESSION[$_POST['event_date']];
+$event_location = $_SESSION[$_POST['event_location']];
+?>
+
 <html>
 <head>
 	<link rel="stylesheet" href="main.css" type="text/css">
@@ -6,8 +12,6 @@
 <body>
 <div class="form_container">
 	<form action="appy_demo_invite.php" method="POST">
-		<p>Your Name: <input class="type_name" type="text" name="spouse1" /></br>
-		<p>Spouses Name: <input class="type_name" type="text" name="spouse2" />
 
 		<p>When is your wedding date? <input type="date" name="event_date" /></p>
 
