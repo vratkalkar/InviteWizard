@@ -1,15 +1,18 @@
 <?php
 session_start();
-$event_date = $_SESSION[$_POST['event_date']];
-$event_location = $_SESSION[$_POST['event_location']];
+$_SESSION['spouse1'] = $_POST['spouse1'];
+$_SESSION['spouse2'] = $_POST['spouse2'];
+$_SESSION['event_date'] = $_POST['event_date'];
+$_SESSION['event_location'] = $_POST['event_location'];
 ?>
-
 <html>
 <head>
 	<link rel="stylesheet" href="main.css" type="text/css">
 	<link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css">
 </head>
 <body>
+
+
 <div class="form_container">
 	<form action="appy_demo_invite.php" method="POST">
 
