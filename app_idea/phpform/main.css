@@ -1,11 +1,16 @@
 /* Form.html CSS */
 
 .form_container {
-	margin-left: 40%;
+	margin-left: 20%;
 }
 
 .form_container .type_name {
 	font-weight: bold;
+}
+
+/*Override Foundation button class with "Appy Red"*/
+.form_container .button {
+	background-color: #DB3857;
 }
 
 
