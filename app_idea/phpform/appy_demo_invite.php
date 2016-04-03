@@ -17,7 +17,7 @@ function check_input($data){
 
 <html>
 <head>
-	<link rel="stylesheet" href="invite.css" type="text/css">
+	<link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
 	<div id="logo">

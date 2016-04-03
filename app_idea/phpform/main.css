@@ -1,3 +1,12 @@
+/* Form.html CSS */
+
+.form_styles {
+	margin-left: 40%;
+}
+
+
+
+/* Appy Invite Page CSS */
 #logo {
 	padding-top:200px;
 	margin-top: 40px;
@@ -7,3 +16,4 @@
 	background-size: 119px auto;
 
 }
+
