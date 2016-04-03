@@ -1,7 +1,11 @@
 /* Form.html CSS */
 
-.form_styles {
+.form_container {
 	margin-left: 40%;
+}
+
+.form_container .type_name {
+	font-weight: bold;
 }
 
 
