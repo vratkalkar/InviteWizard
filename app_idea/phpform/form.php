@@ -16,10 +16,10 @@ if(isset($_POST['Next'])){
 <body>
 <div class="logo"></div>
 <div class="form_container">
-	<form action="form2.php" method="POST">
-		<p>Your Name: <input class="type_name" type="text" name="spouse1" /></br>
+	<form action="form2.php" method="POST" data-abide>
+		<p>Your Name: <input class="type_name" type="text" name="spouse1" required/></br>
 
-		<p>Spouse's Name: <input class="type_name" type="text" name="spouse2" />
+		<p>Spouse's Name: <input class="type_name" type="text" name="spouse2" required/>
 
 		<p><input type="submit" class="button" value="Next"></p>
 		

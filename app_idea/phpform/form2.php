@@ -12,11 +12,11 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 
 <div class="logo"></div>
 <div class="form_container">
-	<form action="appy_demo_invite.php" method="POST">
+	<form action="appy_demo_invite.php" method="POST" data-abide>
 
-		<p>When is your wedding date? <input type="date" name="event_date" /></p>
+		<p>When is your wedding date? <input type="date" name="event_date" required/></p>
 
-		<p>Where is the main event being held? <input type="text" name="event_location"></p>
+		<p>Where is the main event being held? <input type="text" name="event_location" required></p>
 
 		<p><input type="submit" class="button" value="Next"></p>
 	</form>
