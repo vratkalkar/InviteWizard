@@ -14,6 +14,7 @@ if(isset($_POST['Next'])){
 	<link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css">
 </head>
 <body>
+<div class="logo"></div>
 <div class="form_container">
 	<form action="form2.php" method="POST">
 		<p>Your Name: <input class="type_name" type="text" name="spouse1" /></br>

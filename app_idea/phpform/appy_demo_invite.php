@@ -27,7 +27,7 @@ function check_input($data){
 	<link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-	<div id="logo"></div>
+	<div class="logo"></div>
 	 <div class="form_container">
 	 <form>
 		<p>Your Name: <?php echo $_SESSION['spouse1'] ?></p>

@@ -1,7 +1,9 @@
 /* Form.html CSS */
 
 .form_container {
-	margin-left: 20%;
+	margin-left: 30%;
+	padding-top: 1%;
+	width: 40%;
 }
 
 .form_container .type_name {
@@ -19,8 +21,8 @@
 
 
 
-/* Appy Invite Page CSS */
-#logo {
+/* Appy Form and Invite Page CSS */
+.logo {
 	padding-top:200px;
 	margin-top: 40px;
 	margin-left:45%;

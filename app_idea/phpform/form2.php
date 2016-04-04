@@ -10,7 +10,7 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 </head>
 <body>
 
-
+<div class="logo"></div>
 <div class="form_container">
 	<form action="appy_demo_invite.php" method="POST">
 
