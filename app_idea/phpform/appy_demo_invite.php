@@ -1,7 +1,5 @@
 <?php
 session_start();
-$_SESSION['spouse1'] = $_POST['spouse1'];
-$_SESSION['spouse2'] = $_POST['spouse2'];
 $_SESSION['event_date'] = $_POST['event_date'];
 $_SESSION['event_location'] = $_POST['event_location'];
 ?>
@@ -32,8 +30,8 @@ function check_input($data){
 	<div id="logo"></div>
 	 <div class="form_container">
 	 <form>
-		<p>Your Name: <?php echo $_SESSION['spouse1']?></p>
-		<p>Spouse's Name: <?php echo $_SESSION['spouse2']?></p>
+		<p>Your Name: <?php echo $_SESSION['spouse1'] ?></p>
+		<p>Spouse's Name: <?php echo $_SESSION['spouse2'] ?></p>
 
 		<p>Date: <?php echo $_SESSION['event_date'] ?></p>
 		<p>Location: <?php echo $_SESSION['event_location'] ?></p>

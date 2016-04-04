@@ -1,7 +1,10 @@
 <?php 
  session_start();
- $_SESSION['spouse1'] = $_POST['spouse1'];
- $_SESSION['spouse2'] = $_POST['spouse2'];
+
+if(isset($_POST['Next'])){
+	$_SESSION['spouse1'] = $_POST['spouse1'];
+	$_SESSION['spouse2'] = $_POST['spouse2'];
+ }
 ?>
 
 <html>
@@ -20,6 +23,7 @@
 		<p><input type="submit" class="button" value="Next"></p>
 		
 	</form>
+
 </div>
 <script src="form.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"</script>
