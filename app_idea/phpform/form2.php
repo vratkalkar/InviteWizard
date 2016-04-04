@@ -1,7 +1,7 @@
 <?php
 session_start();
-$_SESSION['spouse1'] = $_POST['spouse1'];
-$_SESSION['spouse2'] = $_POST['spouse2'];
+$_SESSION['spouse1'] = $_GET['spouse1'];
+$_SESSION['spouse2'] = $_GET['spouse2'];
 $_SESSION['event_date'] = $_POST['event_date'];
 $_SESSION['event_location'] = $_POST['event_location'];
 ?>

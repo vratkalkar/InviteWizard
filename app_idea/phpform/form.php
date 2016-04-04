@@ -15,7 +15,7 @@
 	<form action="form2.php" method="POST">
 		<p>Your Name: <input class="type_name" type="text" name="spouse1" /></br>
 
-		<p>Spouses Name: <input class="type_name" type="text" name="spouse2" />
+		<p>Spouse's Name: <input class="type_name" type="text" name="spouse2" />
 
 		<p><input type="submit" class="button" value="Next"></p>
 		
