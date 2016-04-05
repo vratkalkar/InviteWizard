@@ -1,5 +1,6 @@
 $( document ).ready(function(){
 	$('.button').click(function(event){
-		alert("button clicked");
+		event.preventDefault();
+		console.log("button clicked");
 	};
 });
