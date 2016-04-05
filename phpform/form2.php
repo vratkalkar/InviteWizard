@@ -16,7 +16,7 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 <div class="form_container">
 	<form action="appy_demo_invite.php" method="POST" data-abide>
 
-		<p>When is your wedding date? <input type="date" name="event_date" required/></p>
+		<p>When is your wedding date? <input type="text" name="event_date" required/></p>
 
 		<p>Where is the main event being held? <input type="text" name="event_location" required></p>
 
