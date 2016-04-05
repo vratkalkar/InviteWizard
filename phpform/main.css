@@ -1,9 +1,9 @@
 /* Index.html CSS */
 .title {
-	margin-left: 35%;
+	margin-left: 40%;
 }
 
-option::hover {
+form select option::selection{
 	background-color: #DB3857;
 }
 
