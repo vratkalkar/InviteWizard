@@ -3,6 +3,10 @@
 	margin-left: 35%;
 }
 
+option::hover {
+	background-color: #DB3857;
+}
+
 /* Form.html CSS */
 
 .form_container {
