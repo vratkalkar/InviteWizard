@@ -24,7 +24,6 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 			<a type="button1" class="button" name="select_formal">Formal</a>
 			<a type="button2" class="button" name="select_semi_formal">Semi-Formal</a>
 			<a type="button3" class="button" name="select_casual">Casual</a>
-			<a type="button4" class="button" name="select_super_casual">Super Casual</a>
 		</p>
 
 		<p><input type="submit" class="button" value="Next"></p>
