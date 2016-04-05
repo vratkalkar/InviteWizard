@@ -23,6 +23,7 @@ function check_input($data){
 
 
 <html>
+<meta charset="UTF-8">
 <head>
 	<link rel="stylesheet" href="main.css" type="text/css">
 </head>
