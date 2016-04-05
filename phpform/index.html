@@ -1,3 +1,11 @@
+<?php
+session_start();
+$SESSION['option1'] = $_POST['option1'];
+$SESSION['option2'] = $_POST['option2'];
+$SESSION['option3'] = $_POST['option3'];
+$SESSION['option4'] = $_POST['option4'];
+?>
+
 <html>
 <head>
 	<link rel="stylesheet" href="main.css" type="text/css">
@@ -12,10 +20,10 @@
 <form>
 <p>What kind of stationary are you looking for?
 <select>
-	<option value="wedding_invitation">Wedding Invitations</option>
-	<option value="mailing_address">Mailing Address</option>
-	<option value="save_the_date">Save the Date</option>
-	<option value="note">Notes</option>
+	<option name="option1" value="wedding_invitation">Wedding Invitations</option>
+	<option name="option2" value="mailing_address">Mailing Address</option>
+	<option name="option3" value="save_the_date">Save the Date</option>
+	<option name="option4" value="note">Notes</option>
 </select>
 </p>
 </form>

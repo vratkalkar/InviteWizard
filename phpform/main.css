@@ -3,8 +3,8 @@
 	margin-left: 40%;
 }
 
-form select option::selection{
-	background-color: #DB3857;
+form select option::hover{
+	color: #DB3857;
 }
 
 /* Form.html CSS */
