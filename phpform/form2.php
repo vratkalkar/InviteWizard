@@ -20,10 +20,10 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 
 		<p>Where is the main event being held? <input type="text" name="event_location" required></p>
 
-		<p>You'd like the invite to be?<br>
-			<a type="button1" class="button" name="select_formal">Formal</a>
-			<a type="button2" class="button" name="select_semi_formal">Semi-Formal</a>
-			<a type="button3" class="button" name="select_casual">Casual</a>
+		<p>What kind of stationary are you lookign for? <br>
+			<a type="button1" class="button" name="select_wedding_invite">Wedding Invitation</a>
+			<a type="button2" class="button" name="select_save_the_date">Save The Date</a>
+			<a type="button3" class="button" name="select_appy_suite">Appy Suite</a>
 		</p>
 
 		<p><input type="submit" class="button" value="Next"></p>
