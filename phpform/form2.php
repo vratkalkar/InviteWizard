@@ -18,9 +18,9 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 
 		<p>Where is the main event being held? <input type="text" name="event_location" required></p>
 
-		<p>You'd like you invite to be?<br>
-			<a href="#" class="button" name="select_formal">Formal</a>
-			<a href="#" class="button" name="select_casual">Casual</a>
+		<p>You'd like the invite to be?<br>
+			<input type="submit" class="button" name="select_formal" value="Formal">
+			<input type="submit" class="button" name="select_casual" value="Casual">
 		</p>
 
 
