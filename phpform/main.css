@@ -1,16 +1,25 @@
 /* Index.html CSS */
 .title {
-	margin-left: 40%;
+	margin-left: 45%;
+}
+
+.description {
+	margin-left: 33%;
 }
 
 form select option::hover{
 	color: #DB3857;
 }
 
+#index_button {
+	margin-left:30%;
+	width: 30%;
+}
+
 /* Form.html CSS */
 
 .form_container {
-	margin-left: 30%;
+	margin-left: 34%;
 	padding-top: 1%;
 	width: 40%;
 }
@@ -35,7 +44,7 @@ form select option::hover{
 .logo {
 	padding-top:200px;
 	margin-top: 40px;
-	margin-left:45%;
+	margin-left:48%;
 	background-image: url('http://www.appycouple.com/sites/all/themes/appycouple/images/appylogo.png');
 	background-repeat: no-repeat;
 	background-size: 119px auto;
