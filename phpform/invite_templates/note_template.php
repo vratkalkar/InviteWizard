@@ -1,1 +1,8 @@
-<div class="logo"></div>
+<html>
+<meta charset="utf-8">
+<head>
+</head>
+<body>
+	<div class="logo"></div>
+</body>
+</html>
