@@ -1,42 +1,6 @@
 <?php
 session_start();
 ?>
-//Get select option on submit and redirect to corresponding page
-
-<?php
-if(isset($_POST['submit'])){
-
- $template = $_REQUEST['select_template'];
- switch ($template) {
- 	case 'wedding_invitation':
- 		$page = 'invitation_template.php';
- 		break;
- 	case 'mailing_address':
- 		$page = 'mailing_address_template.php';
- 		break;
- 	case 'save_the_date':
- 		$page = 'save_the_date_template.php';
- 		break;
- 	case 'notes':
- 		$page = 'note_template.php';
- 		break;
- 	case 'reminder':
- 		$page = 'reminder_template.php';
- 		break;
- 	case 'thank_you_card':
- 		$page = 'thank_you_card_template.php'
- 		break;
- 	default:
- 		$page = 'index.html';
- }
-  
-  if ($page) {
-  		header("Location: ".$_POST['select_template']);
-  		exit;
-  	}
-  }
-?>
-
 <html>
 <meta charset="utf-8">
 <head>
@@ -50,16 +14,47 @@ if(isset($_POST['submit'])){
 <p class="description">Select the type of stationary you're looking for below to get started and customize!</p>
 
 <div class="form_container">
-<form method="POST">
+<form action="check.php" method="POST">
 <select name="select_template">
-	<option  value="wedding_invitation">Wedding Invitations</option>
-	<option  value="mailing_address">Mailing Address</option>
-	<option  value="save_the_date">Save the Date</option>
-	<option  value="notes">Notes</option>
-	<option  value="reminder">Reminder</option>
-	<option  value="thank_you_card">Thank You Cards</option>
+	<option value="wedding_invitation">Wedding Invitations</option>
+	<option value="mailing_address">Mailing Address</option>
+	<option value="save_the_date">Save the Date</option>
+	<option value="notes">Notes</option>
+	<option value="reminder">Reminder</option>
+	<option value="thank_you_card">Thank You Cards</option>
 </select>
 <input id="index_button" class="expanded button" type="submit"  name="submit" value="Next">
 </p>
 </form>
+<?php
+//Get select option on submit and redirect to corresponding page
+if(isset($_POST['submit'])){
+
+ $selected_option = $_REQUEST['select_template'];
+ switch ($selected_option) {
+ 	case 'wedding_invitation':
+ 		$page = '../invite_templates/invitation_template.php';
+ 		break;
+ 	case 'mailing_address':
+ 		$page = '../invite_templates/mailing_address_template.php';
+ 		break;
+ 	case 'save_the_date':
+ 		$page = '../invite_templates/save_the_date_template.php';
+ 		break;
+ 	case 'notes':
+ 		$page = '../invite_templates/note_template.php';
+ 		break;
+ 	case 'reminder':
+ 		$page = '../invite_templates/reminder_template.php';
+ 		break;
+ 	case 'thank_you_card':
+ 		$page = '../invite_templates/thank_you_card_template.php';
+ 		break;
+ 	default:
+ 		$page = 'index.html';
+ }
+ header("Location: " . $page);
+ exit;
+  }
+?>
 </div>
