@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="../main.css" type="text/css">
   <link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css"> 
  </head>
- <body>
+ <body class="template_background">
    <div class="title_bar">appy couple</div>
    <div class="row">
    	<p>App and Website Info Template</p>

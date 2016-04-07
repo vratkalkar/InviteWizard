@@ -60,6 +60,10 @@ form select option::hover{
 	text-align:center;
 }
 
+.template_background {
+	background-color:#5D5B5C;
+}
+
 #theme_preview_area {
 	margin-left: 40%;
 }
