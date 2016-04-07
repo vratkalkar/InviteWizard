@@ -51,3 +51,10 @@ form select option::hover{
 
 }
 
+/* Template Page CSS */
+
+#theme_preview_area {
+	margin-left: 40%;
+}
+
+
