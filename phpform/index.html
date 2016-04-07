@@ -14,8 +14,8 @@ session_start();
 <p class="description">Select the type of stationary you're looking for below to get started and customize!</p>
 
 <div class="form_container">
-<form method="POST">
-<select name="select_template">
+<form action="" method="POST">
+<select name="chosen_template">
 	<option value="wedding_invitation">Wedding Invitations</option>
 	<option value="mailing_address">Mailing Address</option>
 	<option value="save_the_date">Save the Date</option>
@@ -23,23 +23,37 @@ session_start();
 	<option value="reminder">Reminder</option>
 	<option value="thank_you_card">Thank You Cards</option>
 </select>
-<input id="index_button" class="expanded button" type="submit"  name="submit" value="Next">
+<input id="index_button" class="expanded button" type="submit"  name="form_submit" value="Next">
 </p>
 </form>
+</div>
 <?php
 //Get select option on submit and redirect to corresponding page
-if(isset($_POST['submit'])) {
-	if(isset($_POST['select_template'])){
-		case 'wedding_invitation':
-		case 'mailing_address':
-		case 'save_the_date':
-		case 'notes':
-		case 'reminder':
-		case 'thank_you_card':
-	}
+if(isset($_POST['form_submit'])){
 
+	$user_choice = $_POST['chosen_template'];
+	 switch($user_choice){
+		case 'wedding_invitation':
+		  header('Location: http://www.appycouple.com');
+		  break;
+		case 'mailing_address':
+		  header("Location: ");
+		  break;
+		case 'save_the_date':
+		  header("Location: ");
+		  break;
+		case 'notes':
+		  header("Location: ");
+		  break;
+		case 'reminder':
+		  header("Location: ");
+		  break;
+		case 'thank_you_card':
+		  header("Location: ");
+		  break;
+	}
 
  }
  
 ?>
-</div>
+</html>
