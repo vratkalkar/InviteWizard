@@ -8,9 +8,9 @@
    <div class="title_bar">appy couple</div>
    <div class="row">
      <p>Reminder Template</p>
-     <div class="column small-12 medium-6 large-4">Column 1</div>
-   	 <div class="column small-12 medium-6 large-4">Column 2</div>
-   	 <div class="column small-12 medium-6 large-4">Column 3</div>
+     <div class="column small-12 medium-6 large-4"></div>
+   	 <div class="column small-12 medium-6 large-4"></div>
+   	 <div class="column small-12 medium-6 large-4"></div>
    </div>
  </body>
 </html>
