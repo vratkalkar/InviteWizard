@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="../main.css" type="text/css">
   <link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css"> 
- </head> -->
+ </head>
  <body class="template_background">
    <div class="title_bar">appy couple</div>
    <div class="row">
