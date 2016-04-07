@@ -8,8 +8,6 @@
    <div class="page_title_region">appy couple</div>
    <div class="row">
      <div class="column small-12 medium-6 large-4">
-     	<div class="page_title_region"></div>
-
      </div>
    	 <div class="column small-12 medium-6 large-4"></div>
    	 <div class="column small-12 medium-6 large-4"></div>
