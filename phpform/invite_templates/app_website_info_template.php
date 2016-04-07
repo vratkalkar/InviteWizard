@@ -7,13 +7,12 @@
  <body>
    <div class="title_bar">appy couple</div>
    <div class="row">
+   	<p>App and Website Info Template</p>
      <div class="column small-12 medium-6 large-4">
      </div>
    	 <div class="column small-12 medium-6 large-4"></div>
    	 <div class="column small-12 medium-6 large-4"></div>
    </div>
-    <div id="theme_preview_area">
-    	<p>Hello</p>
    	</div>
  </body>
 </html>

@@ -6,6 +6,31 @@ $SESSION['option3'] = $_POST['option3'];
 $SESSION['option4'] = $_POST['option4'];
 ?>
 
+<?php
+  if(isset($_POST['submit'])){
+  	if(isset($_POST['option1'])){
+      //redirect to invitations page
+  	}
+  	elseif(isset($_POST['option2'])){
+  	  //redirect to mailing address page
+  	}
+  	elseif(isset($_POST['option3'])){
+  	  //redirect to save the date page
+  	}
+  	elseif(isset($_POST['option4'])){
+  	  //redirect to note page
+  	}
+  	elseif(isset($_POST['option5'])){
+  		//redirect to reminder page
+  	}
+  	elseif(isset($_POST['option6'])) {
+  		//redirect to thank you card page
+  	}
+
+  	}
+  }
+?>
+
 <html>
 <meta charset="utf-8">
 <head>
@@ -19,12 +44,14 @@ $SESSION['option4'] = $_POST['option4'];
 <p class="description">Select the type of stationary you're looking for below to get started and customize!</p>
 
 <div class="form_container">
-<form>
+<form method="POST">
 <select>
 	<option name="option1" value="wedding_invitation">Wedding Invitations</option>
 	<option name="option2" value="mailing_address">Mailing Address</option>
 	<option name="option3" value="save_the_date">Save the Date</option>
 	<option name="option4" value="note">Notes</option>
+	<option name="option5" value="reminder">Reminder</option>
+	<option name="option6" value="thank_you_card">Thank You Cards</option>
 </select>
 <input id="index_button" class="expanded button" type="submit"  name="submit" value="Next">
 </p>
