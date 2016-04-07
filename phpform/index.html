@@ -14,7 +14,7 @@ session_start();
 <p class="description">Select the type of stationary you're looking for below to get started and customize!</p>
 
 <div class="form_container">
-<form action="check.php" method="POST">
+<form method="POST">
 <select name="select_template">
 	<option value="wedding_invitation">Wedding Invitations</option>
 	<option value="mailing_address">Mailing Address</option>
@@ -28,33 +28,18 @@ session_start();
 </form>
 <?php
 //Get select option on submit and redirect to corresponding page
-if(isset($_POST['submit'])){
+if(isset($_POST['submit'])) {
+	if(isset($_POST['select_template'])){
+		case 'wedding_invitation':
+		case 'mailing_address':
+		case 'save_the_date':
+		case 'notes':
+		case 'reminder':
+		case 'thank_you_card':
+	}
 
- $selected_option = $_REQUEST['select_template'];
- switch ($selected_option) {
- 	case 'wedding_invitation':
- 		$page = '../invite_templates/invitation_template.php';
- 		break;
- 	case 'mailing_address':
- 		$page = '../invite_templates/mailing_address_template.php';
- 		break;
- 	case 'save_the_date':
- 		$page = '../invite_templates/save_the_date_template.php';
- 		break;
- 	case 'notes':
- 		$page = '../invite_templates/note_template.php';
- 		break;
- 	case 'reminder':
- 		$page = '../invite_templates/reminder_template.php';
- 		break;
- 	case 'thank_you_card':
- 		$page = '../invite_templates/thank_you_card_template.php';
- 		break;
- 	default:
- 		$page = 'index.html';
+
  }
- header("Location: " . $page);
- exit;
-  }
+ 
 ?>
 </div>
