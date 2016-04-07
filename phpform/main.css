@@ -1,41 +1,41 @@
 /* Index.html CSS */
 .title {
-	margin-left: 45%;
+	margin-left:40%;
 }
 
 .description {
-	margin-left: 33%;
+	margin-left:33%;
 }
 
 form select option::hover{
-	color: #DB3857;
+	color:#DB3857;
 }
 
 #index_button {
 	margin-left:30%;
-	width: 30%;
+	width:30%;
 }
 
 /* Form.html CSS */
 
 .form_container {
-	margin-left: 34%;
-	padding-top: 1%;
-	width: 40%;
+	margin-left:34%;
+	padding-top:1%;
+	width:40%;
 }
 
 .form_container .type_name {
-	font-weight: bold;
+	font-weight:bold;
 }
 
 /*Override Foundation button class with "Appy Red"*/
 .form_container .button  {
-	background-color: #DB3857;
-	text-decoration: none;
+	background-color:#DB3857;
+	text-decoration:none;
 }
 
 .form_container .button:hover {
-	background-color: #DB3857;
+	background-color:#DB3857;
 }
 
 
@@ -43,20 +43,20 @@ form select option::hover{
 /* Appy Form and Invite Page CSS */
 .logo {
 	padding-top:200px;
-	margin-top: 40px;
+	margin-top:40px;
 	margin-left:48%;
-	background-image: url('http://www.appycouple.com/sites/all/themes/appycouple/images/appylogo.png');
-	background-repeat: no-repeat;
-	background-size: 119px auto;
+	background-image:url('http://www.appycouple.com/sites/all/themes/appycouple/images/appylogo.png');
+	background-repeat:no-repeat;
+	background-size:119px auto;
 
 }
 
 /* Template Page CSS */
 
-.page_title_region {
+.title_bar {
     color: #DB3857;
 	font-family:Helvetica,sans-serif;
-	font-size:12px;
+	font-size: 2px;
 	text-align:center;
 }
 
