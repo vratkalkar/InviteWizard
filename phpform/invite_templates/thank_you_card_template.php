@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css"> 
  </head>
  <body>
-   <div class="page_title_region"></div>
+   <div class="page_title_region">appy couple</div>
    <div class="row">
      <div class="column small-12 medium-6 large-4">Column 1</div>
    	 <div class="column small-12 medium-6 large-4">Column 2</div>
