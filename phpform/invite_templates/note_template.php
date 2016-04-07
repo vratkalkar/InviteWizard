@@ -11,8 +11,5 @@
    	 <div class="column small-12 medium-6 large-4">Column 2</div>
    	 <div class="column small-12 medium-6 large-4">Column 3</div>
    </div> -->
-
-   <div id="theme_preview_area">
-   </div>
  </body>
 </html>
