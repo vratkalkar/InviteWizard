@@ -6,5 +6,10 @@
  </head>
  <body>
    <div class="logo"></div>
+   <div class="row">
+     <div class="column small-12 medium-6 large-4">Column 1</div>
+   	 <div class="column small-12 medium-6 large-4">Column 2</div>
+   	 <div class="column small-12 medium-6 large-4">Column 3</div>
+   </div>
  </body>
 </html>
