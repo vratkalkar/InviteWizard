@@ -1,17 +1,12 @@
 <?php
 session_start();
-$SESSION['option1'] = $_POST['option1'];
-$SESSION['option2'] = $_POST['option2'];
-$SESSION['option3'] = $_POST['option3'];
-$SESSION['option4'] = $_POST['option4'];
 ?>
-
-<?php
-
 //Get select option on submit and redirect to corresponding page
 
- $template = $_REQUEST['select_template'];
+<?php
+if(isset($_POST['submit'])){
 
+ $template = $_REQUEST['select_template'];
  switch ($template) {
  	case 'wedding_invitation':
  		$page = 'invitation_template.php';
@@ -32,14 +27,14 @@ $SESSION['option4'] = $_POST['option4'];
  		$page = 'thank_you_card_template.php'
  		break;
  	default:
- 		$page = null;
+ 		$page = 'index.html';
  }
   
   if ($page) {
   		header("Location: ".$_POST['select_template']);
   		exit;
   	}
-  
+  }
 ?>
 
 <html>
