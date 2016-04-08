@@ -5,7 +5,8 @@ if(isset($_POST['form_submit'])){
 	$user_choice = $_POST['chosen_template'];
 	 switch($user_choice){
 	 	case 'appy_stationery_pack':
-	 	  header('Location: ../invite_templates/appy_suite_template.php')
+	 	  header('Location: ../invite_templates/appy_suite_template.php');
+	 	  break;
 		case 'wedding_invitation':
 		  header('Location: ../invite_templates/invitation_template.php');
 		  break;
