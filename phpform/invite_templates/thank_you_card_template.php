@@ -7,7 +7,7 @@
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">
-    <p>$ PRICING</p>
+    <p>$PRICING</p>
     <p>Appy Stationery Studio</p></div>
     <p>SIGN-IN</p>
    </div>
