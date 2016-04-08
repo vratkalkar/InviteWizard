@@ -13,6 +13,7 @@ form select option::hover {
 }
 
 #index_button {
+	margin-top: 5px;
 	margin-left:30%;
 	width:30%;
 }
