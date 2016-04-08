@@ -9,6 +9,7 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 <head>
 	<link rel="stylesheet" href="main.css" type="text/css">
 	<link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" type="text/css">
 </head>
 <body>
 
@@ -20,7 +21,7 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 
 		<p>Where is the main event being held? <input type="text" name="event_location" required></p>
 
-		<p>What kind of stationary are you lookign for? <br>
+		<p>What kind of stationary are you looking for? <br>
 			<a type="button1" class="button" name="select_wedding_invite">Wedding Invitation</a>
 			<a type="button2" class="button" name="select_save_the_date">Save The Date</a>
 			<a type="button3" class="button" name="select_appy_suite">Appy Suite</a>

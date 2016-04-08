@@ -12,6 +12,7 @@ if(isset($_POST['Next'])){
 <head>
 	<link rel="stylesheet" href="main.css" type="text/css">
 	<link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" type="text/css">
 </head>
 <body>
 <div class="logo"><a href="http://www.appycouple.com" /></a></div>
