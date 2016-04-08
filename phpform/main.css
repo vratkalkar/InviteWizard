@@ -65,7 +65,9 @@ form select option::hover{
 }
 
 .left_sidebar {
-
+  height:100%;
+  width:40%;
+  border:4px solid black;
 }
 
 .center_preview_area {
@@ -73,7 +75,9 @@ form select option::hover{
 }
 
 .right_sidebar {
-	
+  height:100%;
+  width:40%;
+  border:4px solid black;
 }
 
 
