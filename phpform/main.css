@@ -64,8 +64,16 @@ form select option::hover{
 	background-color:#5D5B5C;
 }
 
-#theme_preview_area {
-	margin-left: 40%;
+.left_sidebar {
+
+}
+
+.center_preview_area {
+
+}
+
+.right_sidebar {
+	
 }
 
 
