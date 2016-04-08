@@ -6,7 +6,7 @@
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
-   <div class="sub_title_bar"></div>
+   <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
      <p>Reminder Template</p>
      <div class="column small-12 medium-6 large-4"></div>

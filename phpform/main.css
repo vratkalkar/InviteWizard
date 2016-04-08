@@ -61,12 +61,15 @@ form select option::hover{
     background-color:#DB3857;
 	font-family:Helvetica, sans-serif;
 	text-align:center;
+	color: rgb(255,255,255);
 }
 
 .sub_title_bar {
 	height:50px;
 	background-color: rgb(93,91,92);
 	font-family:Helvetica, sans-serif;
+	color:rgb(255,255,255);
+	text-align:center;
 }
 
 
