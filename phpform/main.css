@@ -17,6 +17,20 @@ form select option::hover{
 	width:30%;
 }
 
+#left_link {
+	position:relative;
+	margin-right:68%;
+}
+
+#product_title {
+	position: relative;
+	text-align: center;
+}
+
+#right_link {
+	position:relative;
+}
+
 /* Form.html CSS */
 
 .form_container {
