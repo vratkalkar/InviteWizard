@@ -24,17 +24,26 @@ form select option::hover {
 }
 
 .sub_title_bar ul {
-	margin-left: 0;
-	padding-left: 0;
+	padding: 10px;
+	padding-top: 4px;
+	margin-left: auto;
 	display: inline;
 }
 
 .sub_title_bar ul li {
-	margin-left: 0;
-	padding: 3px 15px;
+	line-height: 2.5em;
+	margin-left: 10px;
+	padding: 15px 160px;
+	font-size:20px;
 	list-style: none;
 	display: inline;
 }
+
+.name_link {
+	position: relative;
+}
+
+
 /* Form.html CSS */
 
 .form_container {
