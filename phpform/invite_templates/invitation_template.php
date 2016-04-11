@@ -9,7 +9,14 @@
    <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
-     <div class="column small-12 medium-6 large-4"></div>
+     <div class="column small-12 medium-6 large-4">
+        <form action="" method="POST">
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+        </form>
+     </div>
    	 <div class="column small-12 medium-6 large-4"></div>
    	 <div class="column small-12 medium-6 large-4"></div>
    </div>
