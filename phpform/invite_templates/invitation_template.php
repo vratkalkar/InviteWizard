@@ -1,5 +1,12 @@
 <?php
 session_start();
+$_SESSION['parents_names'] = $_POST['parents_names'];
+$_SESSION['spouse1'] = $_POST['spouse1'];
+$_SESSION['spouse2'] = $_POST['spouse2'];
+$_SESSION['message'] = $_POST['message'];
+$_SESSION['venue'] = $_POST['venue'];
+$_SESSION['date'] = $_POST['date'];
+
 ?>
 
 <html>

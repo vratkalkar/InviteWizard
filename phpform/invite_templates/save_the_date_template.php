@@ -1,5 +1,10 @@
 <?php
 session_start();
+$_SESSION['save_the_date_message'] = $POST['save_the_date_message'];
+$_SESSION['stdt_date'] = $POST['stdt_date'];
+$_SESSION['location'] = $POST['location'];
+$_SESSION['names'] = $POST['names'];
+$_SESSION['website'] = $POST['website'];
 ?>
 <html>
 <meta charset="utf-8">

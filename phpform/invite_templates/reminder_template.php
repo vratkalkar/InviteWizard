@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['reminder'] = $POST['reminder'];
 ?>
 <html>
 <meta charset="utf-8">
