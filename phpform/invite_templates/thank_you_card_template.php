@@ -11,11 +11,7 @@ $_SESSION['thank_you_message'] = $POST['thank_you_message'];
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
-   <div class="sub_title_bar">
-    <p>$PRICING</p>
-    <p>Appy Stationery Studio</p></div>
-    <p>SIGN-IN</p>
-   </div>
+   <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
      <div class="form_container">
        <form action="" method="POST" data-abide>
