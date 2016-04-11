@@ -12,18 +12,20 @@
    <div class="row">
      <div class="column small-12 medium-6 large-4">
        <form action="" method="POST">
-          <label>
+          <textarea></textarea>
+          <label>Date:
              <input/>
           </label>
-          <label>
+          <label>Location:
             <input/>
           </label>
-          <label>
-            <input/>
+          <label>Your Names:
+            <input>
           </label>
-          <label>
-            <input/>
+          <label>Your Website:
+            <input placeholder="example.appycouple.com"/>
           </label>
+          <input type="submit" class="button" value="Next">
         </form>
      </div>
    	 <div class="column small-12 medium-6 large-4"></div>

@@ -11,18 +11,23 @@
    <div class="row">
      <div class="column small-12 medium-6 large-4">
         <form action="" method="POST">
-          <label>
+          <label>Parent's Names:
              <input/>
           </label>
-          <label>
+          <label>Your Name:
             <input/>
           </label>
-          <label>
+          <label>Fiance's Name:
             <input/>
           </label>
-          <label>
+          <textarea></textarea>
+          <label>Venue:
             <input/>
           </label>
+          <label>Date:
+            <input/>
+          </label>
+          <input type="submit" class="button" value="Next">
         </form>
      </div>
    	 <div class="column small-12 medium-6 large-4"></div>

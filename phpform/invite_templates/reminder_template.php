@@ -11,18 +11,10 @@
    <div class="row">
      <div class="column small-12 medium-6 large-4">
       <form action="" method="POST">
-          <label>
-             <input/>
+          <label>Add your message below:
+             <textarea></textarea>
           </label>
-          <label>
-            <input/>
-          </label>
-          <label>
-            <input/>
-          </label>
-          <label>
-            <input/>
-          </label>
+          <input type="submit" class="button" value="Next">
         </form>
      </div>
    	 <div class="column small-12 medium-6 large-4"></div>
