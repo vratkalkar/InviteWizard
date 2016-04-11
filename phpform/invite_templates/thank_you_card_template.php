@@ -13,20 +13,11 @@
     <p>SIGN-IN</p>
    </div>
    <div class="row">
-     <div class="column small-12 medium-6 large-4">
+     <div class="form_container">
        <form action="" method="POST">
-          <label>
-             <input/>
-          </label>
-          <label>
-            <input/>
-          </label>
-          <label>
-            <input/>
-          </label>
-          <label>
-            <input/>
-          </label>
+          <label>Add your message below:
+             <textarea></textarea>
+          <input type="submit" class="button" value="Next">
         </form>
      </div>
    	 <div class="column small-12 medium-6 large-4"></div>
