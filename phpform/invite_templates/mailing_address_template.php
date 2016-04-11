@@ -10,15 +10,15 @@
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
      <div class="form_container">
-        <form action="" method="POST">
+        <form action="" method="POST" data-abide>
           <label>Your Address:
-             <textarea></textarea>
+             <textarea name="address" required></textarea>
           </label>
           <label>Email Address:<br>
-            <input/>
+            <input name="email_address" required/>
           </label>
           <label>Phone Number:<br>
-            <input/>
+            <input name="phone_number" required/>
           </label>
           <input type="submit" class="button" value="Next">
         </form>

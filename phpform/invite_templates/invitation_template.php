@@ -10,23 +10,23 @@
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
      <div class="form_container">
-        <form action="" method="POST">
+        <form action="" method="POST" data-abide>
           <label>Parent's Names:<br>
-             <input/>
+             <input name="parents_names" required/>
           </label>
           <label>Your Name:<br>
-            <input/>
+            <input name="spouse1" required/>
           </label>
           <label>Fiance's Name:<br>
-            <input/>
+            <input name="spouse2" required/>
           </label>
           <label>Add a message:<br>
-          <textarea></textarea>
+          <textarea name="message" required></textarea>
           <label>Venue:<br>
-            <input/>
+            <input name="venue" required/>
           </label>
           <label>Date:<br>
-            <input/>
+            <input name="date" required/>
           </label>
           <input type="submit" class="button" value="Next">
         </form>

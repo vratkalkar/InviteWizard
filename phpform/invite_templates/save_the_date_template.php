@@ -11,17 +11,17 @@
    </div>
    <div class="row">
      <div class="form_container">
-       <form action="" method="POST">
+       <form action="" method="POST" data-abide>
           <label>Add your message below:<br>
-          <textarea></textarea>
+          <textarea name="save_the_date_message" required></textarea>
           <label>Date:
-             <input/>
+             <input name="stdt_date" required/>
           </label>
           <label>Location:
-            <input/>
+            <input name="location" required/>
           </label>
           <label>Your Names:
-            <input>
+            <input name="names" required>
           </label>
           <label>Your Website:
             <input placeholder="example.appycouple.com"/>

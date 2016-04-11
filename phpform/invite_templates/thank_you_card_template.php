@@ -14,10 +14,10 @@
    </div>
    <div class="row">
      <div class="form_container">
-       <form action="" method="POST">
+       <form action="" method="POST" data-abide>
           <label>Add your message below:<br>
              <textarea></textarea>
-          <input type="submit" class="button" value="Next">
+          <input name="thank_you_message" type="submit" class="button" value="Next" required>
         </form>
      </div>
    	 <div class="column small-12 medium-6 large-4"></div>

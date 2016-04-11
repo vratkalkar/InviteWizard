@@ -10,9 +10,9 @@
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
      <div class="form_container">
-       <form action="" method="POST">
+       <form action="" method="POST" data-abide>
           <label>Add your message:<br>
-             <textarea></textarea>
+             <textarea name="note_message" required></textarea>
           </label>
           <input type="submit" class="button" value="Next">
         </form>
