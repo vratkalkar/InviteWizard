@@ -8,22 +8,22 @@ if(isset($_POST['form_submit'])){
 	 	  header('Location: ../invite_templates/appy_suite_template.php');
 	 	  break;
 		case 'wedding_invitation':
-		  header('Location: ../invite_templates/invitation_template.php');
+		  header('Location: ../invite_templates/customize_invitation.php');
 		  break;
 		case 'mailing_address':
-		  header("Location: ../invite_templates/mailing_address_template.php");
+		  header("Location: ../invite_templates/customize_mailing_address.php");
 		  break;
 		case 'save_the_date':
-		  header("Location: ../invite_templates/save_the_date_template.php");
+		  header("Location: ../invite_templates/customize_save_the_date.php");
 		  break;
 		case 'notes':
-		  header("Location: ../invite_templates/note_template.php");
+		  header("Location: ../invite_templates/customize_note.php");
 		  break;
 		case 'reminder':
-		  header("Location: ../invite_templates/reminder_template.php");
+		  header("Location: ../invite_templates/customize_reminder.php");
 		  break;
 		case 'thank_you_card':
-		  header("Location: ../invite_templates/thank_you_card_template.php");
+		  header("Location: ../invite_templates/customize_thank_you_card.php");
 		  break;
 	}
 
