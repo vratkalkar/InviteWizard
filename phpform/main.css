@@ -1,3 +1,14 @@
+/* Appy Couple Logo CSS (When Utilized)*/
+.logo {
+	padding-top:200px;
+	margin-top:40px;
+	margin-left:48%;
+	background-image:url('http://www.appycouple.com/sites/all/themes/appycouple/images/appylogo.png');
+	background-repeat:no-repeat;
+	background-size:119px auto;
+
+}
+
 /* Index.html CSS */
 .title {
 	margin-left:40%;
@@ -23,6 +34,10 @@ form select option::hover {
 	display: inline-block;
 }
 
+.sub_title_bar {
+	line-height: 2em;
+}
+
 .sub_title_bar ul {
 	padding: 10px;
 	padding-top: 4px;
@@ -44,7 +59,7 @@ form select option::hover {
 }
 
 
-/* Universal form CSS */
+/* Universal Form CSS */
 
 .form_container {
 	margin-left:34%;
@@ -68,19 +83,7 @@ form select option::hover {
 }
 
 
-
-/* Appy Couple Logo CSS (When Utilized)*/
-.logo {
-	padding-top:200px;
-	margin-top:40px;
-	margin-left:48%;
-	background-image:url('http://www.appycouple.com/sites/all/themes/appycouple/images/appylogo.png');
-	background-repeat:no-repeat;
-	background-size:119px auto;
-
-}
-
-/* Univeral Template Pages CSS */
+/* Template Pages CSS */
 .template_background {
 	background-color:rgb(255,255,255);
 }
@@ -106,6 +109,11 @@ form select option::hover {
 .form_container textarea {
 	resize:none;
 	height: 200px;
+}
+
+/* Specific to Save The Date website textfield */
+.form_container #website_textfield {
+	width: 36%;
 }
 
 

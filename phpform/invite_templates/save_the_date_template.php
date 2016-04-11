@@ -22,17 +22,17 @@ $_SESSION['website'] = $POST['website'];
        <form action="" method="POST" data-abide>
           <label>Add your message below:<br>
           <textarea name="save_the_date_message" required></textarea>
-          <label>Date:
+          <label>Date:<br>
              <input name="stdt_date" required/>
           </label>
-          <label>Location:
+          <label>Location:<br>
             <input name="location" required/>
           </label>
-          <label>Your Names:
+          <label>Your Names:<br>
             <input name="names" required>
           </label>
-          <label>Your Website:
-            <input name="website" placeholder="example.appycouple.com"/>
+          <label>Your Website:<br>
+            <input id="website_textfield" name="website" placeholder="example.appycouple.com"/>
           </label>
           <input type="submit" class="button" value="Next">
         </form>
