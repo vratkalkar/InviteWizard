@@ -14,10 +14,10 @@
           <label>Your Address:
              <textarea></textarea>
           </label>
-          <label>Email Address:
+          <label>Email Address:<br>
             <input/>
           </label>
-          <label>Phone Number:
+          <label>Phone Number:<br>
             <input/>
           </label>
           <input type="submit" class="button" value="Next">

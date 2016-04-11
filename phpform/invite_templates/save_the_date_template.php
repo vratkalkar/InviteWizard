@@ -12,6 +12,7 @@
    <div class="row">
      <div class="form_container">
        <form action="" method="POST">
+          <label>Add your message below:<br>
           <textarea></textarea>
           <label>Date:
              <input/>

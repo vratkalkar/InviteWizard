@@ -11,20 +11,21 @@
    <div class="row">
      <div class="form_container">
         <form action="" method="POST">
-          <label>Parent's Names:
+          <label>Parent's Names:<br>
              <input/>
           </label>
-          <label>Your Name:
+          <label>Your Name:<br>
             <input/>
           </label>
-          <label>Fiance's Name:
+          <label>Fiance's Name:<br>
             <input/>
           </label>
+          <label>Add a message:<br>
           <textarea></textarea>
-          <label>Venue:
+          <label>Venue:<br>
             <input/>
           </label>
-          <label>Date:
+          <label>Date:<br>
             <input/>
           </label>
           <input type="submit" class="button" value="Next">

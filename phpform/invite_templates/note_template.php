@@ -11,7 +11,7 @@
    <div class="row">
      <div class="form_container">
        <form action="" method="POST">
-          <label>Add your message:
+          <label>Add your message:<br>
              <textarea></textarea>
           </label>
           <input type="submit" class="button" value="Next">
