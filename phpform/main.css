@@ -103,6 +103,13 @@ form select option::hover {
 	text-align:center;
 }
 
+/* Template textarea CSS */
+
+.form_container textarea {
+	resize:none;
+	height: 200px;
+}
+
 
 
 

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html>
 <meta charset="utf-8">
 <head>
@@ -24,7 +27,7 @@
             <input name="names" required>
           </label>
           <label>Your Website:
-            <input placeholder="example.appycouple.com"/>
+            <input name="website" placeholder="example.appycouple.com"/>
           </label>
           <input type="submit" class="button" value="Next">
         </form>
