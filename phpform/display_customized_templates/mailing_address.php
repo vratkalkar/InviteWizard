@@ -1,5 +1,8 @@
 <?php
 session_start();
+$_SESSION['address'] = $POST['address'];
+$_SESSION['email_address'] = $POST['email_address'];
+$_SESSION['phone_number'] = $POST['phone_number'];
 ?>
 <html>
 <meta charset="utf-8">
