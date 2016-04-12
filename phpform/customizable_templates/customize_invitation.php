@@ -45,7 +45,6 @@ $_SESSION['date'] = $_POST['date'];
    	 <div class="column small-12 medium-6 large-4"></div>
    	 <div class="column small-12 medium-6 large-4"></div>
    </div>
-     <script src="http://cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
      <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>

@@ -5,3 +5,10 @@ CKEDITOR.replace('note_message');
 CKEDITOR.replace('reminder');
 CKEDITOR.replace('save_the_date_message');
 CKEDITOR.replace('thank_you_message');
+
+//Increase CKEditor height and width
+CKEDITOR.config.resize_enabled = false;
+
+
+
+

@@ -121,8 +121,8 @@
 }
 
 /* CKEditor TextArea CSS */
-.editor {
-	width:50%;
+textarea {
+	width:100%;
 }
 
 
