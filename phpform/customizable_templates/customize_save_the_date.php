@@ -21,16 +21,16 @@ $_SESSION['website'] = $POST['website'];
    <div class="row">
      <div class="form_container">
       <form action="" method="POST" data-abide>
-      <label>Date:<br>
+      <label>Date:
         <input name="stdt_date" required/>
       </label>
-      <label>Location:<br>
+      <label>Location:
         <input name="location" required/>
       </label>
-      <label>Your Names:<br>
+      <label>Your Names:
         <input name="names" required>
       </label>
-      <label>Your Website:<br>
+      <label>Your Website:
         <input id="website_textfield" name="website" placeholder="example.appycouple.com"/>
       </label>
       </form>
