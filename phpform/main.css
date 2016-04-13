@@ -25,9 +25,13 @@
 	margin-top: -20px;
 }
 
+.form_container select option{
+	margin-right: 50%;
+}
+
 #index_button {
 	margin-top: 5px;
-	margin-left:30%;
+	margin-left:35%;
 	width:30%;
 }
 
@@ -65,20 +69,33 @@
 
 /* Universal Form CSS */
 
-.form_container {
-	margin-left:34%;
-	padding-top:1%;
-	width:40%;
+.form_container label {
+	padding-top: 20px;
+	float:left;
+	display: inline;
+	margin-left: 10px;
+}
+
+.form_container input {
+	clear: right;
+	display: inline-block;
+	margin-left: 2px;
 }
 
 .form_container .type_name {
 	font-weight:bold;
 }
 
+.form_container select {
+	width:60%;
+	margin-left:22%;
+}
+
 /*Override Foundation button class with "Appy Red"*/
 .form_container .button  {
 	background-color:#DB3857;
 	text-decoration:none;
+	marign-left:10%;
 	margin-top:5px;
 }
 
@@ -110,17 +127,16 @@
 	text-align:center;
 }
 
-.form_container textarea {
-	resize:none;
-	height: 200px;
-}
-
 /* Specific to Save The Date website textfield */
 .form_container #website_textfield {
 	width: 36%;
 }
 
 /* CKEditor TextArea CSS */
+
+.editor_section {
+	margin-top: 100px;
+}
 .editor_section .button {
 	background-color: #DB3857;
 }
