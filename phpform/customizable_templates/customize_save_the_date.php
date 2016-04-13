@@ -20,27 +20,30 @@ $_SESSION['website'] = $POST['website'];
    </div>
    <div class="row">
      <div class="form_container">
-       <form action="" method="POST" data-abide>
-          <label>Add your message below:<br>
-          <textarea class="editor" name="save_the_date_message" required></textarea>
-          <label>Date:<br>
-             <input name="stdt_date" required/>
-          </label>
-          <label>Location:<br>
-            <input name="location" required/>
-          </label>
-          <label>Your Names:<br>
-            <input name="names" required>
-          </label>
-          <label>Your Website:<br>
-            <input id="website_textfield" name="website" placeholder="example.appycouple.com"/>
-          </label>
-          <input type="submit" class="button" value="Next">
-        </form>
+      <form action="" method="POST" data-abide>
+      <label>Date:<br>
+        <input name="stdt_date" required/>
+      </label>
+      <label>Location:<br>
+        <input name="location" required/>
+      </label>
+      <label>Your Names:<br>
+        <input name="names" required>
+      </label>
+      <label>Your Website:<br>
+        <input id="website_textfield" name="website" placeholder="example.appycouple.com"/>
+      </label>
+      </form>
      </div>
-   	 <div class="column small-12 medium-6 large-4"></div>
-   	 <div class="column small-12 medium-6 large-4"></div>
+
+     <div class="editor_section">
+        <label>Add your message below:<br>
+        <textarea class="editor" name="message" required></textarea>
+        <input type="submit" class="button" value="Next">
+     </div>
    </div>
+       
+          
     <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>

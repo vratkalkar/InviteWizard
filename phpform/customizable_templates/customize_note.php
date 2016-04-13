@@ -13,18 +13,19 @@ $_SESSION['note_message'] = $POST['note_message'];
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
+
    <div class="row">
      <div class="form_container">
        <form action="" method="POST" data-abide>
+     </div>
+
+     <div class="editor_section">
           <label>Add your message:<br>
-             <textarea class="editor" name="note_message" required></textarea>
+             <textarea class="editor" name="message" required></textarea>
           </label>
           <input type="submit" class="button" value="Next">
         </form>
-     </div>
-   	 <div class="column small-12 medium-6 large-4"></div>
-   	 <div class="column small-12 medium-6 large-4"></div>
-   </div>
+      </div>
     <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>

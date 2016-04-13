@@ -15,11 +15,12 @@ $_SESSION['phone_number'] = $POST['phone_number'];
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
+
    <div class="row">
      <div class="form_container">
         <form action="" method="POST" data-abide>
-          <label>Your Address:
-             <textarea name="address" required></textarea>
+          <label>Your Names:<br>
+            <input name="names" required/>
           </label>
           <label>Email Address:<br>
             <input name="email_address" required/>
@@ -27,16 +28,14 @@ $_SESSION['phone_number'] = $POST['phone_number'];
           <label>Phone Number:<br>
             <input name="phone_number" required/>
           </label>
+      </div>
+
+      <div class="editor_section">
+        <label>Your Address:<br>
+          <textarea class="editor1" name="message"></textarea>
           <input type="submit" class="button" value="Next">
         </form>
      </div>
-   	 <div class="column small-12 medium-6 large-4"></div>
-   	 <div class="column small-12 medium-6 large-4"></div>
-   </div>
-    <script type="text/javascript" src="../main.js"></script>
-     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
-         integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
-         crossorigin="anonymous">
-     </script>
+     <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>

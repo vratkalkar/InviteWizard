@@ -121,7 +121,9 @@
 }
 
 /* CKEditor TextArea CSS */
-
+.editor_section .button {
+	background-color: #DB3857;
+}
 
 
 
