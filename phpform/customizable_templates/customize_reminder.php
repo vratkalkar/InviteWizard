@@ -17,7 +17,7 @@ $_SESSION['reminder'] = $POST['reminder'];
      <div class="form_container">
       <form action="" method="POST" data-abide>
           <label>Add your message below:<br>
-             <textarea name="reminder" required></textarea>
+             <textarea class="editor" name="reminder" required></textarea>
           </label>
           <input type="submit" class="button" value="Next">
         </form>
@@ -25,9 +25,6 @@ $_SESSION['reminder'] = $POST['reminder'];
    	 <div class="column small-12 medium-6 large-4"></div>
    	 <div class="column small-12 medium-6 large-4"></div>
    </div>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
-         integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
-         crossorigin="anonymous">
-    </script>
+    <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>

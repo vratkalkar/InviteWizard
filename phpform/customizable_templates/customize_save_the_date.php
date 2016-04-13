@@ -22,7 +22,7 @@ $_SESSION['website'] = $POST['website'];
      <div class="form_container">
        <form action="" method="POST" data-abide>
           <label>Add your message below:<br>
-          <textarea name="save_the_date_message" required></textarea>
+          <textarea class="editor" name="save_the_date_message" required></textarea>
           <label>Date:<br>
              <input name="stdt_date" required/>
           </label>
@@ -41,9 +41,6 @@ $_SESSION['website'] = $POST['website'];
    	 <div class="column small-12 medium-6 large-4"></div>
    	 <div class="column small-12 medium-6 large-4"></div>
    </div>
-   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
-         integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
-         crossorigin="anonymous">
-    </script>
+    <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>
