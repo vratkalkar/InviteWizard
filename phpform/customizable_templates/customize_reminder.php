@@ -19,7 +19,7 @@ $_SESSION['reminder'] = $POST['reminder'];
      </div>
         <div class="editor_section">
           <label>Add your message below:<br>
-             <textarea class="editor" name="reminder" required></textarea>
+             <textarea class="editor" name="message" required></textarea>
           </label>
           <input type="submit" class="button" value="Next">
         </form>
