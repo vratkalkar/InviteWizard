@@ -24,19 +24,19 @@ $_SESSION['date'] = $_POST['date'];
    <div class="row">
      <div class="form_container">
       <form action="" method="POST" data-abide>
-        <label>Parent's Names:<br>
+        <label>Parent's Names:
           <input name="parents_names" required/>
         </label>
-        <label>Your Name:<br>
+        <label>Your Name:
           <input name="spouse1" required/>
         </label>
-        <label>Fiance's Name:<br>
+        <label>Fiance's Name:
           <input name="spouse2" required/>
         </label>
-        <label>Venue:<br>
+        <label>Venue:
           <input name="venue" required/>
         </label>
-        <label>Date:<br>
+        <label>Date:
           <input name="date" required/>
         </label>
       </div>
