@@ -32,7 +32,7 @@ $_SESSION['phone_number'] = $POST['phone_number'];
 
       <div class="editor_section">
         <label>Your Address:<br>
-          <textarea class="editor1" name="message"></textarea>
+          <textarea class="editor1" name="message" name="mailing_address"></textarea>
           <input type="submit" class="button" value="Next">
         </form>
      </div>

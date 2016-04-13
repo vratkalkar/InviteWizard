@@ -20,7 +20,7 @@ $_SESSION['thank_you_message'] = $POST['thank_you_message'];
 
       <div class="editor_section">
         <label>Add your message below:<br>
-            <textarea class="editor1" name="message"></textarea>
+            <textarea class="editor1" name="message" name="thank_you_card"></textarea>
         <input name="submit" type="submit" class="button" value="Next" required>
       </form>
       </div>

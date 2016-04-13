@@ -43,7 +43,7 @@ $_SESSION['date'] = $_POST['date'];
 
       <div class="editor_section">
           <label>Add a message:<br>
-          <textarea class="editor1" name="message" required></textarea>
+          <textarea class="editor1" name="message" name="invitation_message" required></textarea>
           <input type="submit" class="button" value="Next">
         </form>
       </div>

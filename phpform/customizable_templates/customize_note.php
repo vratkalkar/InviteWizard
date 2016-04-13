@@ -21,7 +21,7 @@ $_SESSION['note_message'] = $POST['note_message'];
 
      <div class="editor_section">
           <label>Add your message:<br>
-             <textarea class="editor1" name="message" required></textarea>
+             <textarea class="editor1" name="message" name="note" required></textarea>
           </label>
           <input type="submit" class="button" value="Next">
         </form>

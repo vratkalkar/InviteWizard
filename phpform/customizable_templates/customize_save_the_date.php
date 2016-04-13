@@ -38,7 +38,7 @@ $_SESSION['website'] = $POST['website'];
 
      <div class="editor_section">
         <label>Add your message below:<br>
-        <textarea class="editor1" name="message" required></textarea>
+        <textarea class="editor1" name="message" name="save_the_date" required></textarea>
         <input type="submit" class="button" value="Next">
      </div>
    </div>
