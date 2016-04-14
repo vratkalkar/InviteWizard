@@ -68,7 +68,6 @@
 
 
 /* Universal Form CSS */
-
 .form_container label {
 	padding-top: 20px;
 	float:left;
@@ -134,7 +133,6 @@
 }
 
 /* CKEditor TextArea CSS */
-
 .editor_section {
 	margin-top: 100px;
 }
