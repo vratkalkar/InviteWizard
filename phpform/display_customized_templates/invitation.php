@@ -13,7 +13,11 @@ session_start();
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the invitation page</p>
- 	<?php var_dump($_SESSION); ?>
+ 	<?php 
+ 	foreach ($_SESSION as $key => $value) {
+ 		echo $value;
+ 	}
+ 	?>
  	<p></p>
  </body>
 </html>
