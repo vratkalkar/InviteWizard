@@ -1,6 +1,6 @@
 <?php
 //Get select option on submit and redirect to corresponding page
-if(isset($_POST['form_submit'])){
+if(isset($_POST['submit'])){
 
 	$user_choice = $_POST['chosen_template'];
 	 switch($user_choice){
