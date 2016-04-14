@@ -14,6 +14,8 @@ $_SESSION['website'] = $POST['website'];
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" type="text/css">
  </head>
  <body class="template_background">
+ 	<div class="title_bar">APPY COUPLE</div>
+    <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the save the date page</p>
  </body>
 </html>
