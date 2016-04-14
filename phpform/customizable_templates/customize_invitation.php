@@ -39,11 +39,15 @@ $_SESSION['date'] = $_POST['date'];
         <label>Date:<br>
           <input name="date" required/>
         </label>
-        <label>Select Invitation Type:<br>
+       
+        <label class="invite_label">Select Invitation Type:<br><br>
           <select name="invite_type">
+            <option name="formal">Formal</option>
+            <option name="semi_formal">Semi-Formal</option>
+            <option name="casual">Casual</option>
           </select>
         </label>
-      </div>
+    </div>
 
       <div class="editor_section">
           <label>Add a message:<br>
