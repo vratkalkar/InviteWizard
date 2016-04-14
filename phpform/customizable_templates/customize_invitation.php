@@ -1,5 +1,16 @@
 <?php
-session_start();
+session_start(); 
+$parents_names = $_POST['parents_names'];
+$spouse1 = $_POST['spouse1'];
+$spouse2 = $_POST['spouse2'];
+$venue = $_POST['venue'];
+$date = $_POST['date'];
+
+$_SESSION['parents_names'] = $parents_names;
+$_SESSION['spouse1'] = $spouse1;
+$_SESSION['spouse2'] = $spouse2;
+$_SESSION['venue'] = $venue;
+$_SESSION['date'] = $date;
 ?>
 
 <html>
@@ -11,19 +22,6 @@ session_start();
   <script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
  </head>
  <body class="template_background">
-  <?php
-  $parents_names = $_POST['parents_names'];
-  $spouse1 = $_POST['spouse1'];
-  $spouse2 = $_POST['spouse2'];
-  $venue = $_POST['venue'];
-  $date = $_POST['date'];
-
-  $_SESSION['parents_names'] = $parents_names;
-  $_SESSION['spouse1'] = $spouse1;
-  $_SESSION['spouse2'] = $spouse2;
-  $_SESSION['venue'] = $venue;
-  $_SESSION['date'] = $date;
-  ?>
    <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
 
