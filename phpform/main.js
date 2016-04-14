@@ -1,4 +1,4 @@
-//Customizable Template TextAreas to CKEditor
+//Replace textareas with CKEditor
 CKEDITOR.replace('message');
 
 CKEDITOR.replace('editor1', {
