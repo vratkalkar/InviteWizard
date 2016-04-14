@@ -11,9 +11,5 @@ $_SESSION['reminder'] = $POST['reminder'];
  </head>
  <body class="template_background">
  	<p>This is the reminder page</p>
-     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
-         integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
-         crossorigin="anonymous">
-     </script>
  </body>
 </html>
