@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['address'] = $POST['address'];
+$_SESSION['names'] = $_POST['names'];
 $_SESSION['email_address'] = $POST['email_address'];
 $_SESSION['phone_number'] = $POST['phone_number'];
 $_SESSION['mailing_address'] = $POST['mailing_address'];
