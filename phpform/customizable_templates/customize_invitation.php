@@ -47,17 +47,17 @@ session_start();
           <textarea class="editor1" name="message" name="invitation_message" required></textarea>
           <input type="submit" class="button" value="Next">
         </form>
-      </div>
-      <?php
-        if(isset($_POST['submit'])){
-          $_SESSION['parents_names'] = $_POST['parents_names'];
-          $_SESSION['spouse1'] = $_POST['spouse1'];
-          $_SESSION['spouse2'] = $_POST['spouse2'];
-          $_SESSION['message'] = $_POST['message'];
-          $_SESSION['venue'] = $_POST['venue'];
-          $_SESSION['date'] = $_POST['date'];
-        }
+        <?php
+          if(isset($_POST['submit'])){
+            $_POST['parents_names'];
+            $_POST['spouse1'];
+            $_POST['spouse2'];
+            $_POST['message'];
+            $_POST['venue'];
+            $_POST['date'];
+          }
         ?>
+      </div>
 
      <script type="text/javascript" src="../main.js"></script>
  </body>
