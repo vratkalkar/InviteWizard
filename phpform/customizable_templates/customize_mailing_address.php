@@ -3,6 +3,7 @@ session_start();
 $_SESSION['address'] = $POST['address'];
 $_SESSION['email_address'] = $POST['email_address'];
 $_SESSION['phone_number'] = $POST['phone_number'];
+$_SESSION['mailing_address'] = $POST['mailing_address'];
 ?>
 <html>
 <meta charset="utf-8">
