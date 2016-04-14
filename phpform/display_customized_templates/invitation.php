@@ -11,6 +11,6 @@ session_start();
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the invitation page</p>
- 	<p><?php echo $_POST['spouse1']?></p>
+ 	<p><?php echo $_SESSION['spouse1']?></p>
  </body>
 </html>
