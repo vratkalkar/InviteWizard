@@ -15,7 +15,7 @@ $_SESSION['thank_you_message'] = $POST['thank_you_message'];
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
      <div class="form_container">
-       <form action="process_forms/process_thank_you_card.php" method="POST" data-abide>
+       <form action="process_thank_you_card.php" method="POST" data-abide>
       </div>
 
       <div class="editor_section">

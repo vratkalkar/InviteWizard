@@ -16,7 +16,7 @@ $_SESSION['note_message'] = $POST['note_message'];
 
    <div class="row">
      <div class="form_container">
-       <form action="process_forms/process_note.php" method="POST" data-abide>
+       <form action="process_note.php" method="POST" data-abide>
      </div>
 
      <div class="editor_section">
