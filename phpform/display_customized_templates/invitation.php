@@ -1,12 +1,8 @@
 <?php
 session_start();
-$_SESSION['parents_names'] = $_POST['parents_names'];
-$_SESSION['spouse1'] = $_POST['spouse1'];
-$_SESSION['spouse2'] = $_POST['spouse2'];
-$_SESSION['message'] = $_POST['message'];
-$_SESSION['venue'] = $_POST['venue'];
-$_SESSION['date'] = $_POST['date'];
 ?>
+
+<html>
 <meta charset="utf-8">
 <head>
   <link rel="stylesheet" href="../main.css" type="text/css">
@@ -17,6 +13,6 @@ $_SESSION['date'] = $_POST['date'];
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the invitation page</p>
- 	<p><?php echo $_SESSION['spouse1']?></p>
+ 	<p><?php echo $spouse1 ?></p>
  </body>
 </html>
