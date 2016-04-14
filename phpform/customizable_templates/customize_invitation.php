@@ -23,7 +23,7 @@ $_SESSION['date'] = $_POST['date'];
 
    <div class="row">
      <div class="form_container">
-      <form action="" method="POST" data-abide>
+      <form action="process_forms/process_index_selection_form.php" method="POST" data-abide>
         <label>Parent's Names:<br>
           <input name="parents_names" required/>
         </label>

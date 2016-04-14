@@ -19,7 +19,7 @@ $_SESSION['mailing_address'] = $POST['mailing_address'];
 
    <div class="row">
      <div class="form_container">
-        <form action="" method="POST" data-abide>
+        <form action="process_forms/process_mailing_address.php" method="POST" data-abide>
           <label>Your Names:<br>
             <input name="names" required/>
           </label>

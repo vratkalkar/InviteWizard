@@ -20,7 +20,7 @@ $_SESSION['website'] = $POST['website'];
    </div>
    <div class="row">
      <div class="form_container">
-      <form action="" method="POST" data-abide>
+      <form action="process_forms/process_save_the_date.php" method="POST" data-abide>
       <label>Date:<br>
         <input name="stdt_date" required/>
       </label>

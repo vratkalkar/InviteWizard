@@ -15,7 +15,7 @@ $_SESSION['reminder'] = $POST['reminder'];
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="row">
      <div class="form_container">
-      <form action="" method="POST" data-abide>
+      <form action="process_forms/process_reminder.php" method="POST" data-abide>
      </div>
         <div class="editor_section">
           <label>Add your message below:<br>
