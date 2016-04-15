@@ -14,9 +14,7 @@ session_start();
    <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the invitation page</p>
  	<?php 
- 	foreach ($_SESSION as $key => $value) {
- 		echo $value;
- 	}
+ 	 var_dump($_SESSION);
  	?>
  	<p></p>
  </body>
