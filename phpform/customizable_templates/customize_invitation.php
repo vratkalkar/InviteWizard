@@ -1,25 +1,24 @@
 <?php
 session_start();
 
-function sanitize($value){
-  $value = trim($value);
-  $value = stripslashes($value);
-  $value = strip_tags($value);
 
-  return $value;
-}
+$parents_names = $_POST['parents_names']);
+$spouse1 = $_POST['spouse1'];
+$spouse2 = $_POST['spouse2'];
+$venue = $_POST['venue'];
+$date = $_POST['date'];
 
-$_SESSION['parents_names'] = sanitize($_POST['parents_names']);
-$_SESSION['spouse1'] = sanitize($_POST['spouse1']);
-$_SESSION['spouse2'] = sanitize($_POST['spouse2']);
-$_SESSION['venue'] = sanitize($_POST['venue']);
-$_SESSION['date'] = sanitize($_POST['date']);
+$_SESSION['parents_names'] = filter_var($parents_names, FILTER_SANITIZE_STRING);
+$_SESSION['spouse1'] = filter_var($spouse1, FILTER_SANITIZE_STRING);
+$_SESSION['spouse2'] = filter_var($spouse2, FILTER_SANITIZE_STRING);
+$_SESSION['venue'] = filter_var($venue, FILTER_SANITIZE_STRING);
+$_SESSION['date'] = filter_var($date, FILTER_SANITIZE_STRING);
 
-$parents_names = $_SESSION['parents_names']; 
-$spouse1 = $_SESSION['spouse1'];
-$spouse2 = $_SESSION['spouse2'];
-$venue = $_SESSION['venue'];
-$date = $_SESSION['date'];
+// $parents_names = $_SESSION['parents_names']; 
+// $spouse1 = $_SESSION['spouse1'];
+// $spouse2 = $_SESSION['spouse2'];
+// $venue = $_SESSION['venue'];
+// $date = $_SESSION['date'];
 
 ?>
 
