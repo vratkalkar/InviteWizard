@@ -1,7 +1,7 @@
 <?php
 ob_start();
 session_start();
-require("../helper_functions/sanitize.php");
+include("../helper_functions/sanitize.php");
 
 $parents_names = sanitize($_POST['parents_names']);
 $spouse1 = sanitize($_POST['spouse1']);
