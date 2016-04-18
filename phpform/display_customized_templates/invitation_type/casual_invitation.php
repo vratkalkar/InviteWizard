@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 ?>
 
 <html>
@@ -13,9 +13,7 @@ session_start();
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the casual invitation page</p>
- 	<?php 
- 	 var_dump($_SESSION);
- 	?>
+
  	<p></p>
  </body>
 </html>

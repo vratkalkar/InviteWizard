@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['note_message'] = $POST['note_message'];
+$_SESSION['note_message'] = $_POST['note_message'];
 ?>
 <html>
 <meta charset="utf-8">

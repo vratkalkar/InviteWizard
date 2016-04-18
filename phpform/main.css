@@ -34,7 +34,7 @@
 	padding: 4px;
 }
 
-.form_container select option:active {
+.form_container select option:hover {
 	background-color: #DB3857;
 }
 
@@ -117,7 +117,7 @@
 	margin-right: 200px;
 }
 
-.form_container .select_invite_option:hover {
+.form_container .select_invite_option option:hover {
 	font-family: Helvetics, sans-serif;
 	text-decoration: none;
 	border: none;

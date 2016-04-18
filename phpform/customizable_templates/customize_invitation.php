@@ -22,9 +22,8 @@ $_SESSION['venue'] = $venue;
 $_SESSION['date'] = $date;
 $_SESSION['invite_type'] = $invite_type;
 
-$buffer = ob_get_contents();
+ob_end_clean(); 
 
-ob_end_clean();
 ?>
 
 <html>

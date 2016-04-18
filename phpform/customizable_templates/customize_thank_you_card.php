@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['thank_you_message'] = $POST['thank_you_message'];
+$_SESSION['thank_you_message'] = $_POST['thank_you_message'];
 ?>
 <html>
 <meta charset="utf-8">
