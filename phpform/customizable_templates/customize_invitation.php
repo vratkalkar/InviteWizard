@@ -7,23 +7,16 @@ ob_start();
 session_start();
 include("../helper_functions/sanitize.php");
 
-$parents_names = sanitize($_POST['parents_names']);
-$spouse1 = sanitize($_POST['spouse1']);
-$spouse2 = sanitize($_POST['spouse2']);
-$venue = sanitize($_POST['venue']);
-$date = sanitize($_POST['date']);
-$invite_type = $_POST['invite_type'];
 
+$_SESSION['parents_names'] = $_POST['parents_names'];
+$_SESSION['spouse1'] = $_POST['spouse1'];
+$_SESSION['spouse2'] = $_POST['spouse2'];
+$_SESSION['venue'] = $_POST['venue'];
+$_SESSION['date'] = $_POST['date'];
+$_SESSION['invite_type'] = $_POST['invite_type'];
 
-$_SESSION['parents_names'] = $parents_names;
-$_SESSION['spouse1'] = $spouse1;
-$_SESSION['spouse2'] = $spouse2;
-$_SESSION['venue'] = $venue;
-$_SESSION['date'] = $date;
-$_SESSION['invite_type'] = $invite_type;
-
+$buffer = ob_get_contents();
 ob_end_clean(); 
-
 ?>
 
 <html>
