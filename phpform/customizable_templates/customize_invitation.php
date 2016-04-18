@@ -1,7 +1,9 @@
-/* Utilizing/Working with output buffering for now 
-* to fix "headers_sent" error when including helper_function file 
-*/
+
 <?php
+/* Utilizing output buffering for now 
+* to fix "headers_sent" error 
+* when including helper_function file */
+
 ob_start();
 session_start();
 include("../helper_functions/sanitize.php");
