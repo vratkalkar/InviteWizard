@@ -1,3 +1,7 @@
+/* This is a function that takes the user form input 
+and uses regex to identify and replace non-text values
+*/
+
 <?php
 function cleanInput($input) {
 	$search = array(

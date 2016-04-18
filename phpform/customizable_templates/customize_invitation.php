@@ -1,7 +1,11 @@
+
 <?php
+/* Utilizing output buffering for now 
+* to fix "headers_sent" error 
+* when including helper_function file */
+include("../helper_functions/sanitize.php");
 ob_start();
 session_start();
-include("../helper_functions/sanitize.php");
 
 $parents_names = sanitize($_POST['parents_names']);
 $spouse1 = sanitize($_POST['spouse1']);
@@ -16,11 +20,7 @@ $_SESSION['spouse2'] = $spouse2;
 $_SESSION['venue'] = $venue;
 $_SESSION['date'] = $date;
 
-// $parents_names = $_SESSION['parents_names']; 
-// $spouse1 = $_SESSION['spouse1'];
-// $spouse2 = $_SESSION['spouse2'];
-// $venue = $_SESSION['venue'];
-// $date = $_SESSION['date'];
+ob_end_flush();
 
 ?>
 
@@ -73,5 +73,5 @@ $_SESSION['date'] = $date;
 
      <script type="text/javascript" src="../main.js"></script>
  </body>
- <?php ob_end_flush(); ?>
+ <?php //ob_end_flush(); ?>
 </html>
