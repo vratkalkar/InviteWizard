@@ -57,16 +57,18 @@ ob_end_clean();
           <input name="date" required/>
         </label>
        
-        <label class="invite_label">Select Invitation Type:<br><br>
-          <select name="invite_type">
+        <label>Select Invitation Type:<br><br>
+          <select class="select_invite_option" name="invite_type">
             <option name="formal">Formal</option>
             <option name="semi_formal">Semi-Formal</option>
             <option name="casual">Casual</option>
+            <option name="preview">Show me a Preview!</option>
           </select>
         </label>
     </div>
 
       <div class="editor_section">
+          <br>
           <label>Add a message:<br>
           <textarea class="editor1" name="message" name="invitation_message" required></textarea>
           <input type="submit" class="button" value="Next">

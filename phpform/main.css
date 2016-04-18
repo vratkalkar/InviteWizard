@@ -1,3 +1,4 @@
+
 /* Appy Couple Logo CSS (When Utilized)*/
 .logo {
 	padding-top:200px;
@@ -90,16 +91,32 @@
 	margin-left:22%;
 }
 
+.form_container .select_invite_option {
+	text-align: left;
+	position: relative;
+	float: left;
+	margin-right: 200px;
+}
+
+.form_container .select_invite_option:hover {
+	text-align: left;
+	background-color: blue;
+}
+
 
 /*Override Foundation button class with "Appy Red"*/
 .form_container .button  {
 	background-color:#DB3857;
 	text-decoration:none;
-	marign-left:10%;
+	margin-left:10%;
 	margin-top:5px;
 }
 
 .form_container .button:hover {
+	background-color:#DB3857;
+}
+
+.form_container .button:select {
 	background-color:#DB3857;
 }
 
@@ -134,9 +151,13 @@
 
 /* CKEditor TextArea CSS */
 .editor_section {
-	margin-top: 100px;
+	margin-top: 150px;
 }
 .editor_section .button {
+	background-color: #DB3857;
+}
+
+.editor_section .button:hover {
 	background-color: #DB3857;
 }
 

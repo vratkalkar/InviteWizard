@@ -1,40 +1,23 @@
 <?php
-ob_start();
-
 session_start();
-include("../helper_functions/sanitize.php"); 
 
+if(isset($_POST['submit'])){
 
-$parents_names = sanitize($_POST['parents_names']);
-$spouse1 = sanitize($_POST['spouse1']);
-$spouse2 = sanitize($_POST['spouse2']);
-$venue = sanitize($_POST['venue']);
-$date = sanitize($_POST['date']);
-$invite_type = $_POST['invite_type'];
-
-$_SESSION['parents_names'] = $parents_names;
-$_SESSION['spouse1'] = $spouse1;
-$_SESSION['spouse2'] = $spouse2;
-$_SESSION['venue'] = $venue;
-$_SESSION['date'] = $date;
-$_SESSION['invite_type'] = $invite_type;
-
-$user_choice = $_SESSION['invite_type'];
+$user_choice = $_POST['invite_type'];
 switch ($user_choice) {
 	case 'formal':
-		# code...
+		header("Location: ../display_customized_templates/invitation_type/formal_invitation.php");
 		break;
 	case 'semi_formal':
-		#code
+		header("Location: ../display_customized_templates/invitation_type/semi_formal_invitation.php");
 		break;
 	case 'casual':
-		#code
+		header("Location: ../display_customized_templates/invitation_type/casual_invitation.php");
 		break;
-	default:
-		header("Location: ../display_customized_templates/invitation.php");.
+	case 'preview':
+		header("Location: ../display_customized_templates/invitation.php");
 		break;
+  }
 }
 
-
-ob_end_flush();
 ?>
