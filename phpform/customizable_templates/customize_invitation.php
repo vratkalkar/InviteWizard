@@ -1,3 +1,6 @@
+/* Utilizing/Working with output buffering for now 
+* to fix "headers_sent" error when including helper_function file 
+*/
 <?php
 ob_start();
 session_start();
@@ -16,12 +19,7 @@ $_SESSION['spouse2'] = $spouse2;
 $_SESSION['venue'] = $venue;
 $_SESSION['date'] = $date;
 
-// $parents_names = $_SESSION['parents_names']; 
-// $spouse1 = $_SESSION['spouse1'];
-// $spouse2 = $_SESSION['spouse2'];
-// $venue = $_SESSION['venue'];
-// $date = $_SESSION['date'];
-
+ob_end_flush();
 ?>
 
 <html>
