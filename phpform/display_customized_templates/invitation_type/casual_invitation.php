@@ -12,7 +12,7 @@ session_start();
  <body class="template_background">
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
- 	<p>This is the formal invitation page</p>
+ 	<p>This is the casual invitation page</p>
  	<?php 
  	 var_dump($_SESSION);
  	?>
