@@ -6,11 +6,11 @@ and uses regex to identify and replace non-text values
 function cleanInput($input) {
 	$search = array(
 
-	'@<script[^>]*?>.*?</script>@si',   // Strip out javascript
-    '@<[\/\!]*?[^<>]*?>@si',            // Strip out HTML tags
-    '@<style[^>]*?>.*?</style>@siU',    // Strip style tags properly
-    '@<![\s\S]*?--[ \t\n\r]*>@'         // Strip multi-line comments
-   
+	'@<script[^>]*?>.*?</script>@si',   // Remove JavaScript tags
+    '@<[\/\!]*?[^<>]*?>@si',            // Remove HTML tags
+    '@<style[^>]*?>.*?</style>@siU',    // Remove CSS/Style tags 
+    '@<![\s\S]*?--[ \t\n\r]*>@'         // Remove multi-line comments tags
+
    );
 
 	$output = preg_replace($search, '', $input);

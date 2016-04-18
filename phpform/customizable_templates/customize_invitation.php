@@ -5,6 +5,7 @@
 * when including helper_function file */
 ob_start();
 session_start();
+include("../helper_functions/sanitize.php");
 
 $parents_names = sanitize($_POST['parents_names']);
 $spouse1 = sanitize($_POST['spouse1']);
@@ -19,7 +20,8 @@ $_SESSION['spouse2'] = $spouse2;
 $_SESSION['venue'] = $venue;
 $_SESSION['date'] = $date;
 
-ob_end_flush();
+$buffer = ob_get_contents();
+ob_end_clean();
 ?>
 
 <html>
@@ -71,5 +73,4 @@ ob_end_flush();
 
      <script type="text/javascript" src="../main.js"></script>
  </body>
- <?php //ob_end_flush(); ?>
 </html>
