@@ -3,11 +3,6 @@
 /* Utilizing output buffering for now 
 * to fix "headers_sent" error 
 * when including helper_function file */
-<<<<<<< HEAD
-include("../helper_functions/sanitize.php");
-=======
-
->>>>>>> 804a25e2f5e75e98420bfc6b4caf323638f3e589
 ob_start();
 session_start();
 
@@ -25,10 +20,6 @@ $_SESSION['venue'] = $venue;
 $_SESSION['date'] = $date;
 
 ob_end_flush();
-<<<<<<< HEAD
-
-=======
->>>>>>> 804a25e2f5e75e98420bfc6b4caf323638f3e589
 ?>
 
 <html>
