@@ -22,7 +22,8 @@ $_SESSION['venue'] = $venue;
 $_SESSION['date'] = $date;
 $_SESSION['invite_type'] = $invite_type;
 
-$buffer = ob_get_contents();
+$_SESSION = ob_get_contents();
+
 ob_end_clean();
 ?>
 
@@ -59,10 +60,10 @@ ob_end_clean();
        
         <label>Select Invitation Type:<br><br>
           <select class="select_invite_option" name="invite_type">
-            <option name="formal">Formal</option>
-            <option name="semi_formal">Semi-Formal</option>
-            <option name="casual">Casual</option>
-            <option name="preview">Show me a Preview!</option>
+            <option value="formal">Formal</option>
+            <option value="semi_formal">Semi-Formal</option>
+            <option value="casual">Casual</option>
+            <option value="preview">Show me a Preview!</option>
           </select>
         </label>
     </div>
@@ -71,7 +72,7 @@ ob_end_clean();
           <br>
           <label>Add a message:<br>
           <textarea class="editor1" name="message" name="invitation_message" required></textarea>
-          <input type="submit" class="button" value="Next">
+          <input type="submit" class="button" value="Next" name="form_submit">
         </form>
       </div>
 

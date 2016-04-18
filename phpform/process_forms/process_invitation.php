@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(isset($_POST['submit'])){
+if(isset($_POST['form_submit'])){
 
 $user_choice = $_POST['invite_type'];
 switch ($user_choice) {

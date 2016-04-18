@@ -34,9 +34,10 @@
 	padding: 4px;
 }
 
-.form_container select option:hover {
+.form_container select option:active {
 	background-color: #DB3857;
 }
+
 
 #index_button {
 	margin-top: 5px;
