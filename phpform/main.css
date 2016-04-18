@@ -24,10 +24,18 @@
 
 .form_container select {
 	margin-top: -20px;
+	text-align: center;
 }
 
-.form_container select option{
-	margin-right: 50%;
+.form_container select option {
+	margin-right: -1%;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	padding: 4px;
+}
+
+.form_container select option:hover {
+	background-color: #DB3857;
 }
 
 #index_button {
@@ -78,8 +86,17 @@
 
 .form_container input {
 	clear: right;
+	font-family: Helvetica, sans-serif;
 	display: inline-block;
 	margin-left: 2px;
+}
+
+.form_container input::selection {
+	display: inline-block;
+	margin-left: 2px;
+	font-family: Helvetica, sans-serif;
+	background-color: #DB3857;
+	color: #FFFFFF;
 }
 
 .form_container .type_name {
@@ -93,14 +110,18 @@
 
 .form_container .select_invite_option {
 	text-align: left;
+	font-family: Helvetica, sans-serif;
 	position: relative;
 	float: left;
 	margin-right: 200px;
 }
 
 .form_container .select_invite_option:hover {
-	text-align: left;
-	background-color: blue;
+	font-family: Helvetics, sans-serif;
+	text-decoration: none;
+	border: none;
+	background-color: #DB3857;
+	color: #FFFFFF;
 }
 
 
