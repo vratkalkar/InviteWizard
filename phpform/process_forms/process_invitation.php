@@ -10,6 +10,7 @@ $spouse1 = sanitize($_POST['spouse1']);
 $spouse2 = sanitize($_POST['spouse2']);
 $venue = sanitize($_POST['venue']);
 $date = sanitize($_POST['date']);
+$invite_type = $_POST['invite_type'];
 
 $_SESSION['parents_names'] = $parents_names;
 $_SESSION['spouse1'] = $spouse1;
