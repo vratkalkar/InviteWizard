@@ -17,7 +17,24 @@ $_SESSION['spouse1'] = $spouse1;
 $_SESSION['spouse2'] = $spouse2;
 $_SESSION['venue'] = $venue;
 $_SESSION['date'] = $date;
-header("Location: ../display_customized_templates/invitation.php");
+$_SESSION['invite_type'] = $invite_type;
+
+$user_choice = $_SESSION['invite_type'];
+switch ($user_choice) {
+	case 'formal':
+		# code...
+		break;
+	case 'semi_formal':
+		#code
+		break;
+	case 'casual':
+		#code
+		break;
+	default:
+		header("Location: ../display_customized_templates/invitation.php");.
+		break;
+}
+
 
 ob_end_flush();
 ?>
