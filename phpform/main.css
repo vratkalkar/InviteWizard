@@ -39,6 +39,7 @@
 }
 
 
+
 #index_button {
 	margin-top: 5px;
 	margin-left:38%;
@@ -200,7 +201,9 @@
 	margin-top: 50px;
 }
 
-
+.theme_container .button {
+	background-color:#DB3857;
+}
 
 
 
