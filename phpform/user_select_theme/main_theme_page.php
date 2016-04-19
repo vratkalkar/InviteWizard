@@ -12,7 +12,11 @@ session_start();
  <body class="template_background">
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
- 	<p>This is the theme selection page</p>
+    <div class="header_section">
+ 	  <h3>Choose a Theme</h3>
+    </div>
+    <div class="theme_container">
+    </div>
  	<?php 
  	 var_dump($_SESSION);
  	?>
