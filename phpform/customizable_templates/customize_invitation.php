@@ -7,7 +7,6 @@ ob_start();
 session_start();
 include("../helper_functions/sanitize.php");
 
-
 $_SESSION['parents_names'] = $_POST['parents_names'];
 $_SESSION['spouse1'] = $_POST['spouse1'];
 $_SESSION['spouse2'] = $_POST['spouse2'];
@@ -49,8 +48,8 @@ ob_end_clean();
         <label>Date:<br>
           <input type="text" name="date" required/>
         </label>
-       
-        <label>Select Invitation Type:<br><br>
+        
+        <label class="select_section">Invitation Type:<br><br>
           <select class="select_invite_option" name="invite_type">
             <option value="formal">Formal</option>
             <option value="semi_formal">Semi-Formal</option>
@@ -61,7 +60,8 @@ ob_end_clean();
     </div>
 
       <div class="editor_section">
-          <br>
+        <br>
+        <br>
           <label>Add a message:<br>
           <textarea class="editor1" name="message" name="invitation_message" required></textarea>
           <input type="submit" class="button" value="Next" name="form_submit">

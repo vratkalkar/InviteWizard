@@ -15,9 +15,7 @@ function cleanInput($input) {
 	$output = preg_replace($search, '', $input);
 	return $output;
   }
-?>
-
-<?php
+  
  function sanitize($input) {
  	if (is_array($input)) {
  		foreach($input as $var=>$val) {
