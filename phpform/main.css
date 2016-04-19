@@ -201,8 +201,13 @@
 	margin-top: 50px;
 }
 
-.theme_container .button {
+#make_appy_button {
 	background-color:#DB3857;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 39%;
+	margin-top: 1%;
+	width: 25%;
 }
 
 

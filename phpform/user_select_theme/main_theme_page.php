@@ -21,7 +21,7 @@ session_start();
       	<form action="process_theme_selection.php" method="POST">
     	  <p style="text-align:center; padding-top: 200px">Theme images would appear here for selection</p>
       </div>
-      <input class="index_button" class="expanded button" type="submit" name="form_submit" value="Customize">
+       <input id="make_appy_button" class="button" type="submit" name="form_submit" value="Customize">
     </form>
 </div>
  	<p></p>
