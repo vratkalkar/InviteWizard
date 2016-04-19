@@ -19,7 +19,7 @@ session_start();
 
       <div class="theme_container">
       	<!-- Form action is a GET until theme selection code is added -->
-      	<form action="../display_customized_templates/invitation_type/formal_invitation.php" method="GET">
+      	<form action="../customizable_templates/customize_invitation.php" method="GET">
     	  <p style="text-align:center; padding-top: 200px">Theme images would appear here for selection</p>
       </div>
        <input id="make_appy_button" class="button" type="submit" name="form_submit" value="Customize">
