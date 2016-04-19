@@ -16,6 +16,7 @@ session_start();
  	  <h3>Choose a Theme</h3>
     </div>
     <div class="theme_container">
+    	<p style="text-align:center; padding-top: 200px">Theme images would appear here for selection</p>
     </div>
  	<?php 
  	 var_dump($_SESSION);
