@@ -120,7 +120,7 @@
 }
 
 .form_container .select_invite_option {
-	text-align: center;
+	text-align: left;
 	font-family: Helvetica, sans-serif;
 	position: relative;
 	float: left;
@@ -128,7 +128,7 @@
 }
 
 .form_container .select_invite_option option {
-	margin-left: 4px;
+	text-align: left;
 }
 .form_container .label {
 	margin-right: 2px;
