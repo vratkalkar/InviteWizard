@@ -22,13 +22,13 @@ $_SESSION['mailing_address'] = $_POST['mailing_address'];
      <div class="form_container">
         <form action="process_mailing_address.php" method="POST" data-abide>
           <label>Your Names:<br>
-            <input name="names" required/>
+            <input type="text" name="names" required/>
           </label>
           <label>Email Address:<br>
-            <input name="email_address" required/>
+            <input type="text" name="email_address" required/>
           </label>
           <label>Phone Number:<br>
-            <input name="phone_number" required/>
+            <input type="text" name="phone_number" required/>
           </label>
       </div>
 

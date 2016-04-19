@@ -22,16 +22,16 @@ $_SESSION['website'] = $_POST['website'];
      <div class="form_container">
       <form action="process_save_the_date.php" method="POST" data-abide>
       <label>Date:<br>
-        <input name="stdt_date" required/>
+        <input type="text" name="stdt_date" required/>
       </label>
       <label>Location:<br>
-        <input name="location" required/>
+        <input type="text" name="location" required/>
       </label>
       <label>Your Names:<br>
-        <input name="names" required>
+        <input type="text" name="names" required>
       </label>
       <label>Your Website:<br>
-        <input id="website_textfield" name="website" placeholder="example.appycouple.com"/>
+        <input type="text" id="website_textfield" name="website" placeholder="example.appycouple.com"/>
       </label>
       </form>
      </div>

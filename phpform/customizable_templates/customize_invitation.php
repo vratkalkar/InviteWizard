@@ -35,19 +35,19 @@ ob_end_clean();
      <div class="form_container">
       <form action="../process_forms/process_invitation.php" method="POST" data-abide>
         <label>Parent's Names:<br>
-          <input name="parents_names" required/>
+          <input type="text" name="parents_names" required/>
         </label>
         <label>Your Name:<br>
-          <input name="spouse1" required/>
+          <input type="text" name="spouse1" required/>
         </label>
         <label>Fiance's Name:<br>
-          <input name="spouse2" required/>
+          <input type="text" name="spouse2" required/>
         </label>
         <label>Venue:<br>
-          <input name="venue" required/>
+          <input type="text" name="venue" required/>
         </label>
         <label>Date:<br>
-          <input name="date" required/>
+          <input type="text" name="date" required/>
         </label>
        
         <label>Select Invitation Type:<br><br>
