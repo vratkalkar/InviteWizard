@@ -108,7 +108,8 @@
 	/*width:68%;*/
 	position: relative;
 	float: left;
-	margin-left:22%;
+	width: 110%;
+	margin-right: 14%;
 }
 
 
@@ -123,7 +124,7 @@
 	font-family: Helvetica, sans-serif;
 	position: relative;
 	float: left;
-	margin-left: 10px;
+	margin-left: 0 auto;
 }
 
 .form_container .select_invite_option option {
