@@ -106,7 +106,7 @@
 
 .form_container select {
 	width:60%;
-	margin-left: 0;
+	margin-left: 20%;
 }
 
 .form_container select option {
@@ -125,7 +125,7 @@
 	font-family: Helvetica, sans-serif;
 	position: relative;
 	float: left;
-	margin-right:20px;
+	margin: 0;
 }
 
 .form_container .select_invite_option option {

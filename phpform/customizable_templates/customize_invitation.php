@@ -49,7 +49,7 @@ ob_end_clean();
           <input type="text" name="date" required/>
         </label>
         
-        <label class="select_section">Invitation Type:<br><br>
+        <label class="select_section">Invitation Type:<br>
           <select class="select_invite_option" name="invite_type">
             <option value="formal">Formal</option>
             <option value="semi_formal">Semi-Formal</option>
