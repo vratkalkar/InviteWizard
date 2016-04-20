@@ -125,12 +125,12 @@
 	font-family: Helvetica, sans-serif;
 	position: relative;
 	float: left;
-	margin-left: 0 auto;
+	margin-right:20px;
 }
 
 .form_container .select_invite_option option {
 	text-align: left;
-	margin-right: 10px;
+	margin-right: 30px;
 }
 .form_container .label {
 	margin-right: 2px;
