@@ -1,5 +1,6 @@
 <?php
 session_start();
+$SESSION['selected_theme'] = $_POST['selected_theme'];
 ?>
 
 <html>
