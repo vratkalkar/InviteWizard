@@ -1,21 +1,13 @@
 
 <?php
-/* Utilizing output buffering for now 
-* to fix "headers_sent" error 
-* when including helper_function file */
-ob_start();
 session_start();
 include("../helper_functions/sanitize.php");
-
 $_SESSION['parents_names'] = $_POST['parents_names'];
 $_SESSION['spouse1'] = $_POST['spouse1'];
 $_SESSION['spouse2'] = $_POST['spouse2'];
 $_SESSION['venue'] = $_POST['venue'];
 $_SESSION['date'] = $_POST['date'];
 $_SESSION['invite_type'] = $_POST['invite_type'];
-
-$buffer = ob_get_contents();
-ob_end_clean(); 
 ?>
 
 <html>
@@ -49,7 +41,7 @@ ob_end_clean();
           <input type="text" name="date" required/>
         </label>
         
-        <label class="select_section">Invitation Type:<br>
+        <label class="select_section">Invitation Type:
           <select class="select_invite_option" name="invite_type">
             <option value="formal">Formal</option>
             <option value="semi_formal">Semi-Formal</option>

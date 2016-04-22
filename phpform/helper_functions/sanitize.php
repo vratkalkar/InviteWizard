@@ -1,7 +1,4 @@
 <?php
-/* This is a function that takes the user form input 
-and uses regex to identify and replace non-text values
-*/
 function cleanInput($input) {
 	$search = array(
 
@@ -15,7 +12,7 @@ function cleanInput($input) {
 	$output = preg_replace($search, '', $input);
 	return $output;
   }
-  
+
  function sanitize($input) {
  	if (is_array($input)) {
  		foreach($input as $var=>$val) {

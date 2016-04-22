@@ -1,7 +1,6 @@
 <?php
 //Get select option on submit and redirect to corresponding page
 if(isset($_POST['form_submit'])){
-
 	$user_choice = $_POST['chosen_template'];
 	 switch($user_choice){
 		case 'wedding_invitation':
@@ -23,7 +22,5 @@ if(isset($_POST['form_submit'])){
 		  header("Location: ../customizable_templates/customize_thank_you_card.php");
 		  break;
 	}
-
  }
- 
 ?>
