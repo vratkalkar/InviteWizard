@@ -57,7 +57,6 @@ $_SESSION['invite_type'] = sanitize($_POST['invite_type']);
           <input type="submit" class="button" value="Next" name="form_submit">
         </form>
       </div>
-
      <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>
