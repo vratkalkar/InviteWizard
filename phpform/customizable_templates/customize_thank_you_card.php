@@ -8,7 +8,6 @@ $_SESSION['thank_you_message'] = $_POST['thank_you_message'];
   <link rel="stylesheet" href="../reset.css" type="text/css">
   <link rel="stylesheet" href="../main.css" type="text/css">
   <link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" type="text/css">
   <script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
  </head>
  <body class="template_background">

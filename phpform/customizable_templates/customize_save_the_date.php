@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['save_the_date_message'] = $POST['save_the_date_message'];
+$_SESSION['save_the_date_message'] = $_POST['save_the_date_message'];
 $_SESSION['stdt_date'] = $_POST['stdt_date'];
 $_SESSION['location'] = $_POST['location'];
 $_SESSION['names'] = $_POST['names'];
