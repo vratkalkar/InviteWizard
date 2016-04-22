@@ -12,5 +12,8 @@ session_start();
  <body class="template_background">
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
+   <div class="header_section">
+     <h3 class>View Preview Invitation</h3>
+   </div>
  </body>
 </html>
