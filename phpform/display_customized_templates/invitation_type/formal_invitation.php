@@ -11,7 +11,7 @@
  <body class="template_background">
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
- 	<p>This is the formal invitation page</p>
+ 	<h3 class="header_section">Customize Invitation</h3>
  	<?php var_dump($_SESSION); ?>
  </body>
 </html>

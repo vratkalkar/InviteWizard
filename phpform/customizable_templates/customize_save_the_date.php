@@ -6,6 +6,7 @@ $_SESSION['location'] = $_POST['location'];
 $_SESSION['names'] = $_POST['names'];
 $_SESSION['website'] = $_POST['website'];
 ?>
+
 <html>
 <meta charset="utf-8">
 <head>

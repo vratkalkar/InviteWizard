@@ -7,6 +7,7 @@ $_SESSION['venue'] = $_POST['venue'];
 $_SESSION['date'] = $_POST['date'];
 $_SESSION['invite_type'] = $_POST['invite_type'];
 ?>
+
 <html>
 <meta charset="utf-8">
 <head>

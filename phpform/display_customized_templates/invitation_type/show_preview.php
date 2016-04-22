@@ -12,10 +12,5 @@ session_start();
  <body class="template_background">
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
- 	<p>This is the invitation page</p>
- 	<?php 
- 	 var_dump($_SESSION);
- 	?>
- 	<p></p>
  </body>
 </html>

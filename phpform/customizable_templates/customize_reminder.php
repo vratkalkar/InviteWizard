@@ -2,6 +2,7 @@
 session_start();
 $_SESSION['reminder'] = $_POST['reminder'];
 ?>
+
 <html>
 <meta charset="utf-8">
 <head>
