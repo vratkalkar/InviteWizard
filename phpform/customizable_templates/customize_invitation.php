@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 include("../helper_functions/sanitize.php");
@@ -41,7 +40,7 @@ $_SESSION['invite_type'] = $_POST['invite_type'];
           <input type="text" name="date" required/>
         </label>
         
-        <label class="select_section">Invitation Type:
+        <label class="select_section">Invitation Type:<br>
           <select class="select_invite_option" name="invite_type">
             <option value="formal">Formal</option>
             <option value="semi_formal">Semi-Formal</option>
