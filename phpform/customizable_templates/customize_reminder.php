@@ -14,6 +14,11 @@ $_SESSION['reminder'] = $_POST['reminder'];
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
+
+   <div class="header_section">
+     <h3>Customize</h3>
+   </div>
+
    <div class="row">
      <div class="form_container">
       <form action="process_reminder.php" method="POST" data-abide>
