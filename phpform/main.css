@@ -227,6 +227,14 @@
 	width: 25%;
 }
 
+/* Display Customized Template Styles */
+.customized_template_preview_area .button {
+	background-color:#DB3857;
+	text-decoration:none;
+	margin-left:10%;
+	margin-top:5px;
+}
+
 
 
 

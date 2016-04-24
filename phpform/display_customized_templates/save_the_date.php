@@ -18,5 +18,6 @@ $_SESSION['website'] = $POST['website'];
  	<div class="title_bar">APPY COUPLE</div>
     <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the save the date page</p>
+ 	<input type="submit" class="button" value="Download" name="download_submit">
  </body>
 </html>

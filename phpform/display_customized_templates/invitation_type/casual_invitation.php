@@ -12,9 +12,11 @@
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="header_section">
-     <h3>Your Customized Invitation</h3>
+      <h3>Your Customized Invitation</h3>
    </div>
- 	<?php var_dump($_SESSION); ?>
- 	<input type="submit" class="button" value="Download" name="submit_download">
+   <div class="customized_template_preview_area">
+ 	 <?php var_dump($_SESSION); ?>
+ 	 <input type="submit" class="button" value="Download" name="download_submit">
+   </div>
  </body>
 </html>
