@@ -14,6 +14,7 @@ session_start();
    <div class="sub_title_bar">Appy Stationery Studio</div>
    <div class="header_section">
      <h3 class>View Preview Invitation</h3>
+     <input type="submit" class="button" value="Download" name="submit_download">
    </div>
  </body>
 </html>

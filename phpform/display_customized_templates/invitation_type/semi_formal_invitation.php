@@ -15,5 +15,6 @@
      <h3 class>Your Customized Invitation</h3>
    </div>
  	<?php var_dump($_SESSION); ?>
+ 	<input type="submit" class="button" value="Download" name="submit_download">
  </body>
 </html>
