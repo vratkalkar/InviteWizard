@@ -13,7 +13,7 @@ $_SESSION['website'] = $_POST['website'];
   <link rel="stylesheet" href="../reset.css" type="text/css" />
   <link rel="stylesheet" href="../main.css" type="text/css" />
   <link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css" /> 
-  <script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
+  <script src="//cdn.ckeditor.com/4.5.8/basic/ckeditor.js"></script>
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
