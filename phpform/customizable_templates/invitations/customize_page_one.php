@@ -1,16 +1,9 @@
 <?php
 session_start();
-$_SESSION['spouse2'] = $_POST['spouse2'];
+$_SESSION['invite_type'] = $_POST['invite_type'];
 $_SESSION['parents_names'] = $_POST['parents_names'];
 $_SESSION['spouse1'] = $_POST['spouse1'];
 $_SESSION['spouse2'] = $_POST['spouse2'];
-$_SESSION['venue'] = $_POST['venue'];
-$_SESSION['address'] = $_POST['address'];
-$_SESSION['date'] = $_POST['date'];
-$_SESSION['time'] = $_POST['time'];
-$_SESSION['invite_type'] = $_POST['invite_type'];
-$_SESSION['website_url'] = $_POST['website_url'];
-$_SESSION['wedding_code'] = $_POST['wedding_code'];
 ?>
 
 <html>
@@ -39,7 +32,10 @@ $_SESSION['wedding_code'] = $_POST['wedding_code'];
           </select>
         </label>
 
-      <div>
+        <label>Parent's Names:<br>
+          <input type="text" name="parents_names" required />
+        </label>
+
         <label>Your Name:<br>
           <input type="text" name="spouse1" required />
         </label>
@@ -47,13 +43,8 @@ $_SESSION['wedding_code'] = $_POST['wedding_code'];
         <label>Fiance's Name:<br>
           <input type="text" name="spouse2" required />
         </label>
-
-        <label>Parent's Names:<br>
-          <input type="text" name="parents_names" required />
-        </label>
-      </div>
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
       </div>
-     <script type="text/javascript" src="../main.js"></script>
+     <script type="text/javascript" src="../../main.js"></script>
  </body>
 </html>
