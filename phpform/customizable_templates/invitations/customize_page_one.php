@@ -3,11 +3,6 @@ session_start();
 $_SESSION['parents_names'] = $_POST['parents_names'];
 $_SESSION['spouse1'] = $_POST['spouse1'];
 $_SESSION['spouse2'] = $_POST['spouse2'];
-$_SESSION['venue'] = $_POST['venue'];
-$_SESSION['date'] = $_POST['date'];
-$_SESSION['time'] = $_POST['time'];
-$_SESSION['website_url'] = $_POST['website_url'];
-$_SESSION['wedding_code'] = $_POST['wedding_code'];
 ?>
 
 <html>
@@ -36,32 +31,8 @@ $_SESSION['wedding_code'] = $_POST['wedding_code'];
           <input type="text" name="spouse2" required />
         </label>
 
-        <label>Venue:<br>
-          <input type="text" name="venue" required />
-        </label>
-
-        <label>Address:<br>
-          <input type="text" name="address" required />
-        </label>
-
-        <label>Date:<br>
-          <input type="date" name="date" required />
-        </label>
-
-        <label>Time:<br>
-          <input type="text" name="time" required />
-        </label>
-
         <label>Parent's Names:<br>
           <input type="text" name="parents_names" required />
-        </label>
-
-        <label>Website URL:<br>
-          <input type="text" name="website_url" />
-        </label>
-
-        <label>Wedding Code:<br>
-          <input type="number" name="wedding_code" placeholder="Your Appy Code" />
         </label>
 
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">

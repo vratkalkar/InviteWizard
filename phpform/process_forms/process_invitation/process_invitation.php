@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../helper_functions/sanitize.php");
+include("../../helper_functions/sanitize.php");
 $_SESSION['parents_names'] = sanitize($_POST['parents_names']);
 $_SESSION['spouse1'] = sanitize($_POST['spouse1']);
 $_SESSION['spouse2'] = sanitize($_POST['spouse2']);
@@ -17,14 +17,8 @@ if(isset($_POST['form_submit'])){
       case 'formal':
 	    header("Location: ../display_customized_templates/invitation_type/formal_invitation.php");
 	    break;
-      case 'semi_formal':
-	    header("Location: ../display_customized_templates/invitation_type/semi_formal_invitation.php");
-	    break;
       case 'casual':
 	    header("Location: ../display_customized_templates/invitation_type/casual_invitation.php");
-	    break;
-      case 'preview':
-        header("Location: ../display_customized_templates/invitation.php");
 	    break;
   }
 }
