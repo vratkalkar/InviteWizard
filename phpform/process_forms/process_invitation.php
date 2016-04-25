@@ -6,6 +6,9 @@ $_SESSION['spouse1'] = sanitize($_POST['spouse1']);
 $_SESSION['spouse2'] = sanitize($_POST['spouse2']);
 $_SESSION['venue'] = sanitize($_POST['venue']);
 $_SESSION['date'] = sanitize($_POST['date']);
+$_SESSION['time'] = sanitize($_POST['time']);
+$_SESSION['website_url'] = sanitize($_POST['website_url']);
+$_SESSION['wedding_code'] = sanitize($_POST['wedding_code']);
 $_SESSION['invite_type'] = sanitize($_POST['invite_type']);
 
 if(isset($_POST['form_submit'])){

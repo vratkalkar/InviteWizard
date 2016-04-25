@@ -58,7 +58,7 @@ $_SESSION['invite_type'] = $_POST['invite_type'];
         </label>
 
         <label>Website URL:<br>
-          <input type="url" name="website_url" />
+          <input type="text" name="website_url" />
         </label>
 
         <label>Wedding Code:<br>
@@ -71,7 +71,7 @@ $_SESSION['invite_type'] = $_POST['invite_type'];
             <option value="casual">Casual</option>
           </select>
         </label>
-        
+
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
     </div>
      <script type="text/javascript" src="../main.js"></script>
