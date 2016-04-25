@@ -128,11 +128,12 @@
 	position: relative;
 	float: left;
 	margin: 0;
+	width: 180px;
 }
 
 .form_container .select_invite_option option {
 	text-align: left;
-	margin-right: 30px;
+	margin-left: 2px;
 }
 .form_container .label {
 	margin-right: 2px;

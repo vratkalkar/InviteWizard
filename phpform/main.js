@@ -1,9 +1,8 @@
 //Replace textareas with CKEditor
 CKEDITOR.replace('message');
 
-CKEDITOR.replace('editor1', {
-	width: '80%',
-	height: '200%',
-});
-
+ CKEDITOR.replace('message', {
+ 	width: '80%',
+ 	height: '200%'
+ });
 
