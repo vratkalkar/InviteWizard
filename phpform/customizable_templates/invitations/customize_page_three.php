@@ -21,7 +21,7 @@ $_SESSION['wedding_code'] = $_POST['wedding_code'];
 
    <div class="row">
      <div class="form_container">
-      <form action="../process_forms/process_invitation.php" method="POST" data-abide>
+      <form action="../../process_forms/process_invitation/process_page_three.php" method="POST" data-abide>
 
       	<label>Website URL:<br>
           <input type="text" name="website_url" />
