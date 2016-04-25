@@ -5,6 +5,9 @@ $_SESSION['spouse1'] = $_POST['spouse1'];
 $_SESSION['spouse2'] = $_POST['spouse2'];
 $_SESSION['venue'] = $_POST['venue'];
 $_SESSION['date'] = $_POST['date'];
+$_SESSION['time'] = $_POST['time'];
+$_SESSION['website_url'] = $_POST['website_url'];
+$_SESSION['wedding_code'] = $_POST['wedding_code'];
 $_SESSION['invite_type'] = $_POST['invite_type'];
 ?>
 
@@ -14,7 +17,6 @@ $_SESSION['invite_type'] = $_POST['invite_type'];
   <link rel="stylesheet" href="../reset.css" type="text/css" />
   <link rel="stylesheet" href="../main.css" type="text/css" />
   <link rel="stylesheet" href="../foundation-6.2.0-essential/css/foundation.css" type="text/css" /> 
-  <script src="//cdn.ckeditor.com/4.5.8/basic/ckeditor.js"></script>
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
@@ -69,6 +71,7 @@ $_SESSION['invite_type'] = $_POST['invite_type'];
             <option value="casual">Casual</option>
           </select>
         </label>
+        
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
     </div>
      <script type="text/javascript" src="../main.js"></script>
