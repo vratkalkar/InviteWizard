@@ -1,14 +1,15 @@
 <?php
 session_start();
-$_SESSION['parents_names'] = $_POST['parents_names'];
-$_SESSION['spouse1'] = $_POST['spouse1'];
-$_SESSION['spouse2'] = $_POST['spouse2'];
-$_SESSION['venue'] = $_POST['venue'];
-$_SESSION['address'] = $_POST['address'];
-$_SESSION['date'] = $_POST['date'];
-$_SESSION['time'] = $_POST['time'];
-$_SESSION['website_url'] = $_POST['website_url'];
-$_SESSION['wedding_code'] = $_POST['wedding_code'];
+include("../helper_functions/sanitize.php");
+$_SESSION['parents_names'] = sanitize($_POST['parents_names']);
+$_SESSION['spouse1'] = sanitize($_POST['spouse1']);
+$_SESSION['spouse2'] = sanitize($_POST['spouse2']);
+$_SESSION['venue'] = sanitize($_POST['venue']);
+$_SESSION['address'] = sanitize($_POST['address']);
+$_SESSION['date'] = sanitize($_POST['date']);
+$_SESSION['time'] = sanitize($_POST['time']);
+$_SESSION['website_url'] = sanitize($_POST['website_url']);
+$_SESSION['wedding_code'] = sanitize($_POST['wedding_code']);
 ?>
 
 <html>
@@ -23,7 +24,7 @@ $_SESSION['wedding_code'] = $_POST['wedding_code'];
    <div class="sub_title_bar">Appy Invite Wizard</div>
 
    <div class="header_section">
-     <h3>Add your Details:</h3>
+     <h3>Your Suggested Invitation:</h3>
    </div>
    <?php var_dump($_SESSION); ?>
      <script type="text/javascript" src="../main.js"></script>

@@ -12,7 +12,6 @@ $_SESSION['wedding_code'] = sanitize($_POST['wedding_code']);
 $_SESSION['invite_type'] = sanitize($_POST['invite_type']);
 
 if(isset($_POST['form_submit'])){
-
   header("Location: ../../customizable_templates/invitations/customize_page_two.php");
 
   $user_choice = $_POST['invite_type'];

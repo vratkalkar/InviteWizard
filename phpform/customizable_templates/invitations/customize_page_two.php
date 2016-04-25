@@ -23,7 +23,7 @@ $_SESSION['time'] = $_POST['time'];
 
    <div class="row">
      <div class="form_container">
-      <form action="../../process_forms/process_page_twp.php" method="POST" data-abide>
+      <form action="../../process_forms/process_invitation/process_page_two.php" method="POST" data-abide>
 
         <label>Venue:<br>
           <input type="text" name="venue" required />
