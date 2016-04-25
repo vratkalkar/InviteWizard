@@ -12,23 +12,21 @@ session_start();
 <div class="title_bar">APPY COUPLE</div>
 <div class="sub_title_bar">
    <ul class="link_items">
-   	<a href="#"><li class="price_link">$ Pricing</li></a>
-   	<a href="#"><li class="name_link">Appy Stationery Studio</li></a>
-   	<a href="#"><li class="sign_in_link">Register</li></a>
+   	<a href="#"><li class="name_link">Appy Invite Wizard</li></a>
    </ul>
 </div>
 
-<p class="description">Select the type of stationary you're looking for below to get started and customize!</p>
+<p class="description">Click to start customizing!</p>
 
 <div class="form_container">
 <form action="../process_forms/process_index_selection_form.php" method="POST">
   <select name="chosen_template">
 	  <option value="wedding_invitation">Wedding Invitations</option>
-	  <option value="mailing_address">Mailing Address</option>
+	  <!-- <option value="mailing_address">Mailing Address</option>
 	  <option value="save_the_date">Save the Date</option>
 	  <option value="notes">Notes</option>
 	  <option value="reminder">Reminder</option>
-	  <option value="thank_you_card">Thank You Cards</option>
+	  <option value="thank_you_card">Thank You Cards</option> -->
   </select>
   <input id="index_button" class="expanded button" type="submit" name="form_submit" value="Next">
   </p>
