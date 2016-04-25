@@ -21,7 +21,7 @@ $SESSION['selected_theme'] = $_POST['selected_theme'];
       <div class="theme_container">
       	<!-- Form action is a GET until theme selection code is added -->
       	<form action="../customizable_templates/customize_invitation.php" method="GET">
-    	  <p style="text-align:center; padding-top: 200px">Theme images would appear here for selection</p>
+    	  <p style="text-align:center; padding-top: 200px">Theme images would appear here for selection. Display Themes in slideshow-like view.</p>
       </div>
        <input id="make_appy_button" class="button" type="submit" name="form_submit" value="Customize">
     </form>
