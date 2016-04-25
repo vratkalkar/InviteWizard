@@ -22,7 +22,7 @@ $_SESSION['spouse2'] = $_POST['spouse2'];
 
    <div class="row">
      <div class="form_container">
-      <form action="../process_forms/process_invitation/process_invitation.php" method="POST" data-abide>
+      <form action="../../process_forms/process_invitation/process_page_one.php" method="POST" data-abide>
         <label>Your Name:<br>
           <input type="text" name="spouse1" required />
         </label>
