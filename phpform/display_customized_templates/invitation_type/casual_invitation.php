@@ -10,7 +10,7 @@
 </head>
  <body class="template_background">
  <div class="title_bar">APPY COUPLE</div>
-   <div class="sub_title_bar">Appy Stationery Studio</div>
+   <div class="sub_title_bar">Appy Invite Wizard</div>
    <div class="header_section">
       <h3>Your Customized Invitation</h3>
    </div>

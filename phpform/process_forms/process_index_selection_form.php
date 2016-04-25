@@ -4,7 +4,7 @@ if(isset($_POST['form_submit'])){
 	$user_choice = $_POST['chosen_template'];
 	 switch($user_choice){
 		case 'wedding_invitation':
-		  header("Location: ../customizable_templates/customize_invitation.php");
+		  header("Location: ../customizable_templates/invitations/customize_invitation.php");
 		  break;
 		case 'mailing_address':
 		  header("Location: ../customizable_templates/customize_mailing_address.php");
