@@ -13,5 +13,9 @@ session_start();
  	<div class="title_bar">APPY COUPLE</div>
     <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the mailing address page</p>
- </body>
+ 	<div class="customized_template_preview_area">
+ 	 <?php var_dump($_SESSION); ?>
+ 	 <input type="submit" class="button" value="Download" name="download_submit">
+ 	 <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()">
+   </div>
 </html>

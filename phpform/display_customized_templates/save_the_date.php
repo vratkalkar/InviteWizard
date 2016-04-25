@@ -18,6 +18,9 @@ $_SESSION['website'] = $POST['website'];
  	<div class="title_bar">APPY COUPLE</div>
     <div class="sub_title_bar">Appy Stationery Studio</div>
  	<p>This is the save the date page</p>
- 	<input type="submit" class="button" value="Download" name="download_submit">
- </body>
+ 	<div class="customized_template_preview_area">
+ 	 <?php var_dump($_SESSION); ?>
+ 	 <input type="submit" class="button" value="Download" name="download_submit">
+ 	 <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()">
+   </div>
 </html>
