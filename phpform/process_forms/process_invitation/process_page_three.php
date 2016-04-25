@@ -20,5 +20,6 @@ if(isset($_POST['form_submit'])){
       case 'casual':
 	    header("Location: ../display_customized_templates/invitation_type/casual_invitation.php");
 	    break;
+	}
 }
 ?>

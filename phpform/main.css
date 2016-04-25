@@ -193,6 +193,11 @@
 	text-align:center;
 }
 
+#invite_type_select {
+	width: 90%
+
+}
+
 /* Specific to Save The Date website textfield */
 .form_container #website_textfield {
 	width: 116%;
@@ -258,6 +263,11 @@
 
 .button_area .button:hover {
 	background-color: #DB3857;
+}
+
+/* Customize Page One PHP Styles */
+.form_container .page_one_inputs {
+	margin-top: 30%;
 }
 
 

@@ -12,7 +12,7 @@
  <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Invite Wizard</div>
    <div class="header_section">
-      <h3>Your Customized Invitation</h3>
+      <h3>Your Suggested Invitation</h3>
    </div>
    <div class="customized_template_preview_area">
  	 <?php var_dump($_SESSION); ?>

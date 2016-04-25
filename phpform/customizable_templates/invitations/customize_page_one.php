@@ -31,6 +31,15 @@ $_SESSION['wedding_code'] = $_POST['wedding_code'];
    <div class="row">
      <div class="form_container">
       <form action="../../process_forms/process_invitation/process_page_one.php" method="POST" data-abide>
+        
+        <label>What type of invitation would you like?<br><br>
+          <select id="invite_type_select" name="invite_type">
+            <option value="formal_invitation">Formal</option>
+            <option value="casual_invitation">Casual</option>>
+          </select>
+        </label>
+
+      <div>
         <label>Your Name:<br>
           <input type="text" name="spouse1" required />
         </label>
@@ -42,9 +51,9 @@ $_SESSION['wedding_code'] = $_POST['wedding_code'];
         <label>Parent's Names:<br>
           <input type="text" name="parents_names" required />
         </label>
-
+      </div>
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
-    </div>
+      </div>
      <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>
