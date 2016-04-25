@@ -59,6 +59,10 @@
 	display: inline;
 }
 
+.sub_title_bar ul a {
+	color: white;
+}
+
 .sub_title_bar ul li {
 	line-height: 2.5em;
 	margin-left: 2px;
