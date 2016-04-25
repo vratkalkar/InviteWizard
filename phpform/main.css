@@ -152,8 +152,13 @@
 .form_container .button  {
 	background-color:#DB3857;
 	text-decoration:none;
-	margin-left:10%;
 	margin-top:8px;
+	width: 150px;
+}
+
+.form_container #customize_invite_button {
+	margin-top: 200px;
+	margin-right: 100%;
 }
 
 .form_container .button:hover {

@@ -36,12 +36,12 @@ $_SESSION['mailing_address'] = $_POST['mailing_address'];
           </label>
       </div>
 
-      <div class="editor_section">
+      <!-- <div class="editor_section">
         <label>Your Address:<br>
           <textarea class="editor1" name="message" name="mailing_address"></textarea>
           <input type="submit" class="button" value="Next">
         </form>
-     </div>
+     </div> -->
      <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>

@@ -18,49 +18,59 @@ $_SESSION['invite_type'] = $_POST['invite_type'];
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
-   <div class="sub_title_bar">Appy Stationery Studio</div>
+   <div class="sub_title_bar">Appy Invite Wizard</div>
 
    <div class="header_section">
-     <h3>Customize Invitation</h3>
+     <h3>Add your Details:</h3>
    </div>
 
    <div class="row">
      <div class="form_container">
       <form action="../process_forms/process_invitation.php" method="POST" data-abide>
-        <label>Parent's Names:<br>
-          <input type="text" name="parents_names" required/>
-        </label>
         <label>Your Name:<br>
-          <input type="text" name="spouse1" required/>
+          <input type="text" name="spouse1" required />
         </label>
+
         <label>Fiance's Name:<br>
-          <input type="text" name="spouse2" required/>
+          <input type="text" name="spouse2" required />
         </label>
+
         <label>Venue:<br>
-          <input type="text" name="venue" required/>
+          <input type="text" name="venue" required />
         </label>
+
+        <label>Address:<br>
+          <input type="text" name="address" required />
+        </label>
+
         <label>Date:<br>
-          <input type="text" name="date" required/>
+          <input type="date" name="date" required />
         </label>
-        
+
+        <label>Time:<br>
+          <input type="text" name="time" required />
+        </label>
+
+        <label>Parent's Names:<br>
+          <input type="text" name="parents_names" required />
+        </label>
+
+        <label>Website URL:<br>
+          <input type="url" name="website_url" />
+        </label>
+
+        <label>Wedding Code:<br>
+          <input type="number" name="website_url" placeholder="Your Appy Code" />
+        </label>
+
         <label class="select_section">Invitation Type:<br>
           <select class="select_invite_option" name="invite_type">
             <option value="formal">Formal</option>
-            <option value="semi_formal">Semi-Formal</option>
             <option value="casual">Casual</option>
-            <option value="preview">Show me a Preview!</option>
           </select>
         </label>
+         <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
     </div>
-
-      <div class="editor_section">
-        <br>
-        <br>
-          <label>Add a message:<br>
-          <textarea class="editor1" name="message" name="invitation_message" required></textarea>
-          <input type="submit" class="button" value="Next" name="form_submit">
-        </form>
-      </div>
      <script type="text/javascript" src="../main.js"></script>
  </body>
 </html>
