@@ -8,7 +8,6 @@ $_SESSION['date'] = $_POST['date'];
 $_SESSION['time'] = $_POST['time'];
 $_SESSION['website_url'] = $_POST['website_url'];
 $_SESSION['wedding_code'] = $_POST['wedding_code'];
-$_SESSION['invite_type'] = $_POST['invite_type'];
 ?>
 
 <html>
@@ -62,14 +61,7 @@ $_SESSION['invite_type'] = $_POST['invite_type'];
         </label>
 
         <label>Wedding Code:<br>
-          <input type="number" name="website_url" placeholder="Your Appy Code" />
-        </label>
-
-        <label class="select_section">Invitation Type:<br>
-          <select class="select_invite_option" name="invite_type">
-            <option value="formal">Formal</option>
-            <option value="casual">Casual</option>
-          </select>
+          <input type="number" name="wedding_code" placeholder="Your Appy Code" />
         </label>
 
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
