@@ -1,9 +1,5 @@
 <?php
 session_start();
-$_SESSION['venue'] = $_POST['venue'];
-$_SESSION['address'] = $_POST['address'];
-$_SESSION['date'] = $_POST['date'];
-$_SESSION['time'] = $_POST['time'];
 ?>
 
 <html>
