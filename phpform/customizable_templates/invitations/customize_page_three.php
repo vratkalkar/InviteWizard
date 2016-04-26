@@ -1,10 +1,9 @@
 <?php
 session_start();
-$_SESSION['website_url'] = $_POST['website_url'];
-$_SESSION['wedding_code'] = $_POST['wedding_code'];
-
-$website_url = $_SESSION['website_url'];
-$wedding_code = $_SESSION['wedding_code'];
+$_SESSION['venue'] = $_POST['venue'];
+$_SESSION['address'] = $_POST['address'];
+$_SESSION['date'] = $_POST['date'];
+$_SESSION['time'] = $_POST['time'];
 ?>
 
 <html>
@@ -25,17 +24,16 @@ $wedding_code = $_SESSION['wedding_code'];
    <div class="row">
      <div class="form_container">
       <form action="../../process_forms/process_invitation/process_page_three.php" method="POST" data-abide>
-
       	<label>Website URL:<br>
           <input type="text" name="website_url" />
         </label>
-
         <label>Wedding Code:<br>
           <input type="number" name="wedding_code" placeholder="Your Appy Code" />
         </label>
-       
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
-    </div>
-     <script type="text/javascript" src="../../main.js"></script>
+      </form>
+     </div>
+   </div>
+ <script type="text/javascript" src="../../main.js"></script>
  </body>
 </html>

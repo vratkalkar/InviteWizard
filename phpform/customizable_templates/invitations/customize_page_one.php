@@ -1,14 +1,5 @@
 <?php
-session_start();
-$_SESSION['invite_type'] = $_POST['invite_type'];
-$_SESSION['parents_names'] = $_POST['parents_names'];
-$_SESSION['spouse1'] = $_POST['spouse1'];
-$_SESSION['spouse2'] = $_POST['spouse2'];
-
-$invite_type = $_SESSION['invite_type'];
-$parents_names = $_SESSION['parents_names'];
-$spouse1 = $_SESSION['spouse1'];
-$spouse2 = $_SESSION['spouse2'];
+ session_start();
 ?>
 
 <html>
@@ -49,7 +40,9 @@ $spouse2 = $_SESSION['spouse2'];
           <input type="text" name="spouse2" required />
         </label>
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
-      </div>
+    </form>
+  </div>
+ </div>
      <script type="text/javascript" src="../../main.js"></script>
  </body>
 </html>

@@ -1,14 +1,5 @@
 <?php
-session_start();
-$_SESSION['venue'] = $_POST['venue'];
-$_SESSION['address'] = $_POST['address'];
-$_SESSION['date'] = $_POST['date'];
-$_SESSION['time'] = $_POST['time'];
-
-$venue = $_SESSION['venue'];
-$address = $_SESSION['address'];
-$date = $_SESSION['date'];
-$time = $_SESSION['time'];
+ session_start();
 ?>
 
 <html>
@@ -45,10 +36,10 @@ $time = $_SESSION['time'];
         <label>Time:<br>
           <input type="text" name="time" required />
         </label>
-
-        
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
     </div>
-     <script type="text/javascript" src="../../main.js"></script>
+      <script type="text/javascript" src="../../main.js"></script>
+    </form>
+  </div>
  </body>
 </html>
