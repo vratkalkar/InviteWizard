@@ -1,15 +1,5 @@
 <?php
   session_start();
-  $invite_type;
-  $parents_names;
-  $spouse1;
-  $spouse2;
-  $venue;
-  $address;
-  $date;
-  $time;
-  $website_url;
-  $wedding_code;
 ?>
 
 <html>
