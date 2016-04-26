@@ -16,7 +16,6 @@
    </div>
    <div class="customized_template_preview_area">
  	 <?php var_dump($_SESSION); ?>
-
  	 <div class="button_area">
  	   <input type="submit" class="button" value="Download" name="download_submit">
  	   <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()">
