@@ -17,7 +17,7 @@
      <h3>Your Suggested Invitation:</h3>
    </div>
    <p><?php echo $_SESSION['parents_names']; ?>
-   <?php //var_dump($_SESSION); ?>
+   <?php var_dump($_SESSION); ?>
  </body>
  	<div class="button_area">
  	   <input type="submit" class="button" value="Download" name="download_submit">
