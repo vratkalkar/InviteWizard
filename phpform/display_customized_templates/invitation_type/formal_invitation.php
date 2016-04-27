@@ -18,18 +18,18 @@
    </div>
 
    <div class="invite_container">
-     <h3><?php echo $_SESSION['parents_names']; ?></h3>
-     <h4>Request the pleasure of your company at the auspicious occasion of the</h4>
-            <h4>Wedding Ceremony</h4>
+     <p><?php echo $_SESSION['parents_names']; ?></p>
+     <p>Request the pleasure of your company at the auspicious occasion of the</p>
+            <p>Wedding Ceremony</p>
             <p>of their daughter</p>
-     <h3><?php echo $_SESSION['spouse1']; ?></h3>
+     <p><?php echo $_SESSION['spouse1']; ?></p>
             <p>to</p>
-     <h3><?php echo $_SESSION['spouse2']; ?></h3>
-     <h3><?php echo $_SESSION['date']; ?></h3>
+     <p><?php echo $_SESSION['spouse2']; ?></p>
+     <p><?php echo $_SESSION['date']; ?></p>
             <p>at</p>
-   <h3><?php echo $_SESSION['venue']; ?></h3>
-   <h3><?php echo $_SESSION['address']; ?></h3>
-   <h4>Ceremony begins at <?php echo $_SESSION['time'] ?></h4>
+     <p><?php echo $_SESSION['venue']; ?></p>
+     <p><?php echo $_SESSION['address']; ?></p>
+     <p>Ceremony begins at <?php echo $_SESSION['time'] ?></p>
    </div>
  </body>
  	<div class="button_area">
