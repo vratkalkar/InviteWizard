@@ -19,12 +19,15 @@
 
    <div class="row">
    <div class="form_container">
+    <form action="../../process_forms/process_invitation/process_page_three.php" method="POST">
      <label>What type of invitation would you like?<br><br>
        <select id="invite_type_select" name="invite_type">
          <option value="formal_invitation">Formal</option>
          <option value="casual_invitation">Casual</option>>
        </select>
      </label>
+     <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
+    </form>
    </div>
    </div>
    <script type="text/javascript" src="../../main.js"></script>
