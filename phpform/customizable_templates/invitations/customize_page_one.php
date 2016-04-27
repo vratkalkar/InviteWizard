@@ -38,12 +38,12 @@
           <input type="text" name="venue" required />
         </label>
 
-        <label>Time:<br>
-          <input type="text" name="time" required />
-        </label>
-
         <label>Date:<br>
           <input type="date" name="date" required />
+        </label>
+
+        <label>Time:<br>
+          <input type="text" name="time" required />
         </label>
 
         <label>Address:<br>

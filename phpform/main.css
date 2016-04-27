@@ -167,18 +167,16 @@
 
 /* Separate page Continue/Back button styles */
 #back_button {
-	background-color:#DB3857;
-	margin-top: 250px;
-	margin-left: 200px;
-	width: 180px;
-	height: 40px;
+	margin-top: -56px;
+	margin-left: 444px;
 }
 
 #continue_button {
-	background-color:#DB3857;
-	margin-top: 250px;
-	width: 180px;
-	height: 40px;
+ background-color:#DB3857;
+ margin-top: -2px;
+ margin-left: 602px;
+ width: 180px;
+ height: 40px;
 }
 
 
@@ -287,17 +285,17 @@
 }
 
 .form_container .page_one_inputs #continue_button {
-	margin-top: 110px;
-	margin-left: -130px;
-}
-
-/* customize_page_two.php styles */
-.wed_info label {
 	
 }
 
-.wed_info input {
-	float: left;
+/* customize_page_two.php styles */
+.input_fields {
+	margin-top: 140px;
+	margin-left: 280px;
+}
+
+.input_fields input {
+	width: 300px;
 }
 
 

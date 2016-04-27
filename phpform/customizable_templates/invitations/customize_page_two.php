@@ -21,16 +21,18 @@
 
       <form action="../../process_forms/process_invitation/process_page_two.php" method="POST" data-abide />
 
-        <label>Wedding Website URL:<br>
-          <input type="text" name="website_url"/>
-        </label>
+       <div class="input_fields">
+         <label>Wedding Website URL:<br>
+           <input type="text" name="website_url" placeholder="ex. www.ourwedding.com"/>
+         </label>
 
-        <label>Wedding Code:<br>
-          <input type="text" name="wedding_code" />
+         <label>Wedding Code:<br>
+           <input type="text" name="wedding_code" placeholder="ex. Your Appy Code" />
         </label>
-         <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
-         <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
+       </div>
+       <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
     </form>
+      <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
    </div>
  </div>
 </html>
