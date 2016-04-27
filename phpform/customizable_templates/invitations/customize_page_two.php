@@ -1,7 +1,6 @@
 <?php
  session_start();
 ?>
-
 <html>
 <meta charset="utf-8">
 <head>
@@ -19,14 +18,19 @@
 
    <div class="row">
      <div class="form_container">
-      <form action="../../process_forms/process_invitation/process_page_one.php" method="POST" data-abide>
-        <label>Wedding Website URL:</label>
+
+      <form action="../../process_forms/process_invitation/process_page_two.php" method="POST" data-abide />
+
+        <label>Wedding Website URL:<br>
           <input type="text" name="website_url"/>
-        <label>Wedding Code:</label>
+        </label>
+
+        <label>Wedding Code:<br>
           <input type="text" name="wedding_code" />
-        <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
-        <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
+        </label>
+         <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
+         <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
     </form>
-  </div>
+   </div>
  </div>
 </html>
