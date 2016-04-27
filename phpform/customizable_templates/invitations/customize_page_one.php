@@ -32,7 +32,24 @@
         <label>Fiance's Name:<br>
           <input type="text" name="spouse2" required />
         </label>
-         <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
+
+         <label>Venue:<br>
+          <input type="text" name="venue" required />
+        </label>
+
+        <label>Address:<br>
+          <input type="text" name="address" required />
+        </label>
+
+        <label>Date:<br>
+          <input type="date" name="date" required />
+        </label>
+
+        <label>Time:<br>
+          <input type="text" name="time" required />
+        </label>
+
+        <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
     </form>
   </div>
  </div>

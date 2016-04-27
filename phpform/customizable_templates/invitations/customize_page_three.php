@@ -1,5 +1,5 @@
 <?php
-session_start();
+  session_start();
 ?>
 
 <html>
@@ -18,18 +18,15 @@ session_start();
    </div>
 
    <div class="row">
-     <div class="form_container">
-      <form action="../../process_forms/process_invitation/process_page_three.php" method="POST" data-abide>
-      	<label>Website URL:<br>
-          <input type="text" name="website_url" />
-        </label>
-        <label>Wedding Code:<br>
-          <input type="number" name="wedding_code" placeholder="Your Appy Code" />
-        </label>
-         <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
-      </form>
-     </div>
+   <div class="form_container">
+     <label>What type of invitation would you like?<br><br>
+       <select id="invite_type_select" name="invite_type">
+         <option value="formal_invitation">Formal</option>
+         <option value="casual_invitation">Casual</option>>
+       </select>
+     </label>
    </div>
- <script type="text/javascript" src="../../main.js"></script>
- </body>
+   </div>
+   <script type="text/javascript" src="../../main.js"></script>
+</body>
 </html>

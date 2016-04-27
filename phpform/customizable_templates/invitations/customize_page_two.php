@@ -21,21 +21,14 @@
      <div class="form_container">
       <form action="../../process_forms/process_invitation/process_page_two.php" method="POST" data-abide>
 
-        <label>Venue:<br>
-          <input type="text" name="venue" required />
+        <label>Website URL:<br>
+          <input type="text" name="website_url" />
         </label>
 
-        <label>Address:<br>
-          <input type="text" name="address" required />
+        <label>Wedding Code:<br>
+          <input type="number" name="wedding_code" placeholder="Your Appy Code" />
         </label>
-
-        <label>Date:<br>
-          <input type="date" name="date" required />
-        </label>
-
-        <label>Time:<br>
-          <input type="text" name="time" required />
-        </label>
+        
          <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
     </div>
       <script type="text/javascript" src="../../main.js"></script>

@@ -1,9 +1,7 @@
 <?php
 session_start();
 include("../../helper_functions/sanitize.php");
-$_SESSION['venue'] = sanitize($_POST['venue']);
-$_SESSION['address'] = sanitize($_POST['address']);
-$_SESSION['date'] = sanitize($_POST['date']);
-$_SESSION['time'] = sanitize($_POST['time']);
+$_SESSION['website_url'] = sanitize($_POST['website_url']);
+$_SESSION['wedding_code'] = sanitize($_POST['wedding_code']);
 header("Location: ../../customizable_templates/invitations/customize_page_three.php");
 ?>
