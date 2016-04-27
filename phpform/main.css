@@ -206,8 +206,14 @@
 }
 
 #invite_type_select {
-	width: 90%
+	width: 90%;
+}
 
+.header_section h3 {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	padding-top: 22px;
 }
 
 /* Specific to Save The Date website textfield */
@@ -260,6 +266,41 @@
 .button_area {
 	margin-left: 636px;
 }
+
+
+/* customize_page_one.php styles */
+.form_container .page_one_inputs {
+	margin-top: 60px;
+	margin-left: 318px;
+	width: 60%;
+}
+
+.form_container .page_one_inputs #address_field {
+	width: 310%;
+}
+
+.form_container .page_one_inputs #back_button {
+	margin-top: 110px;
+	padding-right: 20px;
+	margin-left: -110px;
+	margin-right: 150px;
+}
+
+.form_container .page_one_inputs #continue_button {
+	margin-top: 110px;
+	margin-left: -130px;
+}
+
+/* customize_page_two.php styles */
+.wed_info label {
+	
+}
+
+.wed_info input {
+	float: left;
+}
+
+
 
 
 

@@ -19,7 +19,8 @@
 
    <div class="row">
      <div class="form_container">
-      <form action="../../process_forms/process_invitation/process_page_one.php" method="POST" data-abide>
+       <div class="page_one_inputs">
+        <form action="../../process_forms/process_invitation/process_page_one.php" method="POST" data-abide>
 
         <label>Parent's Names:<br>
           <input type="text" name="parents_names" required />
@@ -37,20 +38,23 @@
           <input type="text" name="venue" required />
         </label>
 
-        <label>Address:<br>
-          <input type="text" name="address" required />
+        <label>Time:<br>
+          <input type="text" name="time" required />
         </label>
 
         <label>Date:<br>
           <input type="date" name="date" required />
         </label>
 
-        <label>Time:<br>
-          <input type="text" name="time" required />
+        <label>Address:<br>
+          <input id="address_field" type="text" name="address" required />
         </label>
+       <div>
         <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
         <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
+       </div>
     </form>
+   </div>
   </div>
  </div>
      <script type="text/javascript" src="../../main.js"></script>

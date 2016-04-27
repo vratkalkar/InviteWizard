@@ -19,20 +19,14 @@
 
    <div class="row">
      <div class="form_container">
-       <div class="website_code_info">
-        <form action="../../process_forms/process_invitation/process_page_two.php" method="POST" data-abide>
-           <label>Website URL:<br>
-            <input type="text" name="website_url" />
-           </label>
-           <label>Wedding Code:<br>
-            <input type="number" name="wedding_code" placeholder="Your Appy Code" />
-           </label>
-        </div>
-         </form>
-       <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
-       <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
-    </div>
+      <form action="../../process_forms/process_invitation/process_page_one.php" method="POST" data-abide>
+        <label>Wedding Website URL:</label>
+          <input type="text" name="website_url"/>
+        <label>Wedding Code:</label>
+          <input type="text" name="wedding_code" />
+        <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
+        <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
+    </form>
   </div>
-    <script type="text/javascript" src="../../main.js"></script>
- </body>
+ </div>
 </html>
