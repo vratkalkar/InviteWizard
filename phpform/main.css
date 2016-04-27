@@ -166,6 +166,19 @@
 }
 
 /* Separate page Continue/Back button styles */
+
+
+#p1_back_button {
+  position: relative;
+  margin-top: 100px;
+  right: 64px;
+}
+
+#p1_continue_button {
+  position: relative;
+  margin-top: 100px;
+  right: 69px;
+}
 #p2_back_button {
 	margin-top: -8px;
 	margin-left: 444px;
