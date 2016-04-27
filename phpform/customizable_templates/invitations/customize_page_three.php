@@ -26,8 +26,9 @@
          <option value="casual_invitation">Casual</option>>
        </select>
      </label>
-     <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
+        <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
     </form>
+       <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
    </div>
    </div>
    <script type="text/javascript" src="../../main.js"></script>

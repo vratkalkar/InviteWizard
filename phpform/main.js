@@ -6,4 +6,9 @@ CKEDITOR.replace('message');
  	height: '400%'
  });
 
+ //back button JS
+ function back() {
+ 	window.history.back();
+ }
+
  

@@ -20,7 +20,6 @@
    <div class="row">
      <div class="form_container">
       <form action="../../process_forms/process_invitation/process_page_two.php" method="POST" data-abide>
-
         <label>Website URL:<br>
           <input type="text" name="website_url" />
         </label>
@@ -28,11 +27,11 @@
         <label>Wedding Code:<br>
           <input type="number" name="wedding_code" placeholder="Your Appy Code" />
         </label>
-        
-         <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
+        <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
+      </form>
+       <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
     </div>
-      <script type="text/javascript" src="../../main.js"></script>
-    </form>
   </div>
+    <script type="text/javascript" src="../../main.js"></script>
  </body>
 </html>

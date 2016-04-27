@@ -156,10 +156,6 @@
 	width: 150px;
 }
 
-.form_container #customize_invite_button {
-	margin-top: 200px;
-	margin-right: 100%;
-}
 
 .form_container .button:hover {
 	background-color:#DB3857;
@@ -168,6 +164,25 @@
 .form_container .button:select {
 	background-color:#DB3857;
 }
+
+/* Separate page Continue/Back button styles */
+ 
+
+#back_button {
+	background-color:#DB3857;
+	margin-top: 250px;
+	margin-left: 200px;
+	width: 180px;
+	height: 40px;
+}
+
+#continue_button {
+	background-color:#DB3857;
+	margin-top: 250px;
+	width: 180px;
+	height: 40px;
+}
+
 
 
 /* Template Pages CSS */

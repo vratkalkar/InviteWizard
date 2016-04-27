@@ -48,8 +48,8 @@
         <label>Time:<br>
           <input type="text" name="time" required />
         </label>
-
-        <input id="customize_invite_button" type="submit" class="button" value="Continue" name="form_submit">
+        <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
+        <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
     </form>
   </div>
  </div>
