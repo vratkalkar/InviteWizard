@@ -50,8 +50,8 @@
           <input id="address_field" type="text" name="address" required />
         </label>
        <div>
-        <input type="submit" class="button"  id="back_button" value="Back" onclick="history.back();">
-        <input type="submit" class="button"  id="continue_button" value="Continue" name="form_submit">
+        <input type="submit" class="button"  id="p1_back_button" value="Back" onclick="history.back();">
+        <input type="submit" class="button"  id="p1_continue_button" value="Continue" name="form_submit">
        </div>
     </form>
    </div>

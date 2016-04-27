@@ -166,14 +166,14 @@
 }
 
 /* Separate page Continue/Back button styles */
-#back_button {
-	margin-top: -56px;
+#p2_back_button {
+	margin-top: -8px;
 	margin-left: 444px;
 }
 
-#continue_button {
+#p2_continue_button {
  background-color:#DB3857;
- margin-top: -2px;
+ margin-top: -55px;
  margin-left: 602px;
  width: 180px;
  height: 40px;
