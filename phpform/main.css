@@ -265,7 +265,15 @@
 	background-color: #DB3857;
 }
 
-/* Customize Page One PHP Styles */
+/* formal_invitation.php styles */
+.invite_container p {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+.button_area {
+	margin-left: 636px;
+}
 
 
 

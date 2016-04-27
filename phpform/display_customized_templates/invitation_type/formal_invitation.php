@@ -14,7 +14,7 @@
    <div class="sub_title_bar">Appy Invite Wizard</div>
 
    <div class="header_section">
-     <h3>Your Suggested Invitation:</h3>
+     <h3>Your Suggested Invitation Wording:</h3>
    </div>
 
    <div class="invite_container">
