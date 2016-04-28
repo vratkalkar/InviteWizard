@@ -195,13 +195,13 @@
 #p3_back_button {
   position: relative;
   margin-top: 120px;
-  left: 420px;
+  left: 248px;
 }
 
 #p3_continue_button {
   position: relative;
   margin-top: 120px;
-  left: 420px;
+  left: 248px;
 }
 
 
@@ -230,26 +230,38 @@
 
 .form_container label {
 	position: relative;
-	text-align: center;
+	display: inline-block;
 	margin-top: 100px;
 	padding-right: 10px;
 	margin-right: 2px;
 }
 
+.form_container #host_label {
+	position: relative;
+	bottom: 195px;
+	left: 604px;
+}
+
+.form_container #invite_label {
+	position: relative;
+	left: 68px;
+	top: 12px;
+}
+
 #invite_type_select {
 	position: relative;
-	margin-top: 0 auto;
+	margin-top: 10px;
 	margin-right: 300px;
-	width: 102%;
-	right: 36px;
+	width: 40%;
+	right: 160px;
 }
 
 #who_is_hosting {
 	position: relative;
-	margin-top: 0 auto;
-	margin-right: 300px;
-	width: 102%;
-	right: 36px;
+	margin-right: 150px;
+	width: 40%;
+	left: 190px;
+	bottom: 33px;
 }
 .header_section h3 {
 	text-align: center;

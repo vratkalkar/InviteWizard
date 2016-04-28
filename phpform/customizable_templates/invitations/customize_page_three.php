@@ -20,20 +20,19 @@
    <div class="row">
    <div class="form_container">
     <form action="../../process_forms/process_invitation/process_page_three.php" method="POST">
-     <label>What type of invitation is this?<br><br>
+     <label id="invite_label">What type of invitation is this?</label>
        <select id="invite_type_select" name="invite_type">
          <option value="formal_invitation">Formal</option>
          <option value="casual_invitation">Casual</option>>
        </select>
-     </label>
-     <label>Who is hosting the event?<br><br>
+
+     <label id="host_label">Who is hosting the event?</label>
        <select id="who_is_hosting" name="choose_host">
          <option value="couple">Couple (Us)</option>
          <option value="brides_parents">Brides Parents</option>
          <option value="grooms_parents">Grooms Parents</option>
          <option value="both_parties">Both Parties</option>
        </select>
-     </label>
         <input type="submit" class="button"  id="p3_back_button" value="Back" onclick="history.back();">
         <input type="submit" class="button"  id="p3_continue_button" value="Continue" name="form_submit">
     </form>
