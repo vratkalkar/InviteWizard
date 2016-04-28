@@ -23,4 +23,5 @@ if(isset($_POST['form_submit'])){
 		  header("Location: ../../display_customized_templates/invitation_type/formal_invitation.php");
 		  break;
 	}
+  }
 ?>
