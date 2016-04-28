@@ -192,10 +192,22 @@
  height: 40px;
 }
 
+#p3_back_button {
+  position: relative;
+  margin-top: 120px;
+  left: 420px;
+}
+
+#p3_continue_button {
+  position: relative;
+  margin-top: 120px;
+  left: 420px;
+}
+
 
 /* Template Pages CSS */
 .template_background {
-	background-color:rgb(255,255,255);
+  background-color:rgb(255,255,255);
 }
 
 .title_bar {
@@ -216,10 +228,29 @@
 	text-align:center;
 }
 
-#invite_type_select {
-	width: 90%;
+.form_container label {
+	position: relative;
+	text-align: center;
+	margin-top: 100px;
+	padding-right: 10px;
+	margin-right: 2px;
 }
 
+#invite_type_select {
+	position: relative;
+	margin-top: 0 auto;
+	margin-right: 300px;
+	width: 102%;
+	right: 36px;
+}
+
+#who_is_hosting {
+	position: relative;
+	margin-top: 0 auto;
+	margin-right: 300px;
+	width: 102%;
+	right: 36px;
+}
 .header_section h3 {
 	text-align: center;
 	font-family: Helvetica, sans-serif;
