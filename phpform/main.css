@@ -170,14 +170,14 @@
 
 #p1_back_button {
   position: relative;
-  margin-top: 100px;
-  right: 64px;
+  margin-top: 220px;
+  right: 68px;
 }
 
 #p1_continue_button {
   position: relative;
-  margin-top: 100px;
-  right: 69px;
+  margin-top: 220px;
+  right: 68px;
 }
 #p2_back_button {
 	margin-top: -8px;
@@ -323,25 +323,21 @@
 
 
 /* customize_page_one.php styles */
-.form_container .page_one_inputs {
-	margin-top: 60px;
+.page_one_inputs {
+	position: relative;
+	bottom: 80px;
 	margin-left: 318px;
 	width: 60%;
 }
 
+.page_one_inputs label {
+	position: relative;
+	top: 120px;
+	margin-top: -2px;
+}
+
 .form_container .page_one_inputs #address_field {
-	width: 310%;
-}
-
-.form_container .page_one_inputs #back_button {
-	margin-top: 110px;
-	padding-right: 20px;
-	margin-left: -110px;
-	margin-right: 150px;
-}
-
-.form_container .page_one_inputs #continue_button {
-	
+	width: 326%;
 }
 
 /* customize_page_two.php styles */
