@@ -2,7 +2,7 @@
 
   "use strict";
 
-  var FOUNDATION_VERSION = '6.2.0';
+  var FOUNDATION_VERSION = '6.2.1';
 
   // Global Foundation object
   // This is attached to the window, or used as a module for AMD/Browserify
@@ -771,6 +771,18 @@
           top: $eleDims.windowDims.offset.top
         };
         break;
+      case 'left bottom':
+        return {
+          left: $anchorDims.offset.left - ($eleDims.width + hOffset),
+          top: $anchorDims.offset.top + $anchorDims.height
+        };
+        break;
+      case 'right bottom':
+        return {
+          left: $anchorDims.offset.left + $anchorDims.width + hOffset - $eleDims.width,
+          top: $anchorDims.offset.top + $anchorDims.height
+        };
+        break;
       default:
         return {
           left: Foundation.rtl() ? $anchorDims.offset.left - $eleDims.width + $anchorDims.width : $anchorDims.offset.left,
@@ -1246,17 +1258,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         var outerWidth = $(window).width();
         var height = this.$element.outerHeight();
         var outerHeight = $(window).height();
-        var left = parseInt((outerWidth - width) / 2, 10);
-        var top;
-        if (height > outerHeight) {
-          top = parseInt(Math.min(100, outerHeight / 10), 10);
+        var left, top;
+        if (this.options.hOffset === 'auto') {
+          left = parseInt((outerWidth - width) / 2, 10);
         } else {
-          top = parseInt((outerHeight - height) / 4, 10);
+          left = parseInt(this.options.hOffset, 10);
+        }
+        if (this.options.vOffset === 'auto') {
+          if (height > outerHeight) {
+            top = parseInt(Math.min(100, outerHeight / 10), 10);
+          } else {
+            top = parseInt((outerHeight - height) / 4, 10);
+          }
+        } else {
+          top = parseInt(this.options.vOffset, 10);
         }
         this.$element.css({ top: top + 'px' });
-        // only worry about left if we don't have an overlay, otherwise we're perfectly in the middle
-        if (!this.$overlay) {
+        // only worry about left if we don't have an overlay or we havea  horizontal offset,
+        // otherwise we're perfectly in the middle
+        if (!this.$overlay || this.options.hOffset !== 'auto') {
           this.$element.css({ left: left + 'px' });
+          this.$element.css({ margin: '0px' });
         }
       }
 
@@ -1437,10 +1459,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 }
               }
             });
-            if (_this.focusableElements.length === 0) {
-              // no focusable elements inside the modal at all, prevent tabbing in general
-              e.preventDefault();
-            }
           });
         }
 
@@ -1455,11 +1473,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 _this.focusableElements.eq(0).focus();
                 e.preventDefault();
               }
+              if (_this.focusableElements.length === 0) {
+                // no focusable elements inside the modal at all, prevent tabbing in general
+                e.preventDefault();
+              }
             },
             tab_backward: function () {
               if (_this.$element.find(':focus').is(_this.focusableElements.eq(0)) || _this.$element.is(':focus')) {
                 // left modal upwards, setting focus to last element
                 _this.focusableElements.eq(-1).focus();
+                e.preventDefault();
+              }
+              if (_this.focusableElements.length === 0) {
+                // no focusable elements inside the modal at all, prevent tabbing in general
                 e.preventDefault();
               }
             },
@@ -1593,6 +1619,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        */
       value: function destroy() {
         if (this.options.overlay) {
+          this.$element.appendTo($('body')); // move $element outside of $overlay to prevent error unregisterPlugin()
           this.$overlay.hide().off().remove();
         }
         this.$element.hide().off();
@@ -1652,15 +1679,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Distance, in pixels, the modal should push down from the top of the screen.
      * @option
-     * @example 100
+     * @example auto
      */
-    vOffset: 100,
+    vOffset: 'auto',
     /**
      * Distance, in pixels, the modal should push in from the side of the screen.
      * @option
-     * @example 0
+     * @example auto
      */
-    hOffset: 0,
+    hOffset: 'auto',
     /**
      * Allows the modal to be fullscreen, completely blocking out the rest of the view. JS checks for this as well.
      * @option

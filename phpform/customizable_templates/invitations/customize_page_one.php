@@ -7,7 +7,7 @@
 <head>
   <link rel="stylesheet" href="../../reset.css" type="text/css" />
   <link rel="stylesheet" href="../../main.css" type="text/css" />
-  <link rel="stylesheet" href="../../foundation-6.2.0-essential/css/foundation.css" type="text/css" /> 
+  <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
@@ -45,7 +45,7 @@
         <label>Time:<br>
           <input type="text" name="time" required />
         </label>
-        
+
         <label>Address:<br>
           <input id="address_field" type="text" name="address" required />
         </label>
@@ -60,5 +60,6 @@
   </div>
  </div>
      <script type="text/javascript" src="../../main.js"></script>
+     <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
  </body>
 </html>
