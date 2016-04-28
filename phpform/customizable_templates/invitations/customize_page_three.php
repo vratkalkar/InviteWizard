@@ -20,7 +20,7 @@
    <div class="row">
    <div class="form_container">
     <form action="../../process_forms/process_invitation/process_page_three.php" method="POST">
-     <label>What type of invitation would you like?<br><br>
+     <label>What type of invitation is this?<br><br>
        <select id="invite_type_select" name="invite_type">
          <option value="formal_invitation">Formal</option>
          <option value="casual_invitation">Casual</option>>
