@@ -307,9 +307,16 @@
 } 
 
 /* Download and Print Button Styles */
+
+.button_area {
+	position: relative;
+	right: 28px;
+}
 .button_area .button {
 	background-color: #DB3857;
+	width: 110px;
 }
+
 
 .button_area .button:hover {
 	background-color: #DB3857;
