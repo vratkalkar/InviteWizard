@@ -39,5 +39,6 @@
  	   <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()" />
    </div>
    <script type="text/javascript" src="../../main.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.debug.js"></script>
  </body>
 </html>
