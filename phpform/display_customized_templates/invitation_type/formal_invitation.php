@@ -7,7 +7,7 @@
 <head>
   <link rel="stylesheet" href="../../reset.css" type="text/css" />
   <link rel="stylesheet" href="../../main.css" type="text/css" />
-  <link rel="stylesheet" href="../../foundation-6.2.0-essential/css/foundation.css" type="text/css" /> 
+  <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>
@@ -30,7 +30,7 @@
      <p><?php echo $_SESSION['venue']; ?></p>
      <p><?php echo $_SESSION['address']; ?></p>
      <p>Ceremony begins at <?php echo $_SESSION['time'] ?></p>
-     <p>Details are available at <?php echo $_SESSION['website_url'], ?>, with wedding code: <?php echo $_SESSION['wedding_code']; ?></p>
+     <p>Details are available at <?php echo $_SESSION['website_url']; ?>, with wedding code: <?php echo $_SESSION['wedding_code']; ?></p>
    </div>
  </body>
  	<div class="button_area">

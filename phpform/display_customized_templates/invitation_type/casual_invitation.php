@@ -29,7 +29,7 @@
      <p><?php echo $_SESSION['venue']; ?></p>
      <p><?php echo $_SESSION['address']; ?></p>
      <p>Ceremony begins at <?php echo $_SESSION['time']; ?></p>
-     <p>Visit our website at <?php echo $_SESSION['website_url'], ?>, and use wedding code: <?php echo $_SESSION['wedding_code']; ?></p>
+     <p>Visit our website at <?php echo $_SESSION['website_url']; ?>, and use wedding code: <?php echo $_SESSION['wedding_code']; ?></p>
    </div>
  </body>
   <div class="button_area">
