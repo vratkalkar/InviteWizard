@@ -38,6 +38,7 @@
  	   <input type="submit" class="button" value="Download" name="download_submit" />
  	   <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()" />
    </div>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
    <script type="text/javascript" src="../../main.js"></script>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.debug.js"></script>
  </body>
