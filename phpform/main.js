@@ -4,10 +4,10 @@ $(document).ready(function(){
 $('#click_download').on("click", function() {
 	console.log("download button clicked");
 	var pdf = new jsPDF('p', 'cm', 'a4');
-	var source = $("html").get('body');
+	var source = $("body").get('html');
 
 	specialElementHandlers = {
-		'#click_download': function(element, renderer) {
+		'div': function(element, renderer) {
 			return true;
 		}
 	}
