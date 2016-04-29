@@ -33,6 +33,7 @@
    </div>
  </body>
   <div class="button_area">
+     <input type="submit" class="button" value="Edit" name="edit" />
      <input type="submit" class="button" value="Download" name="download_submit">
      <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()" />
    </div>
