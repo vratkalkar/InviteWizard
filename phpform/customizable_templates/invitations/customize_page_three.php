@@ -34,15 +34,6 @@
          <option value="both_parties">Both Parties</option>
        </select>
 
-       <p>RSVPs?</p>
-        <div class="switch large">
-          <input class="switch-input" id="yes-no" type="checkbox" name="exampleSwitch">
-          <label class="switch-paddle" for="yes-no">
-            <span class="switch-active" aria-hidden="true">Yes</span>
-            <span class="switch-inactive" aria-hidden="true">No</span>
-          </label>
-        </div>
-
         <input type="submit" class="button"  id="p3_back_button" value="Back" onclick="history.back();">
         <input type="submit" class="button"  id="p3_continue_button" value="Continue" name="form_submit">
     </form>
