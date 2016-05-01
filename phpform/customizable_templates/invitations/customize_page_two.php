@@ -33,5 +33,6 @@
        <input type="submit" class="button"  id="p2_back_button" value="Back" onclick="history.back();">
        <input type="submit" class="button"  id="p2_continue_button" value="Continue" name="form_submit">
     </form>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
  </div>
 </html>

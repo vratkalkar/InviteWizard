@@ -59,7 +59,7 @@
    </div>
   </div>
  </div>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
      <script type="text/javascript" src="../../main.js"></script>
-     <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
  </body>
 </html>
