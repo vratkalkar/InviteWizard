@@ -13,10 +13,13 @@
    <div class="title_bar">APPY COUPLE</div>
    <div class="sub_title_bar">Appy Invite Wizard</div>
 
+   <div id="ignorethis"></div>
+
    <div class="header_section">
      <h3>Your Suggested Invitation Wording:</h3>
    </div>
 
+  
    <div class="invite_container">
      <p><?php echo $_SESSION['parents_names']; ?></p>
      <p>Request the pleasure of your company at the auspicious occasion of the</p>

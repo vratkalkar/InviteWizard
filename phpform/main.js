@@ -1,13 +1,15 @@
-$(document).ready(function(){
+$( document ).ready(function(){
+
+//ToDo: Add code for html2canvas below
 
 //Add PDF download on "Download" button click with jsPDF
 $('#click_download').on("click", function() {
 	console.log("download button clicked");
 	var pdf = new jsPDF('p', 'cm', 'a4');
-	var source = $("body").get('html');
+	var source = $("body")[0];
 
 	specialElementHandlers = {
-		'div': function(element, renderer) {
+		'#ignorethis': function(element, renderer) {
 			return true;
 		}
 	}
@@ -33,7 +35,7 @@ $('#click_download').on("click", function() {
   	function (dispose) {
   	  // dispose: object with X, Y of the last line add to the PDF
   	  //          this allow the insertion of new lines after html
-        pdf.save('demo.pdf');
+        pdf.save('appy_invite.pdf');
       },
   	margins
   )
