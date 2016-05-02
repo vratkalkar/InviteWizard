@@ -42,8 +42,10 @@
  	   <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()" />
    </div>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.debug.js"></script>
+     <script type="text/javascript" src="../../html2canvas.js"></script>
+     <script type="text/javascript" src="../../canvas2image.js"></script>
      <script type="text/javascript" src="../../main.js"></script>
+
+
  </body>
 </html>
