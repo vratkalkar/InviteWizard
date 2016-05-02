@@ -37,7 +37,10 @@
      <input type="submit" id="click_download" class="button" value="Download" name="download_submit">
      <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()" />
    </div>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+     <script
+        src="https://code.jquery.com/jquery-2.2.3.min.js"
+        integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+        crossorigin="anonymous"></script>
      <script type="text/javascript" src="../../html2canvas.js"></script>
      <script type="text/javascript" src="../../canvas2image.js"></script>
      <script type="text/javascript" src="../../main.js"></script>
