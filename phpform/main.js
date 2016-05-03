@@ -1,5 +1,33 @@
 $(document).ready(function(){
 
+ $("#click_download").on('click', function(){
+      html2canvas(document.body, {
+       onrendered: function(canvas) {
+        if (window.devicePixelRatio > 1){
+             return Canvas2Image.saveAsPNG(toRetina(canvas));
+        }
+        else {
+            return Canvas2Image.saveAsPNG(canvas);
+        };
+      }
+
+    });
+
+  });
+
+ //Try to update canvas for hi-res/retina(Apple) displays
+ function toRetina(canvas) {
+    var ctx = canvas.getContext('2d');
+    var canvasWidth = canvas.width;
+    var canvasHeight = canvas.height;
+
+    canvas.width = canvasWidth * window.devicePixelRatio;
+    canvas.height = canvasHeight * window.devicePixelRatio;
+    canvas.style.width = canvasWidth;
+    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    return canvas;
+ };
+
 //Function found which checks users display and returns boolean if any conditional matches
 function isRetina() {
     var query = '(-webkit-min-device-pixel-ratio: 1.5),\
@@ -14,35 +42,6 @@ function isRetina() {
         }
         return false;
 }
-
-
- $("#click_download").on('click', function(){
-      html2canvas(document.body, {
-       onrendered: function(canvas) {
-        if (isRetina(window.devicePixelRatio)){
-             return Canvas2Image.saveAsPNG(toRetina(canvas));
-        }
-        else {
-            return Canvas2Image.saveAsPNG(canvas);
-        };
-       
-     }
-   
-    });
- 
-  });
-
- function toRetina(canvas) {
-    var ctx = canvas.getContext('2d');
-    var canvasWidth = canvas.width;
-    var canvasHeight = canvas.height;
-
-    canvas.width = canvasWidth * window.devicePixelRatio;
-    canvas.height = canvasHeight * window.devicePixelRatio;
-    canvas.style.width = canvasWidth;
-    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
-    return canvas;
-};
 
 
 
