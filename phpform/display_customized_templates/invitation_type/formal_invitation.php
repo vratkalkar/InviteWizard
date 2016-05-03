@@ -47,6 +47,7 @@
         crossorigin="anonymous"></script>
      <script type="text/javascript" src="../../html2canvas.js"></script>
      <script type="text/javascript" src="../../canvas2image.js"></script>
+     <script type="text/javascript" src="../../filesaver.js"></script>
      <script type="text/javascript" src="../../main.js"></script>
 
 
