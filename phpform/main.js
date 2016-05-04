@@ -1,22 +1,61 @@
 $(document).ready(function(){
- $("#click_download").on('click', function(){
-        console.log("button clicked");
-        html2canvas($('#content'), {
-            useCORS: true,
-            allowTaint: true,
-            letterRendering: true,
+
+//  $("#click_download").on('click', function(){
+//         html2canvas($("#content"), {
+//             onrendered: function(canvas) {
+//                 canvas.toBlob(function(canvas){
+//                     saveAs(canvas, "appy-invite.png");
+//                 });
+//              }
+//         });
+//     });
+// });
+
+
+$("#click_download").on('click', function(){
+        html2canvas($("#content"), {
             onrendered: function(canvas) {
-                var ctx = canvas.getContext('2d');
-                ctx.webkitImageSmoothingEnabled = false;
-                ctx.mozImageSmoothingEnabled = false;
-                ctx.imageSmoothingEnabled = false;
-                canvas.toBlob(function(canvas){
-                    saveAs(canvas, "appy-invite.png");
-                });
-             }
-        });
+                if (window.devicePixelRatio == 2){
+                    canvas.setAttribute('height', window.innerHeight * 2);
+                    canvas.setAttribute('width', window.innerWidth * 2);
+                    canvas.scale(2,2);
+                    canvas.toBlob(function(canvas){
+                        saveAs(canvas, "appy-invite-retina.png");
+                    });
+                }
+                else {
+                    canvas.toBlob(function(canvas){
+                        saveAs(canvas, "appy-invite.png");
+                  });
+
+                };
+        
+              }
+         });
     });
-})
+
+});
+
+
+
+// var w = 1000;
+// var h = 1000;
+// var div = document.querySelector('#content');
+// var canvas = document.createElement('canvas');
+// canvas.width = w*2;
+// canvas.height = h*2;
+// canvas.style.width = w + 'px';
+// canvas.style.height = h + 'px';
+// var context = canvas.getContext('2d');
+// context.scale(2,2);
+// html2canvas(div, { canvas: canvas }).then(function(canvas) {
+//     // do what you want
+//     onrendered: function(canvas) {
+//         canvas.toBlob(function(canvas){
+//             saveAs(canvas, "appy-invite.pn")
+//         })
+//     }
+// });
 
 
 
