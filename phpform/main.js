@@ -18,9 +18,9 @@ $("#click_download").on('click', function(){
                 if (window.devicePixelRatio == 2){
                     console.log(canvas);
                     var context = canvas.getContext('2d');
-                    var height = canvas.setAttribute('height', window.innerHeight * 2);
-                    var width = canvas.setAttribute('width', window.innerWidth * 2);
-                    context.scale(height,width);
+                    canvas.setAttribute('height', window.innerHeight * 2);
+                    canvas.setAttribute('width', window.innerWidth * 2);
+                    context.scale(window.innerHeight,window.innerWidth * 2);
                     canvas.toBlob(function(canvas){
                         saveAs(canvas, "appy-invite-retina.png");
                     });
