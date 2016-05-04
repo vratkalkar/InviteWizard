@@ -49,7 +49,7 @@
      <script type="text/javascript" src="../../canvas2image.js"></script>
      <script type="text/javascript" src="../../filesaver.js"></script>
      <script type="text/javascript" src="../../main.js"></script>
-
-
+ <?php session_unset(); ?>
+ <?php session_destroy(); ?>
  </body>
 </html>
