@@ -20,7 +20,7 @@
    </div>
 
   
-   <div class="invite_container">
+   <div class="invite_container" data-editable data-name="invite_text">
      <p><?php echo $_SESSION['parents_names']; ?></p>
      <p>Request the pleasure of your company at the auspicious occasion of the</p>
             <p>Wedding Ceremony</p>
