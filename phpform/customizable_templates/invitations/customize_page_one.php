@@ -5,8 +5,8 @@
 <html>
 <meta charset="utf-8">
 <head>
-  <link rel="stylesheet" href="../../reset.css" type="text/css" />
-  <link rel="stylesheet" href="../../main.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/main.css" type="text/css" />
   <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
  </head>
  <body class="template_background">
@@ -60,6 +60,6 @@
   </div>
  </div>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
-     <script type="text/javascript" src="../../main.js"></script>
+     <script type="text/javascript" src="../../js/main.js"></script>
  </body>
 </html>

@@ -45,10 +45,10 @@
         src="https://code.jquery.com/jquery-2.2.3.min.js"
         integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
         crossorigin="anonymous"></script>
-     <script type="text/javascript" src="../../html2canvas.js"></script>
-     <script type="text/javascript" src="../../canvas2image.js"></script>
-     <script type="text/javascript" src="../../filesaver.js"></script>
-     <script type="text/javascript" src="../../main.js"></script>
+     <script type="text/javascript" src="../../js/html2canvas.js"></script>
+     <script type="text/javascript" src="../../js/canvas2image.js"></script>
+     <script type="text/javascript" src="../../js/filesaver.js"></script>
+     <script type="text/javascript" src="../../js/main.js"></script>
  <?php session_unset(); ?>
  <?php session_destroy(); ?>
  </body>
