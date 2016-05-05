@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../../css/reset.css" type="text/css" />
   <link rel="stylesheet" href="../../css/main.css" type="text/css" />
   <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
-  <link rel="stylesheet" type="text/css" href="../../css/content-tools.min.css" /> 
+  <link rel="stylesheet" type="text/css" href="../../css/content-tools.css" /> 
  </head>
  <body class="template_background">
   <div id="content">
