@@ -5,9 +5,10 @@
 <html>
 <meta charset="utf-8">
 <head>
-  <link rel="stylesheet" href="../../reset.css" type="text/css" />
-  <link rel="stylesheet" href="../../main.css" type="text/css" />
-  <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
+  <link rel="stylesheet" href="../../css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/main.css" type="text/css" />
+  <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="../../css/content-tools.min.css" />  
  </head>
  <body class="template_background">
   <div id="content">
@@ -19,7 +20,7 @@
    </div>
 
   
-   <div class="invite_container">
+   <div class="invite_container" data-editable data-name="invite_text">
      <p><?php echo $_SESSION['parents_names']; ?></p>
      <p>Request the pleasure of your company at the auspicious occasion of the</p>
             <p>Wedding Ceremony</p>
@@ -48,6 +49,7 @@
      <script type="text/javascript" src="../../js/html2canvas.js"></script>
      <script type="text/javascript" src="../../js/canvas2image.js"></script>
      <script type="text/javascript" src="../../js/filesaver.js"></script>
+     <script type="text/javascript" src="../../js/content-tools.js"></script>
      <script type="text/javascript" src="../../js/main.js"></script>
  <?php session_unset(); ?>
  <?php session_destroy(); ?>
