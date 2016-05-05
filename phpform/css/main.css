@@ -363,6 +363,19 @@
 
 /* Add CSS for ContentTools on Invitation Templates */
 
+[data-editable] .text-center {
+    text-align: center;
+}
+
+[data-editable] .text-left {
+    text-align: left;
+}
+
+[data-editable] .text-right {
+    text-align: right;
+}
+
+
 
 
 
