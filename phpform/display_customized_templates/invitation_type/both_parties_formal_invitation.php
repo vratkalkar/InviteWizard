@@ -7,8 +7,9 @@
 <head>
   <link rel="stylesheet" href="../../css/reset.css" type="text/css" />
   <link rel="stylesheet" href="../../css/main.css" type="text/css" />
-  <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
- </head>
+  <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="../../css/content-tools.min.css" /> 
+</head>
  <body class="template_background">
   <div id="content">
    <div class="title_bar">APPY COUPLE</div>
@@ -48,6 +49,7 @@
      <script type="text/javascript" src="../../js/html2canvas.js"></script>
      <script type="text/javascript" src="../../js/canvas2image.js"></script>
      <script type="text/javascript" src="../../js/filesaver.js"></script>
+     <script type="text/javascript" src="../../js/content-tools.min.js"></script>
      <script type="text/javascript" src="../../js/main.js"></script>
  <?php session_unset(); ?>
  <?php session_destroy(); ?>
