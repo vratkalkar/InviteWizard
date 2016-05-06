@@ -38,7 +38,7 @@ $("#click_download").on('click', function(){
 
 //Resize browser window code
 $( window ).resize(function() {
-     alert("window resized");
+     console.log("window resized");
  });
 
 });
