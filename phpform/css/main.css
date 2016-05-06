@@ -325,14 +325,18 @@
 
 /* formal_invitation.php styles */
 .invite_container {
+	position: relative;
 	border: 2px solid black;
 	margin-left: 25%;
 	width: 50%;
 	height: 68%;
 }
 .invite_container p {
+	position: relative;
+	width: 100%;
 	text-align: center;
 	font-family: Helvetica, sans-serif;
+	overflow: auto;
 }
 
 .button_area {

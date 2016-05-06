@@ -1177,7 +1177,8 @@
     background: #646464;
 }
 .ct-widget .ct-ignition__button--confirm {
-    background: #27ae60;
+    margin-top: 100px;
+    background: rgb(93,91,92);
 }
 .ct-widget .ct-ignition__button--confirm:before {
     content: '\ea10'}
@@ -1185,6 +1186,7 @@
     background: #2cc36b;
 }
 .ct-widget .ct-ignition__button--cancel {
+    margin-top: 100px;
     background: #e74c3c;
     left: 64px;
 }
