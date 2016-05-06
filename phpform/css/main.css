@@ -1,8 +1,8 @@
 
 /* Appy Couple Logo CSS (When Utilized)*/
 .logo {
-	padding-top:200px;
-	margin-top:40px;
+	padding-top:12.5em;
+	margin-top:2.5em;
 	margin-left:48%;
 	background-image:url('http://www.appycouple.com/sites/all/themes/appycouple/images/appylogo.png');
 	background-repeat:no-repeat;
@@ -22,7 +22,7 @@
 }
 
 .form_container select {
-	margin-top: -20px;
+	margin-top: -1.25em;
 	text-align: center;
 }
 
@@ -30,7 +30,7 @@
 	margin-right: -1%;
 	font-family: Helvetica, sans-serif;
 	text-align: center;
-	padding: 4px;
+	padding: 0.25em;
 }
 
 .form_container select option:hover {
@@ -38,7 +38,7 @@
 }
 
 #index_button {
-	margin-top: 5px;
+	margin-top: 0.3125em;
 	margin-left:35%;
 	width:30%;
 }
@@ -53,8 +53,8 @@
 }
 
 .sub_title_bar ul {
-	padding: 10px;
-	padding-top: 4px;
+	padding: 0.625em;
+	padding-top: 0.25em;
 	margin-left: auto;
 	display: inline;
 }
@@ -65,10 +65,10 @@
 
 .sub_title_bar ul li {
 	line-height: 2.5em;
-	margin-left: 2px;
-	padding: 15px 160px;
+	margin-left: 0.125em;
+	padding: 0.9375em 10em;
 	font-family: Helvetica, sans-serif;
-	font-size:20px;
+	font-size: 1.25em;
 	list-style: none;
 	display: inline;
 }
@@ -81,22 +81,22 @@
 
 /* Universal Form CSS */
 .form_container label {
-	padding-top: 20px;
+	padding-top: 1.25em;
 	float:left;
 	display: inline;
-	margin-left: 10px;
+	margin-left: 0.625em;
 }
 
 .form_container input {
 	clear: right;
 	font-family: Helvetica, sans-serif;
 	display: inline-block;
-	margin-left: 2px;
+	margin-left: 0.125em;
 }
 
 .form_container input::selection {
 	display: inline-block;
-	margin-left: 2px;
+	margin-left: 0.125em;
 	font-family: Helvetica, sans-serif;
 	background-color: #DB3857;
 	color: #FFFFFF;
@@ -112,14 +112,14 @@
 }
 
 .form_container select option {
-	margin-left: 10px;
+	margin-left: 0.625em;
 }
 
 
 .form_container .select_section {
 	position: relative;
-	margin-top: 2px;
-	margin-right: 200px;
+	margin-top: 0.125em;
+	margin-right: 12.5em;
 }
 
 .form_container .select_invite_option {
@@ -128,15 +128,15 @@
 	position: relative;
 	float: left;
 	margin: 0;
-	width: 180px;
+	width: 11.25em;
 }
 
 .form_container .select_invite_option option {
 	text-align: left;
-	margin-left: 2px;
+	margin-left: 0.125em;
 }
 .form_container .label {
-	margin-right: 2px;
+	margin-right: 0.125em;
 }
 
 .form_container .select_invite_option option:hover {
@@ -152,8 +152,8 @@
 .form_container .button  {
 	background-color:#DB3857;
 	text-decoration:none;
-	margin-top:8px;
-	width: 150px;
+	margin-top: 0.5em;
+	width: 9.375em;
 }
 
 
@@ -170,42 +170,42 @@
 
 #p1_back_button {
   position: relative;
-  margin-top: 220px;
-  right: 68px;
+  margin-top: 13.75em;
+  right: 4.25em;
 }
 
 #p1_continue_button {
   position: relative;
-  margin-top: 220px;
-  right: 68px;
+  margin-top: 13.75em;
+  right: 4.25em;
 }
 #p2_back_button {
 	position: relative;
-	left: 8px;
-	margin-top: -8px;
-	margin-left: 444px;
+	left: 0.5em;
+	margin-top: -0.5em;
+	margin-left: 27.75em;
 }
 
 #p2_continue_button {
  position: relative;
- left: 2px;
+ left: 0.125em;
  background-color:#DB3857;
- margin-top: -56.4px;
- margin-left: 602px;
- width: 180px;
- height: 40px;
+ margin-top: -3.525em;
+ margin-left: 37.625em;
+ width: 11.25em;
+ height: 2.5em;
 }
 
 #p3_back_button {
   position: relative;
-  margin-top: -10px;
-  left: 248px;
+  margin-top: -0.625em;
+  left: 15.5em;
 }
 
 #p3_continue_button {
   position: relative;
-  margin-top: -10px;
-  left: 248px;
+  margin-top: -0.625em;
+  left: 15.5em;
 }
 
 
@@ -215,8 +215,8 @@
 }
 
 .title_bar {
-	padding-top: 8px;
-	height: 40px;
+	padding-top: 0.5em;
+	height: 2.5em; 
     background-color:#DB3857;
 	font-family:Helvetica, sans-serif;
 	text-align:center;
@@ -224,10 +224,10 @@
 }
 
 .sub_title_bar {
-	height:50px;
+	height: 3.125em;
 	background-color: rgb(93,91,92);
 	font-family:Helvetica, sans-serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	color:rgb(255,255,255);
 	text-align:center;
 }
@@ -235,44 +235,44 @@
 .form_container label {
 	position: relative;
 	display: inline-block;
-	margin-top: 100px;
-	padding-right: 10px;
-	margin-right: 2px;
+	margin-top: 6.25em;
+	padding-right: 0.625em;
+	margin-right: 0.125em;
 }
 
 .form_container #invite_label {
 	position: relative;
-	left: 90px;
-	top: 40px;
+	left: 5.625em;
+	top: 2.5em;
 }
 
 .form_container #host_label {
 	position: relative;
-	bottom: 195px;
-	left: 594px;
+	bottom: 12.1875em;
+	left: 37.125em;
 }
 
 
 #invite_type_select {
 	position: relative;
-	margin-top: 40px;
-	margin-right: 300px;
+	margin-top: 2.5em;
+	margin-right: 18.75em;
 	width: 40%;
-	right: 140px;
+	right: 8.75em;
 }
 
 #who_is_hosting {
 	position: relative;
-	margin-right: 150px;
+	margin-right: 9.375em;
 	width: 40%;
-	left: 180px;
-	bottom: 33px;
+	left: 11.25em;
+	bottom: 2.0625em;
 }
 .header_section h3 {
 	text-align: center;
 	font-family: Helvetica, sans-serif;
-	font-size: 24px;
-	padding-top: 22px;
+	font-size: 1.5em;
+	padding-top: 1.375em;
 }
 
 /* Specific to Save The Date website textfield */
@@ -282,13 +282,13 @@
 
 /* CKEditor TextArea CSS */
 .editor_section {
-	margin-top: 160px;
-	margin-right: 2px;
+	margin-top: 10em;
+	margin-right: 0.125em;
 }
 .editor_section .button {
 	background-color: #DB3857;
-	margin-top: 10px;
-	width: 100px;
+	margin-top: 0.625em;
+	width: 6.25em;
 }
 
 .editor_section .button:hover {
@@ -300,7 +300,7 @@
 	background-color:#DB3857;
 	text-decoration:none;
 	margin-left:10%;
-	margin-top:5px;
+	margin-top: 0.3125em;
 }
 
 .customized_template_preview_area .button:hover {
@@ -311,11 +311,11 @@
 
 .button_area {
 	position: relative;
-	right: 80px;
+	right: 5em;
 }
 .button_area .button {
 	background-color: #DB3857;
-	width: 110px;
+	width: 6.875em;
 }
 
 
@@ -326,7 +326,7 @@
 /* formal_invitation.php styles */
 .invite_container {
 	position: relative;
-	border: 2px solid black;
+	border: 0.125em solid black;
 	margin-left: 25%;
 	width: 50%;
 	height: 68%;
@@ -340,23 +340,23 @@
 }
 
 .button_area {
-	margin-top: 20px;
-	margin-left: 636px;
+	margin-top: 1.25em;
+	margin-left: 39.75em;
 }
 
 
 /* customize_page_one.php styles */
 .page_one_inputs {
 	position: relative;
-	bottom: 80px;
-	margin-left: 318px;
+	bottom: 5em;
+	margin-left: 19.875em;
 	width: 60%;
 }
 
 .page_one_inputs label {
 	position: relative;
-	top: 120px;
-	margin-top: -2px;
+	top: 7.5em;
+	margin-top: -0.125em;
 }
 
 .form_container .page_one_inputs #address_field {
@@ -365,12 +365,12 @@
 
 /* customize_page_two.php styles */
 .input_fields {
-	margin-top: 50px;
-	margin-left: 280px;
+	margin-top: 3.125em;
+	margin-left: 17.5em;
 }
 
 .input_fields input {
-	width: 300px;
+	width: 18.75em;
 }
 
 /* Add CSS for ContentTools on Invitation Templates */

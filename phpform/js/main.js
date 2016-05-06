@@ -39,6 +39,7 @@ $("#click_download").on('click', function(){
 //Resize browser window code
 $( window ).resize(function() {
      console.log("window resized");
+     console.log($('.invite_container').text());
  });
 
 });
