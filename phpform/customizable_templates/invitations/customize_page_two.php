@@ -22,11 +22,11 @@
       <form action="../../process_forms/process_invitation/process_page_two.php" method="POST" data-abide />
 
        <div class="input_fields">
-         <label>Wedding Website URL:<br>
+         <label>Wedding Website URL: (optional)<br>
            <input type="text" name="website_url" placeholder="ex. www.ourwedding.com"/>
          </label>
 
-         <label>Wedding Code:<br>
+         <label>Wedding Code: (optional)<br>
            <input type="text" name="wedding_code" placeholder="ex. Your Appy Code" />
         </label>
        </div>
