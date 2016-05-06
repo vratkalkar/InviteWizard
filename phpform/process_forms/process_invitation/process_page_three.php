@@ -20,7 +20,7 @@ $invite_type = $_SESSION['invite_type'];
 	   header("Location: ../../display_customized_templates/invitation_type/grooms_parents_formal_invitation.php");
 	}
 	elseif ($host == 'both_parties' && $invite_type == 'formal_invitation') {
-		header("Location: ../../display_customized_templates/invitation_type/both_parties__formal_invitation.php");
+		header("Location: ../../display_customized_templates/invitation_type/both_parties_formal_invitation.php");
 	}
 
 
