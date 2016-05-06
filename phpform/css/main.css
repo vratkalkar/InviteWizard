@@ -280,21 +280,6 @@
 	width: 116%;
 }
 
-/* CKEditor TextArea CSS */
-.editor_section {
-	margin-top: 160px;
-	margin-right: 2px;
-}
-.editor_section .button {
-	background-color: #DB3857;
-	margin-top: 10px;
-	width: 100px;
-}
-
-.editor_section .button:hover {
-	background-color: #DB3857;
-}
-
 /* Display Customized Template Styles */
 .customized_template_preview_area .button {
 	background-color:#DB3857;
@@ -328,7 +313,7 @@
 	border: 2px solid black;
 	margin-left: 25%;
 	width: 50%;
-	height: 80%;
+	height: 68%;
 }
 .invite_container p {
 	text-align: center;
