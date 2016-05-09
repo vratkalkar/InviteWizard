@@ -9,6 +9,11 @@
 	background-size:119px auto;
 }
 
+/* To override Chrome User Agent Stylesheet for select elements */
+.form_conatiner select option {
+	display: inline-block;
+}
+
 /* Index.html CSS */
 .title {
 	font-family: Helvetica, sans-serif;

@@ -39,7 +39,7 @@
         </label>
 
         <label>Date:<br>
-          <input type="date" name="date" required />
+          <input type="text" name="date" required />
         </label>
 
         <label>Time:<br>

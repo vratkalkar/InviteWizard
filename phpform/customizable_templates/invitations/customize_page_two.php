@@ -30,9 +30,12 @@
            <input type="text" name="wedding_code" placeholder="ex. Your Appy Code" />
         </label>
        </div>
-       <input type="submit" class="button"  id="p2_back_button" value="Back" onclick="history.back();">
-       <input type="submit" class="button"  id="p2_continue_button" value="Continue" name="form_submit">
+       <div class="buttons">
+         <input type="submit" class="button"  id="p2_back_button" value="Back" name="back_button">
+         <input type="submit" class="button"  id="p2_continue_button" value="Continue" name="form_submit">
+       </div>
+      </div>
+     </div>
     </form>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
- </div>
 </html>

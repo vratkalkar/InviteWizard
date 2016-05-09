@@ -33,12 +33,13 @@
          <option value="grooms_parents">Grooms Parents</option>
          <option value="both_parties">Both Parties</option>
        </select>
-
-        <input type="submit" class="button"  id="p3_back_button" value="Back" onclick="history.back();">
+       <div class="buttons">
+        <input type="submit" class="button"  id="p3_back_button" value="Back" name="back_button">
         <input type="submit" class="button"  id="p3_continue_button" value="Continue" name="form_submit">
+       </div>
+       </div>
+      </div>
     </form>
-   </div>
-   </div>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
    <script type="text/javascript" src="../../js/main.js"></script>
 </body>
