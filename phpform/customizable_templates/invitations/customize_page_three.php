@@ -5,9 +5,9 @@
 <html>
 <meta charset="utf-8">
 <head>
-  <link rel="stylesheet" href="../../css/reset.css" type="text/css" />
   <link rel="stylesheet" href="../../css/main.css" type="text/css" />
   <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
  </head>
  <body class="template_background">
    <div class="title_bar">APPY COUPLE</div>

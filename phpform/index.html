@@ -4,9 +4,9 @@ session_start();
 <html>
 <meta charset="utf-8">
 <head>
+  <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="../foundation-6.2.1-essential/css/foundation.css" type="text/css"> 
 	<link rel="stylesheet" href="../css/main.css" type="text/css">
-	<link rel="stylesheet" href="../foundation-6.2.1-essential/css/foundation.css" type="text/css"> 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" type="text/css">
 </head>
 
 <div class="title_bar">APPY COUPLE</div>
@@ -20,7 +20,7 @@ session_start();
 
 <div class="form_container">
 <form action="../process_forms/process_index_selection_form.php" method="POST">
-  <select name="chosen_template">
+  <select style="text-align: -webkit-center;" name="chosen_template">
 	  <option value="wedding_invitation">Wedding Invitations</option>
 	  <option value="save_the_date">Save the Date - Coming Soon!</option>>
 	  <option value="thank_you_card">Thank You Cards - Coming Soon!</option>
@@ -29,4 +29,6 @@ session_start();
   </p>
 </form>
 </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.js"></script>
 </html>

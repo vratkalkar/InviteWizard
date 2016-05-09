@@ -43,7 +43,7 @@
 }
 
 #index_button {
-	margin-top: 5px;
+	margin-top: -8px;
 	margin-left:35%;
 	width:30%;
 }
@@ -171,23 +171,21 @@
 }
 
 /* Separate page Continue/Back button styles */
-
-
 #p1_back_button {
   position: relative;
-  margin-top: 220px;
+  margin-top: 214px;
   right: 68px;
 }
 
 #p1_continue_button {
   position: relative;
-  margin-top: 220px;
+  margin-top: 214px;
   right: 68px;
 }
 #p2_back_button {
 	position: relative;
 	left: 8px;
-	margin-top: -8px;
+	margin-top: -5px;
 	margin-left: 444px;
 }
 
@@ -203,13 +201,13 @@
 
 #p3_back_button {
   position: relative;
-  margin-top: -10px;
+  margin-top: -34px;
   left: 248px;
 }
 
 #p3_continue_button {
   position: relative;
-  margin-top: -10px;
+  margin-top: -34px;
   left: 248px;
 }
 
@@ -248,7 +246,7 @@
 .form_container #invite_label {
 	position: relative;
 	left: 90px;
-	top: 40px;
+	top: 80px;
 }
 
 .form_container #host_label {
@@ -260,7 +258,7 @@
 
 #invite_type_select {
 	position: relative;
-	margin-top: 40px;
+	margin-top: 85px;
 	margin-right: 300px;
 	width: 40%;
 	right: 140px;
@@ -271,7 +269,7 @@
 	margin-right: 150px;
 	width: 40%;
 	left: 180px;
-	bottom: 33px;
+	bottom: 34px;
 }
 .header_section h3 {
 	text-align: center;
@@ -353,6 +351,7 @@
 .input_fields {
 	margin-top: 50px;
 	margin-left: 280px;
+	padding-right: 4px;
 }
 
 .input_fields input {
