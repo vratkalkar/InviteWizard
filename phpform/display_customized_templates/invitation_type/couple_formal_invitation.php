@@ -35,7 +35,7 @@
  </body>
 </div>
   <div class="button_area">
-     <input type="submit" class="button" value="Edit" name="edit" />
+     <!-- <input type="submit" class="button" value="Edit" name="edit" /> -->
      <input type="submit" id="click_download" class="button" value="Download" name="download_submit"/>
      <input type="button" class="button" value="Print" name="print_submit" onclick="window.print()" />
    </div>
@@ -48,7 +48,6 @@
      <script type="text/javascript" src="../../js/filesaver.js"></script>
      <script type="text/javascript" src="../../js/content-tools.js"></script>
      <script type="text/javascript" src="../../js/editor.js"></script>
-     <script type="text/javascript" src="../../js/tipr_2.0.1/tipr.js"></script>
  <?php session_unset(); ?>
  <?php session_destroy(); ?>
  </body>
