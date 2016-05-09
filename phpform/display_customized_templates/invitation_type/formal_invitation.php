@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="../../css/main.css" type="text/css" />
   <link rel="stylesheet" href="../../foundation-6.2.1-essential/css/foundation.css" type="text/css" /> 
   <link rel="stylesheet" type="text/css" href="../../css/content-tools.css" /> 
+  <link rel="stylesheet" type="text/css" href="../../css/tipr_2.0.1/tipr.css" /> 
+  
+
  </head>
  <body class="template_background">
   <div id="content">
@@ -46,11 +49,12 @@
         src="https://code.jquery.com/jquery-2.2.3.min.js"
         integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
         crossorigin="anonymous"></script>
+     <script type="text/javascript" src="../../js/main.js"></script>
      <script type="text/javascript" src="../../js/html2canvas.js"></script>
      <script type="text/javascript" src="../../js/filesaver.js"></script>
      <script type="text/javascript" src="../../js/content-tools.js"></script>
      <script type="text/javascript" src="../../js/editor.js"></script>
-     <script type="text/javascript" src="../../js/main.js"></script>
+     <script type="text/javascript" src="../../js/tipr_2.0.1/tipr.js"></script>
  <?php session_unset(); ?>
  <?php session_destroy(); ?>
  </body>

@@ -51,6 +51,7 @@
      <script type="text/javascript" src="../../js/content-tools.js"></script>
      <script type="text/javascript" src="../../js/editor.js"></script>
      <script type="text/javascript" src="../../js/main.js"></script>
+     <script type="text/javascript" src="../../js/tipr_2.0.1/tipr.js"></script>
  <?php session_unset(); ?>
  <?php session_destroy(); ?>
  </body>
