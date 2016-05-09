@@ -41,6 +41,22 @@ editor.addEventListener('saved', function (e) {
 		}
 	};
 
+	// //Optional Auto-saving for edits
+	// editor.addEventListener('start', function (e) {
+	// 	var _this = this;
+
+	// 	//Call save every 30 seconds
+	// 	function autoSave() {
+	// 		_this.save(true);
+	// 	};
+	// 	this.autoSaveTimer = setInterval(autoSave, 30 * 100);
+	// });
+
+	// editor.addEventListener('stop', function (e) {
+	// 	//Stop the auto-save
+	// 	clearInterval(this.autoSaveTimer);
+	// });
+
 	xhr = new XMLHttpRequest();
 	xhr.addEventListener('readystatechange', onStateChange);
 	xhr.open('POST', '/save-my-page');

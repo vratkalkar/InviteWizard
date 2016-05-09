@@ -1,18 +1,6 @@
 $(document).ready(function(){
 
-//  $("#click_download").on('click', function(){
-//         html2canvas($("#content"), {
-//             onrendered: function(canvas) {
-//                 canvas.toBlob(function(canvas){
-//                     saveAs(canvas, "appy-invite.png");
-//                 });
-//              }
-//         });
-//     });
-// });
-
-
-$("#click_download").on('click', function(){
+   $("#click_download").on('click', function(){
         html2canvas($("#content"), {
             onrendered: function(canvas) {
                 if (window.devicePixelRatio == 2){
@@ -37,34 +25,15 @@ $("#click_download").on('click', function(){
     });
 
 //Resize browser window code
-$( window ).resize(function() {
-     console.log("window resized");
-     console.log($('.invite_container').text());
- });
+  $( window ).resize(function() {
+       console.log("window resized");
+       console.log($('.invite_container').text());
+   });
+
+//Tipr for tooltips
+$('.tip').tipr();
 
 });
-
-
-
-// var w = 1000;
-// var h = 1000;
-// var div = document.querySelector('#content');
-// var canvas = document.createElement('canvas');
-// canvas.width = w*2;
-// canvas.height = h*2;
-// canvas.style.width = w + 'px';
-// canvas.style.height = h + 'px';
-// var context = canvas.getContext('2d');
-// context.scale(2,2);
-// html2canvas(div, { canvas: canvas }).then(function(canvas) {
-//     // do what you want
-//     onrendered: function(canvas) {
-//         canvas.toBlob(function(canvas){
-//             saveAs(canvas, "appy-invite.pn")
-//         })
-//     }
-// });
-
 
 
 
