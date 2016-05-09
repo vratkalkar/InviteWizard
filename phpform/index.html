@@ -20,7 +20,7 @@ session_start();
 
 <div class="form_container">
 <form action="../process_forms/process_index_selection_form.php" method="POST">
-  <select style="text-align: -webkit-center;" name="chosen_template">
+  <select name="chosen_template" id="chosen_template">
 	  <option value="wedding_invitation">Wedding Invitations</option>
 	  <option value="save_the_date">Save the Date - Coming Soon!</option>>
 	  <option value="thank_you_card">Thank You Cards - Coming Soon!</option>
@@ -29,6 +29,9 @@ session_start();
   </p>
 </form>
 </div>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.js"></script>
+  <script
+        src="https://code.jquery.com/jquery-2.2.3.js"
+        integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
+        crossorigin="anonymous">
+  </script>
 </html>

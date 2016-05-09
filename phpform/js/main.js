@@ -24,34 +24,12 @@ $(document).ready(function(){
          });
     });
 
-//Resize browser window code
-  $( window ).resize(function() {
-       console.log("window resized");
-       console.log($('.invite_container').text());
-   });
-
-//Tipr for tooltips
-$('.tip').tipr();
-
-//Try to center select options across browsers
-$('#index_select').change(function (){
-   var select = $('#index_select');
-   var option = $(this).val();
-
-   switch(option) {
-    case 'wedding_invitations':
-      select.css('padding-left', '40px');
-      break;
-    case 'Save the Date - Coming Soon!':
-      select.css('padding-left', '40px');
-      break;
-    case 'Thank You Cards - Coming Soon!':
-      select.css('padding-left', '40px');
-      break;
-    default:
-      return;
-   }
- });
+// //Resize browser window code
+//   $( window ).resize(function() {
+//        console.log("window resized");
+//        console.log($('.invite_container').text());
+//    });
+  
 
 
 });
