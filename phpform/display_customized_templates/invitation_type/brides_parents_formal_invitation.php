@@ -19,7 +19,6 @@
      <h3>Your Suggested Invitation Wording:</h3>
    </div>
 
-  
    <div class="invite_container" data-editable data-name="invite_text">
      <p><?php echo $_SESSION['parents_names']; ?></p>
      <p>Request the pleasure of your company at the auspicious occasion of the</p>
