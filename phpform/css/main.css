@@ -209,13 +209,13 @@
 #p3_back_button {
   position: relative;
   margin-top: 200px;
-  left: 30px;
+  left: 45px;
 }
 
 #p3_continue_button {
   position: relative;
   margin-top: 200px;
-  left: 30px;
+  left: 45px;
 }
 
 
@@ -252,17 +252,32 @@
 
 .form_container #invite_label {
 	position: relative;
-	left: 220px;
-	top: 60px;
+	left: 500px;
+	top: -80px;
+}
+
+.form_container #invite_type {
+	position: relative;
+	top: 80px;
+	left: 230px;
 }
 
 .form_container #host_label {
 	position: relative;
 	top: -4px;
 	bottom: 195px;
-	left: 426px;
+	left: 300px;
 }
 
+.form_container #hosting_choice {
+	position: relative;
+	top: 150px;
+	right: 110px;
+}
+
+#hosting_choice input:selection {
+	background: yellow;
+}
 
 .header_section h3 {
 	text-align: center;
@@ -362,13 +377,6 @@
 	top: 200px;
 	right: -18px;
 }
-
-/* customize_page_two.php styles */
-.form_container .invite_selectric {
-	position: relative;
-	top: 60px;
-}
-
 
 
 /* Add CSS for ContentTools on Invitation Templates */

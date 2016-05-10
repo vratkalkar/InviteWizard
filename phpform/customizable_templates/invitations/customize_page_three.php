@@ -22,18 +22,18 @@
     <form action="../../process_forms/process_invitation/process_page_three.php" method="POST">
 
      <label id="invite_label">What type of invitation is this?</label>
-       <div class="small button-group">
-          <input type="submit" class="secondary button" name="formal_invitation" value="Formal">
-          <input type="submit" class="secondary button" name="casual_invitation" value="Casual">
+       <div id="invite_type" class="small button-group">
+          <input type="submit" class="secondary button" name="invite_type" value="Formal">
+          <input type="submit" class="secondary button" name="invite_type" value="Casual">
         </div>
 
        
      <label id="host_label">Who is hosting the event?</label>
-      <div class="small button-group">
-        <input type="submit" class="secondary button" name="couple" value="Couple (Us)">
-        <input type="submit" class="secondary button" name="brides_parents" value="Bride's Parents">
-        <input type="submit" class="secondary button" name="grooms_parents" value="Groom's Parents">
-        <input type="submit" class="secondary button" name="both_parties" value="Both Parties">
+      <div id="hosting_choice" class="small button-group">
+        <input type="submit" class="secondary button" name="choose_host" value="Couple (Us)">
+        <input type="submit" class="secondary button" name="choose_host" value="Bride's Parents">
+        <input type="submit" class="secondary button" name="choose_host" value="Groom's Parents">
+        <input type="submit" class="secondary button" name="choose_host" value="Both Parties">
      </div>
 
        <div class="buttons">

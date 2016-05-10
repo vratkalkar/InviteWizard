@@ -24,22 +24,20 @@ $(document).ready(function(){
          });
     });
 
-   //Selectric.JS
-   $(function(){
-
-    $('.chosen_template').selectric({
-
+   //Customize Page Three buttons
+   $('#invite_type input').on('click', function(e){
+        e.preventDefault();
+        console.log("button selected");
+        console.log($(this).val());
     });
 
-    $('#invite_type_select').selectric({
-        maxHeight: '100px',
-    });
+   $('#hosting_choice input').on('click', function(e){
+        e.preventDefault();
+        console.log("button selected");
+        console.log($(this).val());
+   });
 
-    $('#who_is_hosting').selectric({
 
-    });
-
-  });
 
 });
 
