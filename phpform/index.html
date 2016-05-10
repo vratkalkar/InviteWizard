@@ -6,7 +6,8 @@ session_start();
 <head>
   <link rel="stylesheet" href="../css/reset.css" type="text/css" />
   <link rel="stylesheet" href="../foundation-6.2.1-essential/css/foundation.css" type="text/css"> 
-	<link rel="stylesheet" href="../css/main.css" type="text/css">
+  <link rel="stylesheet" href="../css/main.css" type="text/css">
+  <link rel="stylesheet" href="../css/selectric.css" type="text/css">
 </head>
 
 <div class="title_bar">APPY COUPLE</div>
@@ -20,13 +21,13 @@ session_start();
 
 <div class="form_container">
 <form action="../process_forms/process_index_selection_form.php" method="POST">
-  <select name="chosen_template" id="chosen_template">
+  <select name="chosen_template" class="chosen_template">
 	  <option value="wedding_invitation">Wedding Invitations</option>
 	  <option value="save_the_date">Save the Date - Coming Soon!</option>>
 	  <option value="thank_you_card">Thank You Cards - Coming Soon!</option>
   </select>
-  <input id="index_button" class="expanded button" type="submit" name="form_submit" value="Next">
   </p>
+  <input id="index_button" class="expanded button" type="submit" name="form_submit" value="Next">
 </form>
 </div>
   <script
@@ -34,4 +35,6 @@ session_start();
         integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
         crossorigin="anonymous">
   </script>
+  <script type="text/javascript" src="../selectric_js_content/public/jquery.selectric.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
 </html>

@@ -24,15 +24,19 @@ $(document).ready(function(){
          });
     });
 
-// //Resize browser window code
-//   $( window ).resize(function() {
-//        console.log("window resized");
-//        console.log($('.invite_container').text());
-//    });
-  
+   //Selectric.JS
+   $(function(){
 
+    $('.chosen_template').selectric();
+    $('.invite_selectric').selectric({
+        maxHeight: 200,
+    });
+    $('.hosting_selectric').selectric();
+
+  });
 
 });
+
 
 
 

@@ -21,17 +21,21 @@
 }
 
 .description {
+	position: relative;
 	font-family: Helvetica, sans-serif;
+	top: 18px;
 	padding-top:18%;
 	margin-left:41%;
 }
 
-.form_container select {
-	margin-top: -20px;
+.form_container .chosen_template {
+	position: relative;
+	width: 10px;
+	margin-top: -10px;
 	text-align: center;
 }
 
-.form_container select option {
+.form_container .chosen_template option {
 	margin-right: -1%;
 	font-family: Helvetica, sans-serif;
 	text-align: center;
@@ -43,9 +47,12 @@
 }
 
 #index_button {
-	margin-top: -8px;
-	margin-left:35%;
-	width:30%;
+	position: relative;
+	clear: both;
+	display: block;
+	margin-top: 8px;
+	margin-left:40%;
+	width:20%;
 }
 
 .link_items {
@@ -201,14 +208,14 @@
 
 #p3_back_button {
   position: relative;
-  margin-top: -34px;
-  left: 248px;
+  margin-top: 200px;
+  left: 30px;
 }
 
 #p3_continue_button {
   position: relative;
-  margin-top: -34px;
-  left: 248px;
+  margin-top: 200px;
+  left: 30px;
 }
 
 
@@ -246,31 +253,17 @@
 .form_container #invite_label {
 	position: relative;
 	left: 90px;
-	top: 80px;
+	top: 60px;
 }
 
 .form_container #host_label {
 	position: relative;
+	top: 25px;
 	bottom: 195px;
 	left: 594px;
 }
 
 
-#invite_type_select {
-	position: relative;
-	margin-top: 85px;
-	margin-right: 300px;
-	width: 40%;
-	right: 140px;
-}
-
-#who_is_hosting {
-	position: relative;
-	margin-right: 150px;
-	width: 40%;
-	left: 180px;
-	bottom: 34px;
-}
 .header_section h3 {
 	text-align: center;
 	font-family: Helvetica, sans-serif;
