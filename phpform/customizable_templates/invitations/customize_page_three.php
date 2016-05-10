@@ -20,19 +20,22 @@
    <div class="row">
    <div class="form_container">
     <form action="../../process_forms/process_invitation/process_page_three.php" method="POST">
-     <label id="invite_label">What type of invitation is this?</label>
-       <select id="invite_type_select" name="invite_type" class="invite_selectric">
-         <option value="formal_invitation">Formal</option>
-         <option value="casual_invitation">Casual</option>>
-       </select>
 
+     <label id="invite_label">What type of invitation is this?</label>
+       <div class="secondary button-group">
+          <input type="submit" class="medium secondary button" name="formal_invitation" value="Formal">
+          <input type="submit" class="medium secondary button" name="casual_invitation" value="Casual">
+        </div>
+
+       
      <label id="host_label">Who is hosting the event?</label>
-       <select id="who_is_hosting" name="choose_host" class="hosting_selectric">
-         <option value="couple">Couple (Us)</option>
-         <option value="brides_parents">Brides Parents</option>
-         <option value="grooms_parents">Grooms Parents</option>
-         <option value="both_parties">Both Parties</option>
-       </select>
+      <div class="secondary button-group">
+        <input type="submit" class="medium secondary button" name="couple" value="Couple (Us)">
+        <input type="submit" class="medium secondary button" name="brides_parents" value="Bride's Parents">
+        <input type="submit" class="medium secondary button" name="grooms_parents" value="Groom's Parents">
+        <input type="submit" class="medium secondary button" name="both_parties" value="Both Parties">
+     </div>
+
        <div class="buttons">
         <input type="submit" class="button"  id="p3_back_button" value="Back" name="back_button">
         <input type="submit" class="button"  id="p3_continue_button" value="Continue" name="form_submit">

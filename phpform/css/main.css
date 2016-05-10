@@ -252,15 +252,15 @@
 
 .form_container #invite_label {
 	position: relative;
-	left: 90px;
+	left: 220px;
 	top: 60px;
 }
 
 .form_container #host_label {
 	position: relative;
-	top: 25px;
+	top: -4px;
 	bottom: 195px;
-	left: 594px;
+	left: 426px;
 }
 
 
@@ -350,6 +350,26 @@
 .input_fields input {
 	width: 300px;
 }
+
+#hosting_buttons {
+	position: relative;
+	left: 250px;
+	top: 135px;
+}
+
+.button-group {
+	position: relative;
+	top: 200px;
+	right: -18px;
+}
+
+/* customize_page_two.php styles */
+.form_container .invite_selectric {
+	position: relative;
+	top: 60px;
+}
+
+
 
 /* Add CSS for ContentTools on Invitation Templates */
 

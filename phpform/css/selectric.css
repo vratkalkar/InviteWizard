@@ -18,6 +18,14 @@
   left: 440px;
   border-radius: 0px;
 }
+
+/* customize_page_three.php select CSS */
+.selectric #invite_select_type .label {
+  position: relative;
+  left: 100px;
+}
+/*************************************/
+
 .selectric .label {
   position: relative;
   left: 200px;

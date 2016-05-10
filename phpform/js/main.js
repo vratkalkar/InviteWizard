@@ -27,11 +27,17 @@ $(document).ready(function(){
    //Selectric.JS
    $(function(){
 
-    $('.chosen_template').selectric();
-    $('.invite_selectric').selectric({
-        maxHeight: 200,
+    $('.chosen_template').selectric({
+
     });
-    $('.hosting_selectric').selectric();
+
+    $('#invite_type_select').selectric({
+        maxHeight: '100px',
+    });
+
+    $('#who_is_hosting').selectric({
+
+    });
 
   });
 
