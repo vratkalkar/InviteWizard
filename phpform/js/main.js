@@ -35,7 +35,7 @@ $(document).ready(function(){
         $.ajax({
           type: 'POST',
           url: '../../process_forms/process_invitation/process_page_three.php',
-          data: { 'invite_type': selectedInvite },
+          data: { invite_type: selectedInvite },
           success: function (selectedInvite) {
             console.log(selectedInvite);
           },

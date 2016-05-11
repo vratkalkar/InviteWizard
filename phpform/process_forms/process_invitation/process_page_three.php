@@ -1,13 +1,18 @@
 <?php
 session_start();
 include("../../helper_functions/sanitize.php");
-$_SESSION['invite_type'] = $_POST['invite_type'];
-$_SESSION['choose_host'] = $_POST['choose_host'];
+
+//To check the button selected corresponds
+if( isset($_POST['invite_type']) ){
+    $_SESSION['invite_type'] = $_POST['invite_type'];
+}
+if( isset($_POST['choose_host']) ){
+    $_SESSION['choose_host'] = $_POST['choose_host'];
+}
 
 $host = $_SESSION['choose_host'];
 $invite_type = $_SESSION['invite_type'];
 
-var_dump($_SESSION);
 
 if (isset($_POST['back_button'])){
 	header("Location: ../../customizable_templates/invitations/customize_page_two.php");
