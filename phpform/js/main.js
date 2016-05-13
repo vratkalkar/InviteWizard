@@ -30,12 +30,7 @@ $(document).ready(function(){
    //Customize Page Three buttons
    $("#invite_type input").on("click", function(e) {
         e.preventDefault();
-
-        if (!$(this).hasClass('clicked')) {
-          $(this).addClass('clicked');
-        } 
-      
-
+        $(this).addClass('clicked').siblings().removeClass('clicked');
         var selectedInvite = $(this).val();
         $.ajax({
           type: 'POST',
@@ -55,7 +50,7 @@ $(document).ready(function(){
 
    $('#hosting_choice input').on('click', function(e){
         e.preventDefault();
-        $(this).addClass('clicked');
+        $(this).addClass('clicked').siblings().removeClass('clicked');
         var selectedHost = $(this).val();
         $.ajax({
           type: 'POST',
