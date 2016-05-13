@@ -262,6 +262,10 @@
 	left: 230px;
 }
 
+.invite_clicked {
+	background: yellow;
+}
+
 .form_container #host_label {
 	position: relative;
 	top: -4px;
@@ -378,6 +382,10 @@
 	right: -18px;
 }
 
+/* customize_page_three css */
+.clicked {
+	background-color: blue !important;
+}
 
 /* Add CSS for ContentTools on Invitation Templates */
 

@@ -27,7 +27,7 @@ if (isset($_POST['form_submit']) ) {
 	  header("Location: ../../display_customized_templates/invitation_type/couple_formal_invitation.php");
 	  exit;
 	}
-	elseif ( $host == "Brides's Parents" && $invite_type == "Formal" ) {
+	elseif ( $host == "Bride's Parents" && $invite_type == "Formal" ) {
 	   header("Location: ../../display_customized_templates/invitation_type/brides_parents_formal_invitation.php");
 	   exit;
 	}

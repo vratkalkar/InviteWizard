@@ -28,16 +28,21 @@ $(document).ready(function(){
    chosenTemplate.selectric();
 
    //Customize Page Three buttons
-   $('#invite_type input').on('click', function(e) {
+   $("#invite_type input").on("click", function(e) {
         e.preventDefault();
-        console.log("button selected");
+
+        if (!$(this).hasClass('clicked')) {
+          $(this).addClass('clicked');
+        } 
+      
+
         var selectedInvite = $(this).val();
         $.ajax({
           type: 'POST',
           url: '../../process_forms/process_invitation/process_page_three.php',
           data: { invite_type: selectedInvite },
           success: function (selectedInvite) {
-            console.log(selectedInvite);
+            console.log("value added");
           },
           error: function () {
             console.log("value NOT added");
@@ -50,9 +55,7 @@ $(document).ready(function(){
 
    $('#hosting_choice input').on('click', function(e){
         e.preventDefault();
-
-        e.preventDefault();
-        console.log("button selected");
+        $(this).addClass('clicked');
         var selectedHost = $(this).val();
         $.ajax({
           type: 'POST',
