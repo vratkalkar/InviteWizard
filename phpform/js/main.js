@@ -47,7 +47,7 @@ $(document).ready(function(){
    });
 
 
-
+   // Add/Remove clicked button color
    $('#hosting_choice input').on('click', function(e){
         e.preventDefault();
         $(this).addClass('clicked').siblings().removeClass('clicked');
