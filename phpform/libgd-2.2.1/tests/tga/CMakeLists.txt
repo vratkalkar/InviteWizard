@@ -1,0 +1,6 @@
+SET(TESTS_FILES
+	tga_null
+	bug00084
+)
+
+ADD_GD_TESTS()
