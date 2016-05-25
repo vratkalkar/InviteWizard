@@ -10,7 +10,7 @@
 }
 
 /* To override Chrome User Agent Stylesheet for select elements */
-.form_conatiner select option {
+.form_container select option {
 	display: inline-block;
 }
 

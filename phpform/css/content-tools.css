@@ -15,7 +15,7 @@
 }
 .ce-element--type-image, .ce-element--type-video {
     background-repeat: no-repeat;
-    position: relative;
+    position: relativ
     cursor: pointer;
     z-index: 1;
 }
@@ -1113,7 +1113,7 @@
     transform: transform;
 }
 }.ct-widget.ct-ignition {
-    left: 16px;
+    left: 8px;
     position: fixed;
     top: 16px;
 }
@@ -1122,6 +1122,7 @@
 }
 .ct-widget.ct-ignition--editing .ct-ignition__button--confirm, .ct-widget.ct-ignition--editing .ct-ignition__button--cancel {
     display: block;
+    position: fixed;
 }
 .ct-widget.ct-ignition--ready .ct-ignition__button--edit {
     display: block;
@@ -1197,6 +1198,9 @@
 }
 .ct-widget .ct-ignition__button--edit {
     background: #2980b9;
+    position: relative;
+    top: 50px;
+    left: 1140px;
 }
 .ct-widget .ct-ignition__button--edit:before {
     content: '\e905';
@@ -1494,7 +1498,6 @@
     background: rgba(233, 233, 233, 0.9);
     border: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.35);
-    left: 128px;
     padding: 8px;
     position: fixed;
     top: 128px;

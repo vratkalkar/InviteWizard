@@ -19,12 +19,12 @@ if ($fd = fopen($fullFilePath, "r")) {
 		case 'php':
 		    header("Content-type: application/octet-stream");
 		    header("Content-type: image/png");
-		    header("Content-Disposition: attachment; filename= appy_invite.png "); //"use 'attachment' to force file download"
+		    header("Content-Disposition: attachment; filename = appy_invite.png "); //"use 'attachment' to force file download"
 		    break;
 		    //Additional headers for other content types
 		    default;
 		    header("Content-type: application/octet-stream");
-		    header("Content-Disposition: filename=\"".$path_parts["basename"]. 'png' ."\"");
+		    header("Content-Disposition: filename=\"".$path_parts["basename"]."\"");
 		    break;	
 	}
 	header("Content-length: $fsize");
@@ -36,14 +36,4 @@ if ($fd = fopen($fullFilePath, "r")) {
 }
 fclose($fd);
 exit;
-
-
-
-
-
-
-
-
-
-
 ?>
