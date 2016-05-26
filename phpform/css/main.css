@@ -382,11 +382,6 @@
 	right: -18px;
 }
 
-/* customize_page_three css */
-.clicked {
-	background-color: blue !important;
-}
-
 /* Add CSS for ContentTools on Invitation Templates */
 
 [data-editable] .text-center {

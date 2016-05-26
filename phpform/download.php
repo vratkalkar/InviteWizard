@@ -8,7 +8,7 @@ $dl_file = filter_var($dl_file, FILTER_SANITIZE_URL); //Remove additonal invalid
 $fullFilePath = $path.$dl_file;
 
 //Debugging Code
-echo $fullFilePath;
+//echo $fullFilePath;
 
 
 
@@ -17,15 +17,15 @@ if ($fd = fopen($fullFilePath, "r")) {
 	$fsize = filesize($fullFilePath);
 	$path_parts = pathinfo($fullFilePath);
 
-	print_r($path_parts);
-	
+	//print_r($path_parts);
+
 	$ext = strtolower($path_parts["extension"]);
 
 	switch ($ext) {
 		case 'php':
 		    header("Content-type: application/octet-stream");
 		    header("Content-type: image/png");
-		    header("Content-Disposition: attachment; filename = appy_invite.png "); //"use 'attachment' to force file download"
+		    header("Content-Disposition: attachment; filename=\"".$path_parts["basename"]."\""); //"use 'attachment' to force file download"
 		    break;
 		    //Additional headers for other content types
 		    default;
