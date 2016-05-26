@@ -5,14 +5,20 @@ $path = "display_customized_templates/invitation_type/brides_parents_formal_invi
 $dl_file = preg_replace("([^\w\s\d\-_~,;:\[\]\(\).]|[\.]{2,})", '', $_GET['download_file']); //file name validation
 $dl_file = filter_var($dl_file, FILTER_SANITIZE_URL); //Remove additonal invalid characters
 
-//var_dump($dl_file);
-
 $fullFilePath = $path.$dl_file;
+
+//Debugging Code
+echo $fullFilePath;
+
+
 
 if ($fd = fopen($fullFilePath, "r")) {
 
 	$fsize = filesize($fullFilePath);
 	$path_parts = pathinfo($fullFilePath);
+
+	print_r($path_parts);
+	
 	$ext = strtolower($path_parts["extension"]);
 
 	switch ($ext) {
